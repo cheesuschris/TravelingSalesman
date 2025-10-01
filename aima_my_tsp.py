@@ -229,7 +229,7 @@ if __name__ == "__main__":
                 ax.set_xticks(repeat_vals[::2])
 
             plt.tight_layout()
-            plt.savefig('hyperparameter_analysis.png', dpi=300, bbox_inches='tight')
+            plt.savefig('RRNN_hyperparameter_analysis.png', dpi=300, bbox_inches='tight')
         else: 
             #The best hyperparams from inital analysis/graph creation
             k = 17
@@ -256,42 +256,126 @@ if __name__ == "__main__":
         astar_cost = a_star.path_cost
         print('Solution Cost: ' + str(astar_cost))
     elif search_algorithm == "HC":
-        print('Running hill climbing...')
-        t0 = time.time_ns()
-        t0_cpu = time.process_time_ns()
-        num_repeats = int(input("Provide num_repeats hyperparameter: "))
-        hill_climbing = hill_climbing_search(MTSP, num_repeats=num_repeats)
-        print('CPU time %f seconds'%((time.process_time_ns()-t0_cpu) / 1e9))
-        print('Wall time %f seconds'%((time.time_ns()-t0) / 1e9))
-        hill_climbing_path = hill_climbing.state
-        print('Solution Path: ' + str(hill_climbing_path))
-        hill_climbing_cost = hill_climbing.path_cost
-        print('Solution Cost: ' + str(hill_climbing_cost))
+        generate_graph = input("Display HC Progress across Generations (will override your provided matrix. Uses matrices of size 15 cities & 500 num_repeats)?")
+        if generate_graph == "y":
+            files = []
+            file_prefix = Path("matrices")
+            for i in range(10):
+                graph_file = file_prefix / f"15_random_adj_mat_{i}.txt"
+                if graph_file.exists():
+                    files.append(graph_file)
+            medians = []
+            for file in files:
+                MAT = np.loadtxt(file)
+                print(f'Loaded road cost matrix {file.name}')
+                MTSP = MyTSP(MAT)
+                to_display, _ = hill_climbing_search(MTSP, num_repeats=500, display=True)
+                medians.append(to_display)
+            medians_array = np.array(medians)
+            median_per_iteration = np.median(medians_array, axis=0)
+            plt.plot(list(range(500)), median_per_iteration, label="Median Score per Repeat")
+            plt.legend(loc='upper right')
+            plt.xlabel('# of repeats passed', fontsize=10)
+            plt.ylabel('Median Best solution found across all 15 Cities Score', fontsize=10)
+            plt.tick_params(axis='y', labelsize=8)
+            plt.tick_params(axis='x', labelsize=8)
+            plt.grid(True, alpha=0.3)
+            plt.title("# of Repeats Passed vs. Median Best Solution Score across all 15 Cities found at that Repeat", fontsize=15)
+            plt.tight_layout()
+            plt.savefig('HCRepeats.png', dpi=300, bbox_inches='tight')
+        else:
+            print('Running hill climbing...')
+            t0 = time.time_ns()
+            t0_cpu = time.process_time_ns()
+            num_repeats = int(input("Provide num_repeats hyperparameter: "))
+            hill_climbing = hill_climbing_search(MTSP, num_repeats=num_repeats)
+            print('CPU time %f seconds'%((time.process_time_ns()-t0_cpu) / 1e9))
+            print('Wall time %f seconds'%((time.time_ns()-t0) / 1e9))
+            hill_climbing_path = hill_climbing.state
+            print('Solution Path: ' + str(hill_climbing_path))
+            hill_climbing_cost = hill_climbing.path_cost
+            print('Solution Cost: ' + str(hill_climbing_cost))
     elif search_algorithm == "SA":
-        print('Running simulated annealing...')
-        t0 = time.time_ns()
-        t0_cpu = time.process_time_ns()
-        alpha = float(input("Provide (float) alpha hyperparameter: "))
-        initial_temperature= float(input("Provide (float) initial_temperature hyperparameter: "))
-        max_iterations= int(input("Provide max_iterations hyperparameter: "))
-        simulated_annealing = simulated_annealing_search(MTSP, alpha=alpha, initial_temperature=initial_temperature, max_iterations=max_iterations)
-        print('CPU time %f seconds'%((time.process_time_ns()-t0_cpu) / 1e9))
-        print('Wall time %f seconds'%((time.time_ns()-t0) / 1e9))
-        simulated_annealing_path = simulated_annealing.state
-        print('Solution Path: ' + str(simulated_annealing_path))
-        simulated_annealing_cost = simulated_annealing.path_cost
-        print('Solution Cost: ' + str(simulated_annealing_cost))
+        generate_graph = input("Display SA Progress across Generations (will override your provided matrix. Uses matrices of size 15 cities & 3000 max_iterations)?")
+        if generate_graph == "y":
+            files = []
+            file_prefix = Path("matrices")
+            for i in range(10):
+                graph_file = file_prefix / f"15_random_adj_mat_{i}.txt"
+                if graph_file.exists():
+                    files.append(graph_file)
+            medians = []
+            for file in files:
+                MAT = np.loadtxt(file)
+                print(f'Loaded road cost matrix {file.name}')
+                MTSP = MyTSP(MAT)
+                to_display, _ = simulated_annealing_search(MTSP, alpha=0.98, initial_temperature=1000, max_iterations=3000, display=True)
+                medians.append(to_display)
+            medians_array = np.array(medians)
+            median_per_iteration = np.median(medians_array, axis=0)
+            plt.plot(list(range(3000)), median_per_iteration, label="Median Score per Iteration")
+            plt.legend(loc='upper right')
+            plt.xlabel('# of iterations passed', fontsize=10)
+            plt.ylabel('Median Best solution found across all 15 Cities Score', fontsize=10)
+            plt.tick_params(axis='y', labelsize=8)
+            plt.tick_params(axis='x', labelsize=8)
+            plt.grid(True, alpha=0.3)
+            plt.title("# of Iterations Passed vs. Median Best Solution Score across all 15 Cities found at that iteration", fontsize=20)
+            plt.tight_layout()
+            plt.savefig('SAIterations.png', dpi=300, bbox_inches='tight')
+        else:
+            print('Running simulated annealing...')
+            t0 = time.time_ns()
+            t0_cpu = time.process_time_ns()
+            alpha = float(input("Provide (float) alpha hyperparameter: "))
+            initial_temperature= int(input("Provide initial_temperature hyperparameter: "))
+            max_iterations= int(input("Provide max_iterations hyperparameter: "))
+            simulated_annealing = simulated_annealing_search(MTSP, alpha=alpha, initial_temperature=initial_temperature, max_iterations=max_iterations)
+            print('CPU time %f seconds'%((time.process_time_ns()-t0_cpu) / 1e9))
+            print('Wall time %f seconds'%((time.time_ns()-t0) / 1e9))
+            simulated_annealing_path = simulated_annealing.state
+            print('Solution Path: ' + str(simulated_annealing_path))
+            simulated_annealing_cost = simulated_annealing.path_cost
+            print('Solution Cost: ' + str(simulated_annealing_cost))
     elif search_algorithm == "GA":
-        print('Running genetic algorithm...')
-        t0 = time.time_ns()
-        t0_cpu = time.process_time_ns()
-        mutation_chance = float(input("Provide (float) mutation_chance hyperparameter: "))
-        population_size= int(input("Provide population_size hyperparameter: "))
-        num_generations= int(input("Provide num_generations hyperparameter: "))
-        genetic_algorithm = genetic_algorithm_search(MTSP, mutation_chance=mutation_chance, population_size=population_size, num_generations=num_generations)
-        print('CPU time %f seconds'%((time.process_time_ns()-t0_cpu) / 1e9))
-        print('Wall time %f seconds'%((time.time_ns()-t0) / 1e9))
-        genetic_algorithm_path = genetic_algorithm.state
-        print('Solution Path: ' + str(genetic_algorithm_path))
-        genetic_algorithm_cost = genetic_algorithm.path_cost
-        print('Solution Cost: ' + str(genetic_algorithm_cost))
+        generate_graph = input("Display GA Progress across Generations (will override your provided matrix. Uses matrices of size 15 cities & 500 num_generations)?")
+        if generate_graph == "y":
+            files = []
+            file_prefix = Path("matrices")
+            for i in range(10):
+                graph_file = file_prefix / f"15_random_adj_mat_{i}.txt"
+                if graph_file.exists():
+                    files.append(graph_file)
+            medians = []
+            for file in files:
+                MAT = np.loadtxt(file)
+                print(f'Loaded road cost matrix {file.name}')
+                MTSP = MyTSP(MAT)
+                to_display, _ = genetic_algorithm_search(MTSP, mutation_chance=0.1, population_size =100, num_generations=500, display=True)
+                medians.append(to_display)
+            medians_array = np.array(medians)
+            median_per_iteration = np.median(medians_array, axis=0)
+            plt.plot(list(range(500)), median_per_iteration, label="Median Score per Generation")
+            plt.legend(loc='upper right')
+            plt.xlabel('# of generations passed', fontsize=10)
+            plt.ylabel('Median Best solution found across all 15 Cities Score', fontsize=10)
+            plt.tick_params(axis='y', labelsize=8)
+            plt.tick_params(axis='x', labelsize=8)
+            plt.grid(True, alpha=0.3)
+            plt.title("# of Generations Passed vs. Median Best Solution Score across all 15 Cities found at that generation", fontsize=20)
+            plt.tight_layout()
+            plt.savefig('GAGenerations.png', dpi=300, bbox_inches='tight')
+        else:
+            print('Running genetic algorithm...')
+            t0 = time.time_ns()
+            t0_cpu = time.process_time_ns()
+            mutation_chance = float(input("Provide (float) mutation_chance hyperparameter: "))
+            population_size= int(input("Provide population_size hyperparameter: "))
+            num_generations= int(input("Provide num_generations hyperparameter: "))
+            genetic_algorithm = genetic_algorithm_search(MTSP, mutation_chance=mutation_chance, population_size=population_size, num_generations=num_generations)
+            print('CPU time %f seconds'%((time.process_time_ns()-t0_cpu) / 1e9))
+            print('Wall time %f seconds'%((time.time_ns()-t0) / 1e9))
+            genetic_algorithm_path = genetic_algorithm.state
+            print('Solution Path: ' + str(genetic_algorithm_path))
+            genetic_algorithm_cost = genetic_algorithm.path_cost
+            print('Solution Cost: ' + str(genetic_algorithm_cost))

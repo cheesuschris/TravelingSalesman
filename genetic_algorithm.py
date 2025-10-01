@@ -1,15 +1,17 @@
 from search import Node
 import random
 import numpy as np
+from utils import argmax_random_tie
+import matplotlib.pyplot as plt
 
-def genetic_algorithm_search(problem, mutation_chance, population_size, num_generations):
-    
+def genetic_algorithm_search(problem, mutation_chance, population_size, num_generations, display=False):
+    to_display = []
     solutions = []
     for _ in range(population_size):
         cities_copy = problem.cities[:]
         random.shuffle(cities_copy)
-        solutions.append(Node(tuple(cities_copy)))
-    for _ in num_generations:
+        solutions.append(Node(tuple(cities_copy)))  
+    for _ in range(num_generations):
         #I'm going to use the Alternating-position crossover, I'm assuming (research paper doesn't say) that if solutions is odd then last one is just not crossed over?
         #Also, according to the research paper I first produce CHILDREN (plural) then mutate the INDIVIDUALS (plural), so I'm assuming I don't mutate upon each singular birth
         children = []
@@ -41,7 +43,7 @@ def genetic_algorithm_search(problem, mutation_chance, population_size, num_gene
                     child.append(parent1[p1])
                 p1 += 1
             while p2 < len(parent2):
-                if parent2[p2] not in children:
+                if parent2[p2] not in childset:
                     childset.add(parent2[p2])
                     child.append(parent2[p2])
                 p2 += 1
@@ -69,7 +71,7 @@ def genetic_algorithm_search(problem, mutation_chance, population_size, num_gene
                     child.append(parent1[p1])
                 p1 += 1
             while p2 < len(parent2):
-                if parent2[p2] not in children:
+                if parent2[p2] not in childset:
                     childset.add(parent2[p2])
                     child.append(parent2[p2])
                 p2 += 1
@@ -85,7 +87,14 @@ def genetic_algorithm_search(problem, mutation_chance, population_size, num_gene
                 copy_state[i], copy_state[j] = copy_state[j], copy_state[i]
                 child.state = tuple(copy_state)
         solutions.extend(children)
-        solutions.sort(key = lambda node: problem.value(node.state), reverse=True)
+        solutions.sort(key = lambda node: problem.value(tuple(list(node.state) + [node.state[0]])), reverse=True)
         solutions = solutions[:population_size]
-    return np.argmax_random_tie(solutions, key = lambda node: problem.value(node.state))
+        if display:
+            solution = argmax_random_tie(solutions, key = lambda node: problem.value(tuple(list(node.state) + [node.state[0]])))
+            to_display.append(-problem.value(tuple(list(solution.state) + [solution.state[0]])))
+    solution = argmax_random_tie(solutions, key = lambda node: problem.value(tuple(list(node.state) + [node.state[0]])))
+    solution_with_return = tuple(list(solution.state) + [solution.state[0]])
+    if display:
+        return to_display, Node(state=solution_with_return, parent=None, action=None, path_cost = -problem.value(solution_with_return))
+    return Node(state=solution_with_return, parent=None, action=None, path_cost = -problem.value(solution_with_return))
     
