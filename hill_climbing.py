@@ -5,7 +5,6 @@ from utils import argmax_random_tie
 
 def hill_climbing_search(problem, num_repeats, display=False):
 
-    #Idk the correct number_of_neighbors best hyperparameter. question @59 on piazza deals with this but I didn't really follow shrug. Also my changing this doesn't really seem to change anything.
     def find_neighbors(state, number_of_neighbors=100):
         neighbors = []
         for _ in range(number_of_neighbors):

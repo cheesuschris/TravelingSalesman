@@ -75,7 +75,10 @@ class MyTSP(Problem):
         if c is None or state1 is None or action is None:
             cost = 0
             prev_city = state2[0]
-            for i in range(1, len(state2)):
+            curr_city = state2[1]
+            cost += self.weights[prev_city][curr_city]
+            for i in range(2, len(state2)):
+                prev_city = curr_city
                 curr_city = state2[i]
                 cost += self.weights[prev_city][curr_city]
             return cost
@@ -97,7 +100,7 @@ class MyTSP(Problem):
         """Return the heuristic value for a given state. astar_search will
         look for this heuristic function when run."""
         state = node.state
-        if len(state) ==self.num_cities:
+        if len(state) == self.num_cities:
             return 0
         unvisited_cities = list(self.actions(state))
         if len(unvisited_cities) == 1:
