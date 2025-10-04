@@ -129,4 +129,4 @@ with open(results_file, "r") as f:
     axs[2].grid(True)
 
     plt.tight_layout()
-    plt.savefig('../graphs/nearest_neighbor_algorithms\'_comparison.png', dpi=300, bbox_inches='tight')
+    plt.savefig('graphs/nearest_neighbor_algorithms\'_comparison.png', dpi=300, bbox_inches='tight')

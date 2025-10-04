@@ -1,6 +1,6 @@
 import random
 import heapq
-from search import Node
+from .search import Node
 
 def repeated_random_nearest_neighbor_search(problem, k, num_repeats, display = False):
     matrix = problem.weights

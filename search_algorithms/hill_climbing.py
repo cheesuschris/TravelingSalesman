@@ -1,4 +1,4 @@
-from search import Node
+from .search import Node
 import numpy as np
 import random
 from utils.utils import argmax_random_tie

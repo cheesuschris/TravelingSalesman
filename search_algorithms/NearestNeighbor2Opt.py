@@ -1,4 +1,4 @@
-from search import Node
+from .search import Node
 
 def nearest_neighbor_2opt_search(problem, display=False):
     matrix = problem.weights

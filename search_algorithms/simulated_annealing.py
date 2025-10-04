@@ -1,4 +1,4 @@
-from search import Node
+from .search import Node
 import random
 import numpy as np
 from utils.utils import probability

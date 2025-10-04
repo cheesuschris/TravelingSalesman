@@ -1,557 +1,557 @@
 #!/bin/bash
 
-exec > ../results_used_in_graphs/HCSAGAHyperParamResults.txt 2>&1
+exec > results_used_in_graphs/HCSAGAHyperParamResults.txt 2>&1
 
 #HC Hyperparams
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_0.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_1.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_2.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_3.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_4.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_5.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_6.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_7.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_8.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_9.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_0.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_1.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_2.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_3.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_4.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_5.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_6.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_7.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_8.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_9.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_0.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_1.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_2.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_3.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_4.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_5.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_6.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_7.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_8.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_9.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_0.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_1.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_2.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_3.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_4.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_5.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_6.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_7.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_8.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_9.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_0.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_1.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_2.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_3.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_4.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_5.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_6.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_7.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_8.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_9.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_0.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_1.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_2.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_3.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_4.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_5.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_6.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_7.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_8.txt
-printf "n\n50" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_9.txt
+printf "n\n50" | python -m aima_my_tsp HC 5_random_adj_mat_0.txt
+printf "n\n50" | python -m aima_my_tsp HC 5_random_adj_mat_1.txt
+printf "n\n50" | python -m aima_my_tsp HC 5_random_adj_mat_2.txt
+printf "n\n50" | python -m aima_my_tsp HC 5_random_adj_mat_3.txt
+printf "n\n50" | python -m aima_my_tsp HC 5_random_adj_mat_4.txt
+printf "n\n50" | python -m aima_my_tsp HC 5_random_adj_mat_5.txt
+printf "n\n50" | python -m aima_my_tsp HC 5_random_adj_mat_6.txt
+printf "n\n50" | python -m aima_my_tsp HC 5_random_adj_mat_7.txt
+printf "n\n50" | python -m aima_my_tsp HC 5_random_adj_mat_8.txt
+printf "n\n50" | python -m aima_my_tsp HC 5_random_adj_mat_9.txt
+printf "n\n50" | python -m aima_my_tsp HC 10_random_adj_mat_0.txt
+printf "n\n50" | python -m aima_my_tsp HC 10_random_adj_mat_1.txt
+printf "n\n50" | python -m aima_my_tsp HC 10_random_adj_mat_2.txt
+printf "n\n50" | python -m aima_my_tsp HC 10_random_adj_mat_3.txt
+printf "n\n50" | python -m aima_my_tsp HC 10_random_adj_mat_4.txt
+printf "n\n50" | python -m aima_my_tsp HC 10_random_adj_mat_5.txt
+printf "n\n50" | python -m aima_my_tsp HC 10_random_adj_mat_6.txt
+printf "n\n50" | python -m aima_my_tsp HC 10_random_adj_mat_7.txt
+printf "n\n50" | python -m aima_my_tsp HC 10_random_adj_mat_8.txt
+printf "n\n50" | python -m aima_my_tsp HC 10_random_adj_mat_9.txt
+printf "n\n50" | python -m aima_my_tsp HC 15_random_adj_mat_0.txt
+printf "n\n50" | python -m aima_my_tsp HC 15_random_adj_mat_1.txt
+printf "n\n50" | python -m aima_my_tsp HC 15_random_adj_mat_2.txt
+printf "n\n50" | python -m aima_my_tsp HC 15_random_adj_mat_3.txt
+printf "n\n50" | python -m aima_my_tsp HC 15_random_adj_mat_4.txt
+printf "n\n50" | python -m aima_my_tsp HC 15_random_adj_mat_5.txt
+printf "n\n50" | python -m aima_my_tsp HC 15_random_adj_mat_6.txt
+printf "n\n50" | python -m aima_my_tsp HC 15_random_adj_mat_7.txt
+printf "n\n50" | python -m aima_my_tsp HC 15_random_adj_mat_8.txt
+printf "n\n50" | python -m aima_my_tsp HC 15_random_adj_mat_9.txt
+printf "n\n50" | python -m aima_my_tsp HC 20_random_adj_mat_0.txt
+printf "n\n50" | python -m aima_my_tsp HC 20_random_adj_mat_1.txt
+printf "n\n50" | python -m aima_my_tsp HC 20_random_adj_mat_2.txt
+printf "n\n50" | python -m aima_my_tsp HC 20_random_adj_mat_3.txt
+printf "n\n50" | python -m aima_my_tsp HC 20_random_adj_mat_4.txt
+printf "n\n50" | python -m aima_my_tsp HC 20_random_adj_mat_5.txt
+printf "n\n50" | python -m aima_my_tsp HC 20_random_adj_mat_6.txt
+printf "n\n50" | python -m aima_my_tsp HC 20_random_adj_mat_7.txt
+printf "n\n50" | python -m aima_my_tsp HC 20_random_adj_mat_8.txt
+printf "n\n50" | python -m aima_my_tsp HC 20_random_adj_mat_9.txt
+printf "n\n50" | python -m aima_my_tsp HC 25_random_adj_mat_0.txt
+printf "n\n50" | python -m aima_my_tsp HC 25_random_adj_mat_1.txt
+printf "n\n50" | python -m aima_my_tsp HC 25_random_adj_mat_2.txt
+printf "n\n50" | python -m aima_my_tsp HC 25_random_adj_mat_3.txt
+printf "n\n50" | python -m aima_my_tsp HC 25_random_adj_mat_4.txt
+printf "n\n50" | python -m aima_my_tsp HC 25_random_adj_mat_5.txt
+printf "n\n50" | python -m aima_my_tsp HC 25_random_adj_mat_6.txt
+printf "n\n50" | python -m aima_my_tsp HC 25_random_adj_mat_7.txt
+printf "n\n50" | python -m aima_my_tsp HC 25_random_adj_mat_8.txt
+printf "n\n50" | python -m aima_my_tsp HC 25_random_adj_mat_9.txt
+printf "n\n50" | python -m aima_my_tsp HC 30_random_adj_mat_0.txt
+printf "n\n50" | python -m aima_my_tsp HC 30_random_adj_mat_1.txt
+printf "n\n50" | python -m aima_my_tsp HC 30_random_adj_mat_2.txt
+printf "n\n50" | python -m aima_my_tsp HC 30_random_adj_mat_3.txt
+printf "n\n50" | python -m aima_my_tsp HC 30_random_adj_mat_4.txt
+printf "n\n50" | python -m aima_my_tsp HC 30_random_adj_mat_5.txt
+printf "n\n50" | python -m aima_my_tsp HC 30_random_adj_mat_6.txt
+printf "n\n50" | python -m aima_my_tsp HC 30_random_adj_mat_7.txt
+printf "n\n50" | python -m aima_my_tsp HC 30_random_adj_mat_8.txt
+printf "n\n50" | python -m aima_my_tsp HC 30_random_adj_mat_9.txt
 
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_0.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_1.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_2.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_3.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_4.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_5.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_6.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_7.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_8.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_9.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_0.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_1.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_2.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_3.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_4.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_5.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_6.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_7.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_8.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_9.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_0.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_1.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_2.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_3.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_4.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_5.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_6.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_7.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_8.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_9.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_0.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_1.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_2.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_3.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_4.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_5.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_6.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_7.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_8.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_9.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_0.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_1.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_2.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_3.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_4.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_5.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_6.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_7.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_8.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_9.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_0.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_1.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_2.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_3.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_4.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_5.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_6.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_7.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_8.txt
-printf "n\n100" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_9.txt
+printf "n\n100" | python -m aima_my_tsp HC 5_random_adj_mat_0.txt
+printf "n\n100" | python -m aima_my_tsp HC 5_random_adj_mat_1.txt
+printf "n\n100" | python -m aima_my_tsp HC 5_random_adj_mat_2.txt
+printf "n\n100" | python -m aima_my_tsp HC 5_random_adj_mat_3.txt
+printf "n\n100" | python -m aima_my_tsp HC 5_random_adj_mat_4.txt
+printf "n\n100" | python -m aima_my_tsp HC 5_random_adj_mat_5.txt
+printf "n\n100" | python -m aima_my_tsp HC 5_random_adj_mat_6.txt
+printf "n\n100" | python -m aima_my_tsp HC 5_random_adj_mat_7.txt
+printf "n\n100" | python -m aima_my_tsp HC 5_random_adj_mat_8.txt
+printf "n\n100" | python -m aima_my_tsp HC 5_random_adj_mat_9.txt
+printf "n\n100" | python -m aima_my_tsp HC 10_random_adj_mat_0.txt
+printf "n\n100" | python -m aima_my_tsp HC 10_random_adj_mat_1.txt
+printf "n\n100" | python -m aima_my_tsp HC 10_random_adj_mat_2.txt
+printf "n\n100" | python -m aima_my_tsp HC 10_random_adj_mat_3.txt
+printf "n\n100" | python -m aima_my_tsp HC 10_random_adj_mat_4.txt
+printf "n\n100" | python -m aima_my_tsp HC 10_random_adj_mat_5.txt
+printf "n\n100" | python -m aima_my_tsp HC 10_random_adj_mat_6.txt
+printf "n\n100" | python -m aima_my_tsp HC 10_random_adj_mat_7.txt
+printf "n\n100" | python -m aima_my_tsp HC 10_random_adj_mat_8.txt
+printf "n\n100" | python -m aima_my_tsp HC 10_random_adj_mat_9.txt
+printf "n\n100" | python -m aima_my_tsp HC 15_random_adj_mat_0.txt
+printf "n\n100" | python -m aima_my_tsp HC 15_random_adj_mat_1.txt
+printf "n\n100" | python -m aima_my_tsp HC 15_random_adj_mat_2.txt
+printf "n\n100" | python -m aima_my_tsp HC 15_random_adj_mat_3.txt
+printf "n\n100" | python -m aima_my_tsp HC 15_random_adj_mat_4.txt
+printf "n\n100" | python -m aima_my_tsp HC 15_random_adj_mat_5.txt
+printf "n\n100" | python -m aima_my_tsp HC 15_random_adj_mat_6.txt
+printf "n\n100" | python -m aima_my_tsp HC 15_random_adj_mat_7.txt
+printf "n\n100" | python -m aima_my_tsp HC 15_random_adj_mat_8.txt
+printf "n\n100" | python -m aima_my_tsp HC 15_random_adj_mat_9.txt
+printf "n\n100" | python -m aima_my_tsp HC 20_random_adj_mat_0.txt
+printf "n\n100" | python -m aima_my_tsp HC 20_random_adj_mat_1.txt
+printf "n\n100" | python -m aima_my_tsp HC 20_random_adj_mat_2.txt
+printf "n\n100" | python -m aima_my_tsp HC 20_random_adj_mat_3.txt
+printf "n\n100" | python -m aima_my_tsp HC 20_random_adj_mat_4.txt
+printf "n\n100" | python -m aima_my_tsp HC 20_random_adj_mat_5.txt
+printf "n\n100" | python -m aima_my_tsp HC 20_random_adj_mat_6.txt
+printf "n\n100" | python -m aima_my_tsp HC 20_random_adj_mat_7.txt
+printf "n\n100" | python -m aima_my_tsp HC 20_random_adj_mat_8.txt
+printf "n\n100" | python -m aima_my_tsp HC 20_random_adj_mat_9.txt
+printf "n\n100" | python -m aima_my_tsp HC 25_random_adj_mat_0.txt
+printf "n\n100" | python -m aima_my_tsp HC 25_random_adj_mat_1.txt
+printf "n\n100" | python -m aima_my_tsp HC 25_random_adj_mat_2.txt
+printf "n\n100" | python -m aima_my_tsp HC 25_random_adj_mat_3.txt
+printf "n\n100" | python -m aima_my_tsp HC 25_random_adj_mat_4.txt
+printf "n\n100" | python -m aima_my_tsp HC 25_random_adj_mat_5.txt
+printf "n\n100" | python -m aima_my_tsp HC 25_random_adj_mat_6.txt
+printf "n\n100" | python -m aima_my_tsp HC 25_random_adj_mat_7.txt
+printf "n\n100" | python -m aima_my_tsp HC 25_random_adj_mat_8.txt
+printf "n\n100" | python -m aima_my_tsp HC 25_random_adj_mat_9.txt
+printf "n\n100" | python -m aima_my_tsp HC 30_random_adj_mat_0.txt
+printf "n\n100" | python -m aima_my_tsp HC 30_random_adj_mat_1.txt
+printf "n\n100" | python -m aima_my_tsp HC 30_random_adj_mat_2.txt
+printf "n\n100" | python -m aima_my_tsp HC 30_random_adj_mat_3.txt
+printf "n\n100" | python -m aima_my_tsp HC 30_random_adj_mat_4.txt
+printf "n\n100" | python -m aima_my_tsp HC 30_random_adj_mat_5.txt
+printf "n\n100" | python -m aima_my_tsp HC 30_random_adj_mat_6.txt
+printf "n\n100" | python -m aima_my_tsp HC 30_random_adj_mat_7.txt
+printf "n\n100" | python -m aima_my_tsp HC 30_random_adj_mat_8.txt
+printf "n\n100" | python -m aima_my_tsp HC 30_random_adj_mat_9.txt
 
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_0.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_1.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_2.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_3.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_4.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_5.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_6.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_7.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_8.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 5_random_adj_mat_9.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_0.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_1.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_2.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_3.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_4.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_5.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_6.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_7.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_8.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 10_random_adj_mat_9.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_0.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_1.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_2.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_3.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_4.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_5.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_6.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_7.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_8.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 15_random_adj_mat_9.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_0.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_1.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_2.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_3.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_4.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_5.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_6.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_7.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_8.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 20_random_adj_mat_9.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_0.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_1.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_2.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_3.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_4.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_5.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_6.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_7.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_8.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 25_random_adj_mat_9.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_0.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_1.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_2.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_3.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_4.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_5.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_6.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_7.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_8.txt
-printf "n\n500" | python ../drivers/aima_my_tsp.py HC 30_random_adj_mat_9.txt
+printf "n\n500" | python -m aima_my_tsp HC 5_random_adj_mat_0.txt
+printf "n\n500" | python -m aima_my_tsp HC 5_random_adj_mat_1.txt
+printf "n\n500" | python -m aima_my_tsp HC 5_random_adj_mat_2.txt
+printf "n\n500" | python -m aima_my_tsp HC 5_random_adj_mat_3.txt
+printf "n\n500" | python -m aima_my_tsp HC 5_random_adj_mat_4.txt
+printf "n\n500" | python -m aima_my_tsp HC 5_random_adj_mat_5.txt
+printf "n\n500" | python -m aima_my_tsp HC 5_random_adj_mat_6.txt
+printf "n\n500" | python -m aima_my_tsp HC 5_random_adj_mat_7.txt
+printf "n\n500" | python -m aima_my_tsp HC 5_random_adj_mat_8.txt
+printf "n\n500" | python -m aima_my_tsp HC 5_random_adj_mat_9.txt
+printf "n\n500" | python -m aima_my_tsp HC 10_random_adj_mat_0.txt
+printf "n\n500" | python -m aima_my_tsp HC 10_random_adj_mat_1.txt
+printf "n\n500" | python -m aima_my_tsp HC 10_random_adj_mat_2.txt
+printf "n\n500" | python -m aima_my_tsp HC 10_random_adj_mat_3.txt
+printf "n\n500" | python -m aima_my_tsp HC 10_random_adj_mat_4.txt
+printf "n\n500" | python -m aima_my_tsp HC 10_random_adj_mat_5.txt
+printf "n\n500" | python -m aima_my_tsp HC 10_random_adj_mat_6.txt
+printf "n\n500" | python -m aima_my_tsp HC 10_random_adj_mat_7.txt
+printf "n\n500" | python -m aima_my_tsp HC 10_random_adj_mat_8.txt
+printf "n\n500" | python -m aima_my_tsp HC 10_random_adj_mat_9.txt
+printf "n\n500" | python -m aima_my_tsp HC 15_random_adj_mat_0.txt
+printf "n\n500" | python -m aima_my_tsp HC 15_random_adj_mat_1.txt
+printf "n\n500" | python -m aima_my_tsp HC 15_random_adj_mat_2.txt
+printf "n\n500" | python -m aima_my_tsp HC 15_random_adj_mat_3.txt
+printf "n\n500" | python -m aima_my_tsp HC 15_random_adj_mat_4.txt
+printf "n\n500" | python -m aima_my_tsp HC 15_random_adj_mat_5.txt
+printf "n\n500" | python -m aima_my_tsp HC 15_random_adj_mat_6.txt
+printf "n\n500" | python -m aima_my_tsp HC 15_random_adj_mat_7.txt
+printf "n\n500" | python -m aima_my_tsp HC 15_random_adj_mat_8.txt
+printf "n\n500" | python -m aima_my_tsp HC 15_random_adj_mat_9.txt
+printf "n\n500" | python -m aima_my_tsp HC 20_random_adj_mat_0.txt
+printf "n\n500" | python -m aima_my_tsp HC 20_random_adj_mat_1.txt
+printf "n\n500" | python -m aima_my_tsp HC 20_random_adj_mat_2.txt
+printf "n\n500" | python -m aima_my_tsp HC 20_random_adj_mat_3.txt
+printf "n\n500" | python -m aima_my_tsp HC 20_random_adj_mat_4.txt
+printf "n\n500" | python -m aima_my_tsp HC 20_random_adj_mat_5.txt
+printf "n\n500" | python -m aima_my_tsp HC 20_random_adj_mat_6.txt
+printf "n\n500" | python -m aima_my_tsp HC 20_random_adj_mat_7.txt
+printf "n\n500" | python -m aima_my_tsp HC 20_random_adj_mat_8.txt
+printf "n\n500" | python -m aima_my_tsp HC 20_random_adj_mat_9.txt
+printf "n\n500" | python -m aima_my_tsp HC 25_random_adj_mat_0.txt
+printf "n\n500" | python -m aima_my_tsp HC 25_random_adj_mat_1.txt
+printf "n\n500" | python -m aima_my_tsp HC 25_random_adj_mat_2.txt
+printf "n\n500" | python -m aima_my_tsp HC 25_random_adj_mat_3.txt
+printf "n\n500" | python -m aima_my_tsp HC 25_random_adj_mat_4.txt
+printf "n\n500" | python -m aima_my_tsp HC 25_random_adj_mat_5.txt
+printf "n\n500" | python -m aima_my_tsp HC 25_random_adj_mat_6.txt
+printf "n\n500" | python -m aima_my_tsp HC 25_random_adj_mat_7.txt
+printf "n\n500" | python -m aima_my_tsp HC 25_random_adj_mat_8.txt
+printf "n\n500" | python -m aima_my_tsp HC 25_random_adj_mat_9.txt
+printf "n\n500" | python -m aima_my_tsp HC 30_random_adj_mat_0.txt
+printf "n\n500" | python -m aima_my_tsp HC 30_random_adj_mat_1.txt
+printf "n\n500" | python -m aima_my_tsp HC 30_random_adj_mat_2.txt
+printf "n\n500" | python -m aima_my_tsp HC 30_random_adj_mat_3.txt
+printf "n\n500" | python -m aima_my_tsp HC 30_random_adj_mat_4.txt
+printf "n\n500" | python -m aima_my_tsp HC 30_random_adj_mat_5.txt
+printf "n\n500" | python -m aima_my_tsp HC 30_random_adj_mat_6.txt
+printf "n\n500" | python -m aima_my_tsp HC 30_random_adj_mat_7.txt
+printf "n\n500" | python -m aima_my_tsp HC 30_random_adj_mat_8.txt
+printf "n\n500" | python -m aima_my_tsp HC 30_random_adj_mat_9.txt
 
 #SA Hyperparams, fixing initial temperature at 1000 and max_iterations at 10000
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_0.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_1.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_2.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_3.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_4.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_5.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_6.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_7.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_8.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_9.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_0.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_1.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_2.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_3.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_4.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_5.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_6.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_7.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_8.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_9.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_0.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_1.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_2.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_3.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_4.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_5.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_6.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_7.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_8.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_9.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_0.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_1.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_2.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_3.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_4.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_5.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_6.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_7.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_8.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_9.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_0.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_1.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_2.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_3.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_4.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_5.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_6.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_7.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_8.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_9.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_0.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_1.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_2.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_3.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_4.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_5.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_6.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_7.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_8.txt
-printf "n\n0.95\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_9.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_0.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_1.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_2.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_3.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_4.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_5.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_6.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_7.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_8.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_9.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_0.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_1.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_2.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_3.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_4.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_5.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_6.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_7.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_8.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_9.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_0.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_1.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_2.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_3.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_4.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_5.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_6.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_7.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_8.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_9.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_0.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_1.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_2.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_3.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_4.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_5.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_6.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_7.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_8.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_9.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_0.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_1.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_2.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_3.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_4.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_5.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_6.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_7.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_8.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_9.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_0.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_1.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_2.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_3.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_4.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_5.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_6.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_7.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_8.txt
+printf "n\n0.95\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_9.txt
 
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_0.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_1.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_2.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_3.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_4.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_5.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_6.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_7.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_8.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_9.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_0.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_1.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_2.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_3.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_4.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_5.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_6.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_7.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_8.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_9.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_0.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_1.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_2.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_3.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_4.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_5.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_6.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_7.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_8.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_9.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_0.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_1.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_2.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_3.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_4.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_5.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_6.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_7.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_8.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_9.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_0.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_1.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_2.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_3.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_4.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_5.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_6.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_7.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_8.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_9.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_0.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_1.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_2.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_3.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_4.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_5.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_6.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_7.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_8.txt
-printf "n\n0.975\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_9.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_0.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_1.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_2.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_3.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_4.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_5.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_6.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_7.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_8.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_9.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_0.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_1.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_2.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_3.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_4.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_5.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_6.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_7.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_8.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_9.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_0.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_1.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_2.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_3.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_4.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_5.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_6.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_7.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_8.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_9.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_0.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_1.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_2.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_3.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_4.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_5.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_6.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_7.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_8.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_9.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_0.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_1.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_2.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_3.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_4.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_5.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_6.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_7.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_8.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_9.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_0.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_1.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_2.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_3.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_4.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_5.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_6.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_7.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_8.txt
+printf "n\n0.975\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_9.txt
 
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_0.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_1.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_2.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_3.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_4.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_5.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_6.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_7.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_8.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 5_random_adj_mat_9.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_0.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_1.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_2.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_3.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_4.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_5.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_6.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_7.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_8.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 10_random_adj_mat_9.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_0.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_1.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_2.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_3.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_4.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_5.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_6.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_7.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_8.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 15_random_adj_mat_9.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_0.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_1.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_2.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_3.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_4.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_5.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_6.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_7.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_8.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 20_random_adj_mat_9.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_0.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_1.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_2.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_3.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_4.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_5.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_6.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_7.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_8.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 25_random_adj_mat_9.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_0.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_1.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_2.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_3.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_4.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_5.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_6.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_7.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_8.txt
-printf "n\n0.995\n1000\n10000" | python ../drivers/aima_my_tsp.py SA 30_random_adj_mat_9.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_0.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_1.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_2.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_3.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_4.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_5.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_6.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_7.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_8.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 5_random_adj_mat_9.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_0.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_1.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_2.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_3.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_4.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_5.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_6.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_7.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_8.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 10_random_adj_mat_9.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_0.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_1.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_2.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_3.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_4.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_5.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_6.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_7.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_8.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 15_random_adj_mat_9.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_0.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_1.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_2.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_3.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_4.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_5.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_6.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_7.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_8.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 20_random_adj_mat_9.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_0.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_1.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_2.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_3.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_4.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_5.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_6.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_7.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_8.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 25_random_adj_mat_9.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_0.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_1.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_2.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_3.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_4.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_5.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_6.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_7.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_8.txt
+printf "n\n0.995\n1000\n10000" | python -m aima_my_tsp SA 30_random_adj_mat_9.txt
 
 #GA Hyperparams, fixing mutation_rate at 0.1 and num_generations at 500
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_0.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_1.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_2.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_3.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_4.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_5.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_6.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_7.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_8.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_9.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_0.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_1.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_2.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_3.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_4.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_5.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_6.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_7.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_8.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_9.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_0.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_1.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_2.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_3.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_4.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_5.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_6.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_7.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_8.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_9.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_0.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_1.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_2.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_3.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_4.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_5.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_6.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_7.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_8.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_9.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_0.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_1.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_2.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_3.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_4.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_5.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_6.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_7.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_8.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_9.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_0.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_1.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_2.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_3.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_4.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_5.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_6.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_7.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_8.txt
-printf "n\n0.1\n67\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_9.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 5_random_adj_mat_0.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 5_random_adj_mat_1.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 5_random_adj_mat_2.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 5_random_adj_mat_3.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 5_random_adj_mat_4.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 5_random_adj_mat_5.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 5_random_adj_mat_6.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 5_random_adj_mat_7.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 5_random_adj_mat_8.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 5_random_adj_mat_9.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 10_random_adj_mat_0.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 10_random_adj_mat_1.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 10_random_adj_mat_2.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 10_random_adj_mat_3.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 10_random_adj_mat_4.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 10_random_adj_mat_5.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 10_random_adj_mat_6.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 10_random_adj_mat_7.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 10_random_adj_mat_8.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 10_random_adj_mat_9.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 15_random_adj_mat_0.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 15_random_adj_mat_1.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 15_random_adj_mat_2.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 15_random_adj_mat_3.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 15_random_adj_mat_4.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 15_random_adj_mat_5.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 15_random_adj_mat_6.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 15_random_adj_mat_7.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 15_random_adj_mat_8.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 15_random_adj_mat_9.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 20_random_adj_mat_0.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 20_random_adj_mat_1.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 20_random_adj_mat_2.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 20_random_adj_mat_3.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 20_random_adj_mat_4.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 20_random_adj_mat_5.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 20_random_adj_mat_6.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 20_random_adj_mat_7.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 20_random_adj_mat_8.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 20_random_adj_mat_9.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 25_random_adj_mat_0.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 25_random_adj_mat_1.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 25_random_adj_mat_2.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 25_random_adj_mat_3.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 25_random_adj_mat_4.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 25_random_adj_mat_5.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 25_random_adj_mat_6.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 25_random_adj_mat_7.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 25_random_adj_mat_8.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 25_random_adj_mat_9.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 30_random_adj_mat_0.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 30_random_adj_mat_1.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 30_random_adj_mat_2.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 30_random_adj_mat_3.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 30_random_adj_mat_4.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 30_random_adj_mat_5.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 30_random_adj_mat_6.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 30_random_adj_mat_7.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 30_random_adj_mat_8.txt
+printf "n\n0.1\n67\n500" | python -m aima_my_tsp GA 30_random_adj_mat_9.txt
 
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_0.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_1.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_2.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_3.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_4.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_5.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_6.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_7.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_8.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_9.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_0.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_1.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_2.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_3.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_4.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_5.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_6.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_7.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_8.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_9.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_0.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_1.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_2.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_3.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_4.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_5.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_6.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_7.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_8.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_9.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_0.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_1.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_2.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_3.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_4.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_5.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_6.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_7.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_8.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_9.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_0.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_1.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_2.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_3.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_4.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_5.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_6.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_7.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_8.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_9.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_0.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_1.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_2.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_3.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_4.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_5.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_6.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_7.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_8.txt
-printf "n\n0.1\n133\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_9.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 5_random_adj_mat_0.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 5_random_adj_mat_1.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 5_random_adj_mat_2.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 5_random_adj_mat_3.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 5_random_adj_mat_4.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 5_random_adj_mat_5.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 5_random_adj_mat_6.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 5_random_adj_mat_7.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 5_random_adj_mat_8.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 5_random_adj_mat_9.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 10_random_adj_mat_0.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 10_random_adj_mat_1.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 10_random_adj_mat_2.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 10_random_adj_mat_3.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 10_random_adj_mat_4.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 10_random_adj_mat_5.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 10_random_adj_mat_6.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 10_random_adj_mat_7.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 10_random_adj_mat_8.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 10_random_adj_mat_9.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 15_random_adj_mat_0.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 15_random_adj_mat_1.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 15_random_adj_mat_2.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 15_random_adj_mat_3.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 15_random_adj_mat_4.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 15_random_adj_mat_5.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 15_random_adj_mat_6.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 15_random_adj_mat_7.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 15_random_adj_mat_8.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 15_random_adj_mat_9.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 20_random_adj_mat_0.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 20_random_adj_mat_1.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 20_random_adj_mat_2.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 20_random_adj_mat_3.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 20_random_adj_mat_4.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 20_random_adj_mat_5.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 20_random_adj_mat_6.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 20_random_adj_mat_7.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 20_random_adj_mat_8.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 20_random_adj_mat_9.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 25_random_adj_mat_0.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 25_random_adj_mat_1.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 25_random_adj_mat_2.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 25_random_adj_mat_3.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 25_random_adj_mat_4.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 25_random_adj_mat_5.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 25_random_adj_mat_6.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 25_random_adj_mat_7.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 25_random_adj_mat_8.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 25_random_adj_mat_9.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 30_random_adj_mat_0.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 30_random_adj_mat_1.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 30_random_adj_mat_2.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 30_random_adj_mat_3.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 30_random_adj_mat_4.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 30_random_adj_mat_5.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 30_random_adj_mat_6.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 30_random_adj_mat_7.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 30_random_adj_mat_8.txt
+printf "n\n0.1\n133\n500" | python -m aima_my_tsp GA 30_random_adj_mat_9.txt
 
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_0.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_1.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_2.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_3.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_4.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_5.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_6.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_7.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_8.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 5_random_adj_mat_9.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_0.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_1.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_2.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_3.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_4.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_5.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_6.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_7.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_8.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 10_random_adj_mat_9.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_0.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_1.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_2.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_3.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_4.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_5.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_6.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_7.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_8.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 15_random_adj_mat_9.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_0.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_1.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_2.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_3.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_4.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_5.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_6.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_7.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_8.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 20_random_adj_mat_9.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_0.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_1.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_2.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_3.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_4.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_5.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_6.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_7.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_8.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 25_random_adj_mat_9.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_0.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_1.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_2.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_3.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_4.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_5.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_6.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_7.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_8.txt
-printf "n\n0.1\n200\n500" | python ../drivers/aima_my_tsp.py GA 30_random_adj_mat_9.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 5_random_adj_mat_0.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 5_random_adj_mat_1.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 5_random_adj_mat_2.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 5_random_adj_mat_3.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 5_random_adj_mat_4.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 5_random_adj_mat_5.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 5_random_adj_mat_6.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 5_random_adj_mat_7.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 5_random_adj_mat_8.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 5_random_adj_mat_9.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 10_random_adj_mat_0.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 10_random_adj_mat_1.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 10_random_adj_mat_2.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 10_random_adj_mat_3.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 10_random_adj_mat_4.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 10_random_adj_mat_5.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 10_random_adj_mat_6.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 10_random_adj_mat_7.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 10_random_adj_mat_8.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 10_random_adj_mat_9.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 15_random_adj_mat_0.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 15_random_adj_mat_1.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 15_random_adj_mat_2.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 15_random_adj_mat_3.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 15_random_adj_mat_4.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 15_random_adj_mat_5.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 15_random_adj_mat_6.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 15_random_adj_mat_7.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 15_random_adj_mat_8.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 15_random_adj_mat_9.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 20_random_adj_mat_0.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 20_random_adj_mat_1.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 20_random_adj_mat_2.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 20_random_adj_mat_3.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 20_random_adj_mat_4.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 20_random_adj_mat_5.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 20_random_adj_mat_6.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 20_random_adj_mat_7.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 20_random_adj_mat_8.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 20_random_adj_mat_9.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 25_random_adj_mat_0.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 25_random_adj_mat_1.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 25_random_adj_mat_2.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 25_random_adj_mat_3.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 25_random_adj_mat_4.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 25_random_adj_mat_5.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 25_random_adj_mat_6.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 25_random_adj_mat_7.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 25_random_adj_mat_8.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 25_random_adj_mat_9.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 30_random_adj_mat_0.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 30_random_adj_mat_1.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 30_random_adj_mat_2.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 30_random_adj_mat_3.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 30_random_adj_mat_4.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 30_random_adj_mat_5.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 30_random_adj_mat_6.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 30_random_adj_mat_7.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 30_random_adj_mat_8.txt
+printf "n\n0.1\n200\n500" | python -m aima_my_tsp GA 30_random_adj_mat_9.txt
 
-python ../helper_scripts/create_HCSAGA_hyperparam_graphs.py ../results_used_in_graphs/HCSAGAHyperParamResults.txt
+python -m helper_scripts.create_HCSAGA_hyperparam_graphs results_used_in_graphs/HCSAGAHyperParamResults.txt
