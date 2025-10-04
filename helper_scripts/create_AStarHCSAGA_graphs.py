@@ -158,4 +158,4 @@ with open(results_file, "r") as f:
     axs[2].grid(True)
 
     plt.tight_layout()
-    plt.savefig('HCSAGA_algorithms_comparison_to_A*.png', dpi=300, bbox_inches='tight')
+    plt.savefig('../HCSAGA_algorithms_comparison_to_A*.png', dpi=300, bbox_inches='tight')

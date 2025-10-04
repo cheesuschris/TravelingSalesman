@@ -1,8 +1,7 @@
 from search import Node
 import random
 import numpy as np
-from utils import argmax_random_tie
-import matplotlib.pyplot as plt
+from utils.utils import argmax_random_tie
 
 def genetic_algorithm_search(problem, mutation_chance, population_size, num_generations, display=False):
     to_display = []

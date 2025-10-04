@@ -1,7 +1,7 @@
 from search import Node
 import random
 import numpy as np
-from utils import probability
+from utils.utils import probability
 
 def simulated_annealing_search(problem, alpha, initial_temperature, max_iterations, display=False):
 

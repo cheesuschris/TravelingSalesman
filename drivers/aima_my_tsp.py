@@ -5,13 +5,13 @@ CMSC 421 - Fall 2025
 """
 import time
 import numpy as np
-from search import Problem, astar_search
-from NearestNeighbor import nearest_neighbor_search
-from NearestNeighbor2Opt import nearest_neighbor_2opt_search
-from RRNN import repeated_random_nearest_neighbor_search
-from hill_climbing import hill_climbing_search
-from simulated_annealing import simulated_annealing_search
-from genetic_algorithm import genetic_algorithm_search
+from search_algorithms.search import Problem, astar_search
+from search_algorithms.NearestNeighbor import nearest_neighbor_search
+from search_algorithms.NearestNeighbor2Opt import nearest_neighbor_2opt_search
+from search_algorithms.RRNN import repeated_random_nearest_neighbor_search
+from search_algorithms.hill_climbing import hill_climbing_search
+from search_algorithms.simulated_annealing import simulated_annealing_search
+from search_algorithms.genetic_algorithm import genetic_algorithm_search
 from scipy.sparse import csr_array
 from scipy.sparse.csgraph import minimum_spanning_tree
 import sys
@@ -232,7 +232,7 @@ if __name__ == "__main__":
                 ax.set_xticks(repeat_vals[::2])
 
             plt.tight_layout()
-            plt.savefig('RRNN_hyperparameter_analysis.png', dpi=300, bbox_inches='tight')
+            plt.savefig('../graphs/RRNN_hyperparameter_analysis.png', dpi=300, bbox_inches='tight')
         else: 
             #The best hyperparams from inital analysis/graph creation
             k = 17
@@ -285,7 +285,7 @@ if __name__ == "__main__":
             plt.grid(True, alpha=0.3)
             plt.title("# of Repeats Passed vs. Median Best Solution Score across all 15 Cities found at that Repeat", fontsize=15)
             plt.tight_layout()
-            plt.savefig('HCRepeats.png', dpi=300, bbox_inches='tight')
+            plt.savefig('../graphs/HCRepeats.png', dpi=300, bbox_inches='tight')
         else:
             print('Running hill climbing...')
             t0 = time.time_ns()
@@ -325,7 +325,7 @@ if __name__ == "__main__":
             plt.grid(True, alpha=0.3)
             plt.title("# of Iterations Passed vs. Median Best Solution Score across all 15 Cities found at that iteration", fontsize=20)
             plt.tight_layout()
-            plt.savefig('SAIterations.png', dpi=300, bbox_inches='tight')
+            plt.savefig('../graphs/SAIterations.png', dpi=300, bbox_inches='tight')
         else:
             print('Running simulated annealing...')
             t0 = time.time_ns()
@@ -367,7 +367,7 @@ if __name__ == "__main__":
             plt.grid(True, alpha=0.3)
             plt.title("# of Generations Passed vs. Median Best Solution Score across all 15 Cities found at that generation", fontsize=20)
             plt.tight_layout()
-            plt.savefig('GAGenerations.png', dpi=300, bbox_inches='tight')
+            plt.savefig('../graphs/GAGenerations.png', dpi=300, bbox_inches='tight')
         else:
             print('Running genetic algorithm...')
             t0 = time.time_ns()

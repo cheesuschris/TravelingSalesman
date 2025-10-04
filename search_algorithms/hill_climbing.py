@@ -1,7 +1,7 @@
 from search import Node
 import numpy as np
 import random
-from utils import argmax_random_tie
+from utils.utils import argmax_random_tie
 
 def hill_climbing_search(problem, num_repeats, display=False):
 

@@ -174,4 +174,4 @@ with open(results_file, "r") as f:
     axs[3].grid(True)
 
     plt.tight_layout()
-    plt.savefig('NN_algorithms\'_comparison_to_A*.png', dpi=300, bbox_inches='tight')
+    plt.savefig('../graphs/NN_algorithms\'_comparison_to_A*.png', dpi=300, bbox_inches='tight')

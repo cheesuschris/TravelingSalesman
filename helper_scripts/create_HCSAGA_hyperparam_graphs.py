@@ -79,12 +79,12 @@ with open(results_file, "r") as f:
         
         if alg_id == 0:
             plt.xlabel('num_repeats Hyperparameter Value', fontsize=15)
-            plt.savefig('HC_algorithm_hyperparameter_analysis.png', dpi=300, bbox_inches='tight')
+            plt.savefig('../graphs/HC_algorithm_hyperparameter_analysis.png', dpi=300, bbox_inches='tight')
         elif alg_id == 1:
             plt.xlabel('alpha Hyperparameter Value', fontsize=15)
-            plt.savefig('SA_algorithm_hyperparameter_analysis.png', dpi=300, bbox_inches='tight')
+            plt.savefig('../graphs/SA_algorithm_hyperparameter_analysis.png', dpi=300, bbox_inches='tight')
         elif alg_id == 2:
             plt.xlabel('population_size Hyperparameter Value', fontsize=15)
-            plt.savefig('GA_algorithm_hyperparameter_analysis.png', dpi=300, bbox_inches='tight')
+            plt.savefig('../graphs/GA_algorithm_hyperparameter_analysis.png', dpi=300, bbox_inches='tight')
         
         plt.close()
