@@ -16,7 +16,7 @@ def genetic_algorithm_search(problem, mutation_chance, population_size, num_gene
         #Also, according to the research paper I first produce CHILDREN (plural) then mutate the INDIVIDUALS (plural), so I'm assuming I don't mutate upon each singular birth
         children = []
         i = 0
-        random.shuffle(solutions) #Choosing parents randomly
+        random.shuffle(solutions)
         while i < len(solutions)-1:
             parent1 = list(solutions[i].state)
             parent2 = list(solutions[i+1].state)
@@ -77,8 +77,6 @@ def genetic_algorithm_search(problem, mutation_chance, population_size, num_gene
                 p2 += 1
             children.append(Node(tuple(child)))
             i += 2
-        #Again, the research paper doesn't say, but I'm ASSUMING mutation_chance is per CHILD, not per potentially MUTATED CITY
-        #Also again, I'm ASSUMING mutation is just swapping two random cities. It's not specified how MANY cities to swap in the instructions or research, so shrug
         for child in children:
             mut_prob = random.random()
             if mut_prob < mutation_chance:
