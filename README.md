@@ -15,7 +15,7 @@ The .sh scripts are also driver functions.
 Running: cd into project root, then bash drivers/compare{comparison}.sh  
 .sh scripts visualize:
 - comparing A* to HC, SA, and GA algorithms with ./compareAStarWithHCSAGA.sh -- outputted in HCSAGA\_algorithms\_comparison\_to\_A*.png
-- comparing A* with NN algorithms with ./compareAStarWithNN.sh -- outputed in HCNN\_algorithms'\_comparison\_to\_A*.png
+- comparing A* with NN algorithms with ./compareAStarWithNN.sh -- outputed in NN\_algorithms'\_comparison\_to\_A*.png
 - comparing HC, SA, and GA algorithm hyperparameters with ./compareHCSAGAHyperParams.sh -- outputted in HC\_algorithm\_hyperparameter\_analysis.png, SA\_algorithm\_hyperparameter\_analysis.png, and GA\_algorithm\_hyperparameter\_analysis.png
 - comparing NN-related algorithm hyperparameters with ./compareNN.sh -- outputted in nearest\_neighbor\_algorithms'\_comparison.png
 
