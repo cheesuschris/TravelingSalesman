@@ -6,8 +6,8 @@ Loaded road cost matrix:
  [0.94538724 0.19109643 0.37440991 0.5948227  0.        ]]
 Running A*...
 5 paths have been expanded and 6 paths remain in the frontier
-CPU time 0.002283 seconds
-Wall time 0.005633 seconds
+CPU time 0.002776 seconds
+Wall time 0.005138 seconds
 Solution Path: (0, 1, 4, 2, 3, 0)
 Solution Cost: 1.6618898722125257
 Loaded road cost matrix:
@@ -17,8 +17,8 @@ Loaded road cost matrix:
  [0.66213289 0.42840723 0.41199076 0.         0.5948227 ]
  [0.94538724 0.19109643 0.37440991 0.5948227  0.        ]]
 Running nearest neighbor...
-CPU time 0.000024 seconds
-Wall time 0.000030 seconds
+CPU time 0.000034 seconds
+Wall time 0.000045 seconds
 Solution Path: (0, 1, 4, 2, 3, 0)
 Solution Cost: 1.6618898722125257
 Loaded road cost matrix:
@@ -28,8 +28,8 @@ Loaded road cost matrix:
  [0.66213289 0.42840723 0.41199076 0.         0.5948227 ]
  [0.94538724 0.19109643 0.37440991 0.5948227  0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000042 seconds
-Wall time 0.000050 seconds
+CPU time 0.000044 seconds
+Wall time 0.000056 seconds
 Solution Path: [0, 1, 4, 2, 3, 0]
 Solution Cost: 1.6618898722125257
 Loaded road cost matrix:
@@ -39,9 +39,9 @@ Loaded road cost matrix:
  [0.66213289 0.42840723 0.41199076 0.         0.5948227 ]
  [0.94538724 0.19109643 0.37440991 0.5948227  0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000257 seconds
-Wall time 0.007031 seconds
-Solution Path: [0, 3, 2, 4, 1, 0]
+CPU time 0.000447 seconds
+Wall time 0.007430 seconds
+Solution Path: [0, 1, 4, 2, 3, 0]
 Solution Cost: 1.6618898722125257
 Loaded road cost matrix:
 [[0.         0.47458149 0.13660607 0.32961947 0.09090717]
@@ -51,8 +51,8 @@ Loaded road cost matrix:
  [0.09090717 0.52058496 0.69704653 0.86205314 0.        ]]
 Running A*...
 5 paths have been expanded and 6 paths remain in the frontier
-CPU time 0.001598 seconds
-Wall time 0.001668 seconds
+CPU time 0.002952 seconds
+Wall time 0.003209 seconds
 Solution Path: (0, 2, 3, 1, 4, 0)
 Solution Cost: 1.5346071521507416
 Loaded road cost matrix:
@@ -62,8 +62,8 @@ Loaded road cost matrix:
  [0.32961947 0.28813573 0.49837322 0.         0.86205314]
  [0.09090717 0.52058496 0.69704653 0.86205314 0.        ]]
 Running nearest neighbor...
-CPU time 0.000024 seconds
-Wall time 0.000032 seconds
+CPU time 0.000026 seconds
+Wall time 0.000035 seconds
 Solution Path: (0, 4, 1, 3, 2, 0)
 Solution Cost: 1.5346071521507416
 Loaded road cost matrix:
@@ -73,8 +73,8 @@ Loaded road cost matrix:
  [0.32961947 0.28813573 0.49837322 0.         0.86205314]
  [0.09090717 0.52058496 0.69704653 0.86205314 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000032 seconds
-Wall time 0.000039 seconds
+CPU time 0.000037 seconds
+Wall time 0.000050 seconds
 Solution Path: [0, 4, 1, 3, 2, 0]
 Solution Cost: 1.5346071521507416
 Loaded road cost matrix:
@@ -84,9 +84,9 @@ Loaded road cost matrix:
  [0.32961947 0.28813573 0.49837322 0.         0.86205314]
  [0.09090717 0.52058496 0.69704653 0.86205314 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000165 seconds
-Wall time 0.000177 seconds
-Solution Path: [0, 4, 1, 3, 2, 0]
+CPU time 0.000320 seconds
+Wall time 0.000389 seconds
+Solution Path: [0, 2, 3, 1, 4, 0]
 Solution Cost: 1.5346071521507416
 Loaded road cost matrix:
 [[0.         0.25604504 0.38379712 0.82268491 0.38865574]
@@ -96,8 +96,8 @@ Loaded road cost matrix:
  [0.38865574 0.52274028 0.35804382 0.20138864 0.        ]]
 Running A*...
 5 paths have been expanded and 6 paths remain in the frontier
-CPU time 0.001525 seconds
-Wall time 0.001593 seconds
+CPU time 0.002210 seconds
+Wall time 0.002411 seconds
 Solution Path: (0, 1, 2, 3, 4, 0)
 Solution Cost: 1.2754015017456721
 Loaded road cost matrix:
@@ -107,8 +107,8 @@ Loaded road cost matrix:
  [0.82268491 0.46185188 0.30511996 0.         0.20138864]
  [0.38865574 0.52274028 0.35804382 0.20138864 0.        ]]
 Running nearest neighbor...
-CPU time 0.000023 seconds
-Wall time 0.000029 seconds
+CPU time 0.000048 seconds
+Wall time 0.000066 seconds
 Solution Path: (0, 1, 2, 3, 4, 0)
 Solution Cost: 1.2754015017456721
 Loaded road cost matrix:
@@ -118,8 +118,8 @@ Loaded road cost matrix:
  [0.82268491 0.46185188 0.30511996 0.         0.20138864]
  [0.38865574 0.52274028 0.35804382 0.20138864 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000030 seconds
-Wall time 0.000038 seconds
+CPU time 0.000035 seconds
+Wall time 0.000045 seconds
 Solution Path: [0, 1, 2, 3, 4, 0]
 Solution Cost: 1.2754015017456721
 Loaded road cost matrix:
@@ -129,8 +129,8 @@ Loaded road cost matrix:
  [0.82268491 0.46185188 0.30511996 0.         0.20138864]
  [0.38865574 0.52274028 0.35804382 0.20138864 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000149 seconds
-Wall time 0.000176 seconds
+CPU time 0.000278 seconds
+Wall time 0.000317 seconds
 Solution Path: [0, 4, 3, 2, 1, 0]
 Solution Cost: 1.2754015017456717
 Loaded road cost matrix:
@@ -141,8 +141,8 @@ Loaded road cost matrix:
  [0.58451232 0.65678211 0.08763324 0.76835002 0.        ]]
 Running A*...
 8 paths have been expanded and 11 paths remain in the frontier
-CPU time 0.002330 seconds
-Wall time 0.002428 seconds
+CPU time 0.002556 seconds
+Wall time 0.002783 seconds
 Solution Path: (0, 3, 1, 2, 4, 0)
 Solution Cost: 2.0632142369780415
 Loaded road cost matrix:
@@ -152,8 +152,8 @@ Loaded road cost matrix:
  [0.3700486  0.65958254 0.55508121 0.         0.76835002]
  [0.58451232 0.65678211 0.08763324 0.76835002 0.        ]]
 Running nearest neighbor...
-CPU time 0.000023 seconds
-Wall time 0.000031 seconds
+CPU time 0.000024 seconds
+Wall time 0.000033 seconds
 Solution Path: (0, 3, 2, 4, 1, 0)
 Solution Cost: 2.3416108366445516
 Loaded road cost matrix:
@@ -163,8 +163,8 @@ Loaded road cost matrix:
  [0.3700486  0.65958254 0.55508121 0.         0.76835002]
  [0.58451232 0.65678211 0.08763324 0.76835002 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000030 seconds
-Wall time 0.000037 seconds
+CPU time 0.000037 seconds
+Wall time 0.000049 seconds
 Solution Path: [0, 3, 2, 4, 1, 0]
 Solution Cost: 2.3416108366445516
 Loaded road cost matrix:
@@ -174,10 +174,10 @@ Loaded road cost matrix:
  [0.3700486  0.65958254 0.55508121 0.         0.76835002]
  [0.58451232 0.65678211 0.08763324 0.76835002 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000169 seconds
-Wall time 0.000181 seconds
+CPU time 0.000172 seconds
+Wall time 0.000197 seconds
 Solution Path: [0, 3, 1, 2, 4, 0]
-Solution Cost: 2.0632142369780415
+Solution Cost: 2.063214236978041
 Loaded road cost matrix:
 [[0.         0.25362789 0.58095221 0.59690669 0.60694126]
  [0.25362789 0.         0.88466269 0.71032514 0.29293269]
@@ -186,8 +186,8 @@ Loaded road cost matrix:
  [0.60694126 0.29293269 0.66977304 0.0386635  0.        ]]
 Running A*...
 5 paths have been expanded and 6 paths remain in the frontier
-CPU time 0.001495 seconds
-Wall time 0.001560 seconds
+CPU time 0.001934 seconds
+Wall time 0.002114 seconds
 Solution Path: (0, 1, 4, 3, 2, 0)
 Solution Cost: 1.1732601440847197
 Loaded road cost matrix:
@@ -197,8 +197,8 @@ Loaded road cost matrix:
  [0.59690669 0.71032514 0.00708385 0.         0.0386635 ]
  [0.60694126 0.29293269 0.66977304 0.0386635  0.        ]]
 Running nearest neighbor...
-CPU time 0.000022 seconds
-Wall time 0.000029 seconds
+CPU time 0.000045 seconds
+Wall time 0.000066 seconds
 Solution Path: (0, 1, 4, 3, 2, 0)
 Solution Cost: 1.1732601440847197
 Loaded road cost matrix:
@@ -208,8 +208,8 @@ Loaded road cost matrix:
  [0.59690669 0.71032514 0.00708385 0.         0.0386635 ]
  [0.60694126 0.29293269 0.66977304 0.0386635  0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000031 seconds
-Wall time 0.000038 seconds
+CPU time 0.000038 seconds
+Wall time 0.000051 seconds
 Solution Path: [0, 1, 4, 3, 2, 0]
 Solution Cost: 1.1732601440847197
 Loaded road cost matrix:
@@ -219,9 +219,9 @@ Loaded road cost matrix:
  [0.59690669 0.71032514 0.00708385 0.         0.0386635 ]
  [0.60694126 0.29293269 0.66977304 0.0386635  0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000154 seconds
-Wall time 0.000166 seconds
-Solution Path: [0, 2, 3, 4, 1, 0]
+CPU time 0.000216 seconds
+Wall time 0.000244 seconds
+Solution Path: [0, 1, 4, 3, 2, 0]
 Solution Cost: 1.1732601440847197
 Loaded road cost matrix:
 [[0.         0.29406584 0.71189152 0.89886878 0.30869943]
@@ -231,8 +231,8 @@ Loaded road cost matrix:
  [0.30869943 0.81598165 0.11014777 0.84820104 0.        ]]
 Running A*...
 9 paths have been expanded and 12 paths remain in the frontier
-CPU time 0.002266 seconds
-Wall time 0.002362 seconds
+CPU time 0.002526 seconds
+Wall time 0.002745 seconds
 Solution Path: (0, 3, 1, 2, 4, 0)
 Solution Cost: 1.780054743571514
 Loaded road cost matrix:
@@ -242,8 +242,8 @@ Loaded road cost matrix:
  [0.89886878 0.32065917 0.80118407 0.         0.84820104]
  [0.30869943 0.81598165 0.11014777 0.84820104 0.        ]]
 Running nearest neighbor...
-CPU time 0.000022 seconds
-Wall time 0.000029 seconds
+CPU time 0.000045 seconds
+Wall time 0.000074 seconds
 Solution Path: (0, 1, 2, 4, 3, 0)
 Solution Cost: 2.2929630275735327
 Loaded road cost matrix:
@@ -253,8 +253,8 @@ Loaded road cost matrix:
  [0.89886878 0.32065917 0.80118407 0.         0.84820104]
  [0.30869943 0.81598165 0.11014777 0.84820104 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000034 seconds
-Wall time 0.000043 seconds
+CPU time 0.000040 seconds
+Wall time 0.000051 seconds
 Solution Path: [0, 4, 2, 1, 3, 0]
 Solution Cost: 1.780054743571514
 Loaded road cost matrix:
@@ -264,10 +264,10 @@ Loaded road cost matrix:
  [0.89886878 0.32065917 0.80118407 0.         0.84820104]
  [0.30869943 0.81598165 0.11014777 0.84820104 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000144 seconds
-Wall time 0.000157 seconds
-Solution Path: [0, 4, 2, 3, 1, 0]
-Solution Cost: 1.834756291147552
+CPU time 0.000359 seconds
+Wall time 0.000404 seconds
+Solution Path: [0, 4, 2, 1, 3, 0]
+Solution Cost: 1.780054743571514
 Loaded road cost matrix:
 [[0.         0.6088761  0.78076065 0.95341814 0.89066032]
  [0.6088761  0.         0.58349306 0.31661137 0.4741117 ]
@@ -276,8 +276,8 @@ Loaded road cost matrix:
  [0.89066032 0.4741117  0.48192861 0.40838025 0.        ]]
 Running A*...
 9 paths have been expanded and 12 paths remain in the frontier
-CPU time 0.002322 seconds
-Wall time 0.002420 seconds
+CPU time 0.003834 seconds
+Wall time 0.003848 seconds
 Solution Path: (0, 1, 4, 3, 2, 0)
 Solution Cost: 2.525504675545751
 Loaded road cost matrix:
@@ -287,8 +287,8 @@ Loaded road cost matrix:
  [0.95341814 0.31661137 0.25337598 0.         0.40838025]
  [0.89066032 0.4741117  0.48192861 0.40838025 0.        ]]
 Running nearest neighbor...
-CPU time 0.000025 seconds
-Wall time 0.000032 seconds
+CPU time 0.000036 seconds
+Wall time 0.000044 seconds
 Solution Path: (0, 1, 3, 2, 4, 0)
 Solution Cost: 2.5514523900849255
 Loaded road cost matrix:
@@ -298,7 +298,7 @@ Loaded road cost matrix:
  [0.95341814 0.31661137 0.25337598 0.         0.40838025]
  [0.89066032 0.4741117  0.48192861 0.40838025 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000032 seconds
+CPU time 0.000033 seconds
 Wall time 0.000039 seconds
 Solution Path: [0, 1, 3, 2, 4, 0]
 Solution Cost: 2.5514523900849255
@@ -309,8 +309,8 @@ Loaded road cost matrix:
  [0.95341814 0.31661137 0.25337598 0.         0.40838025]
  [0.89066032 0.4741117  0.48192861 0.40838025 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000273 seconds
-Wall time 0.000291 seconds
+CPU time 0.000270 seconds
+Wall time 0.000283 seconds
 Solution Path: [0, 2, 3, 4, 1, 0]
 Solution Cost: 2.525504675545751
 Loaded road cost matrix:
@@ -321,8 +321,8 @@ Loaded road cost matrix:
  [0.24716663 0.41438237 0.51490913 0.59605592 0.        ]]
 Running A*...
 7 paths have been expanded and 9 paths remain in the frontier
-CPU time 0.005330 seconds
-Wall time 0.005554 seconds
+CPU time 0.002241 seconds
+Wall time 0.002374 seconds
 Solution Path: (0, 3, 2, 1, 4, 0)
 Solution Cost: 1.8394174641454422
 Loaded road cost matrix:
@@ -332,8 +332,8 @@ Loaded road cost matrix:
  [0.47675842 0.60344241 0.33834615 0.         0.59605592]
  [0.24716663 0.41438237 0.51490913 0.59605592 0.        ]]
 Running nearest neighbor...
-CPU time 0.000024 seconds
-Wall time 0.000031 seconds
+CPU time 0.000030 seconds
+Wall time 0.000040 seconds
 Solution Path: (0, 4, 1, 2, 3, 0)
 Solution Cost: 1.839417464145442
 Loaded road cost matrix:
@@ -343,8 +343,8 @@ Loaded road cost matrix:
  [0.47675842 0.60344241 0.33834615 0.         0.59605592]
  [0.24716663 0.41438237 0.51490913 0.59605592 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000039 seconds
-Wall time 0.000046 seconds
+CPU time 0.000033 seconds
+Wall time 0.000042 seconds
 Solution Path: [0, 4, 1, 2, 3, 0]
 Solution Cost: 1.839417464145442
 Loaded road cost matrix:
@@ -354,8 +354,8 @@ Loaded road cost matrix:
  [0.47675842 0.60344241 0.33834615 0.         0.59605592]
  [0.24716663 0.41438237 0.51490913 0.59605592 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000155 seconds
-Wall time 0.000166 seconds
+CPU time 0.000433 seconds
+Wall time 0.000480 seconds
 Solution Path: [0, 4, 1, 2, 3, 0]
 Solution Cost: 1.8394174641454417
 Loaded road cost matrix:
@@ -366,8 +366,8 @@ Loaded road cost matrix:
  [0.13587133 0.39158589 0.87261868 0.57445089 0.        ]]
 Running A*...
 7 paths have been expanded and 9 paths remain in the frontier
-CPU time 0.001924 seconds
-Wall time 0.002009 seconds
+CPU time 0.002866 seconds
+Wall time 0.003037 seconds
 Solution Path: (0, 3, 2, 1, 4, 0)
 Solution Cost: 2.5317732913983138
 Loaded road cost matrix:
@@ -377,8 +377,8 @@ Loaded road cost matrix:
  [0.33197742 0.97706057 0.85112483 0.         0.57445089]
  [0.13587133 0.39158589 0.87261868 0.57445089 0.        ]]
 Running nearest neighbor...
-CPU time 0.000022 seconds
-Wall time 0.000029 seconds
+CPU time 0.000136 seconds
+Wall time 0.000157 seconds
 Solution Path: (0, 4, 1, 2, 3, 0)
 Solution Cost: 2.5317732913983138
 Loaded road cost matrix:
@@ -388,8 +388,8 @@ Loaded road cost matrix:
  [0.33197742 0.97706057 0.85112483 0.         0.57445089]
  [0.13587133 0.39158589 0.87261868 0.57445089 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000030 seconds
-Wall time 0.000037 seconds
+CPU time 0.000055 seconds
+Wall time 0.000071 seconds
 Solution Path: [0, 4, 1, 2, 3, 0]
 Solution Cost: 2.5317732913983138
 Loaded road cost matrix:
@@ -399,9 +399,9 @@ Loaded road cost matrix:
  [0.33197742 0.97706057 0.85112483 0.         0.57445089]
  [0.13587133 0.39158589 0.87261868 0.57445089 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000167 seconds
-Wall time 0.000180 seconds
-Solution Path: [0, 3, 2, 1, 4, 0]
+CPU time 0.000289 seconds
+Wall time 0.000317 seconds
+Solution Path: [0, 4, 1, 2, 3, 0]
 Solution Cost: 2.5317732913983138
 Loaded road cost matrix:
 [[0.         0.77166732 0.20644942 0.64645244 0.82233672]
@@ -411,8 +411,8 @@ Loaded road cost matrix:
  [0.82233672 0.90362742 0.72706021 0.74876508 0.        ]]
 Running A*...
 13 paths have been expanded and 15 paths remain in the frontier
-CPU time 0.002750 seconds
-Wall time 0.002864 seconds
+CPU time 0.006346 seconds
+Wall time 0.006715 seconds
 Solution Path: (0, 2, 1, 3, 4, 0)
 Solution Cost: 2.24481691734815
 Loaded road cost matrix:
@@ -422,8 +422,8 @@ Loaded road cost matrix:
  [0.64645244 0.0576696  0.37805993 0.         0.74876508]
  [0.82233672 0.90362742 0.72706021 0.74876508 0.        ]]
 Running nearest neighbor...
-CPU time 0.000025 seconds
-Wall time 0.000032 seconds
+CPU time 0.000034 seconds
+Wall time 0.000045 seconds
 Solution Path: (0, 2, 3, 1, 4, 0)
 Solution Cost: 2.368143097732634
 Loaded road cost matrix:
@@ -433,8 +433,8 @@ Loaded road cost matrix:
  [0.64645244 0.0576696  0.37805993 0.         0.74876508]
  [0.82233672 0.90362742 0.72706021 0.74876508 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000031 seconds
-Wall time 0.000038 seconds
+CPU time 0.000042 seconds
+Wall time 0.000053 seconds
 Solution Path: [0, 2, 3, 1, 4, 0]
 Solution Cost: 2.368143097732634
 Loaded road cost matrix:
@@ -444,8 +444,8 @@ Loaded road cost matrix:
  [0.64645244 0.0576696  0.37805993 0.         0.74876508]
  [0.82233672 0.90362742 0.72706021 0.74876508 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000172 seconds
-Wall time 0.000186 seconds
+CPU time 0.000269 seconds
+Wall time 0.000302 seconds
 Solution Path: [0, 2, 1, 3, 4, 0]
 Solution Cost: 2.2448169173481496
 Loaded road cost matrix:
@@ -457,8 +457,8 @@ Loaded road cost matrix:
  [0.68966397 0.53941728 0.86197912 0.06797575 0.98409899 0.        ]]
 Running A*...
 8 paths have been expanded and 16 paths remain in the frontier
-CPU time 0.003224 seconds
-Wall time 0.003355 seconds
+CPU time 0.006139 seconds
+Wall time 0.006668 seconds
 Solution Path: (0, 1, 5, 3, 2, 4, 0)
 Solution Cost: 2.528452679585759
 Loaded road cost matrix:
@@ -469,8 +469,8 @@ Loaded road cost matrix:
  [0.59223037 0.96165449 0.70768983 0.7303765  0.         0.98409899]
  [0.68966397 0.53941728 0.86197912 0.06797575 0.98409899 0.        ]]
 Running nearest neighbor...
-CPU time 0.000024 seconds
-Wall time 0.000031 seconds
+CPU time 0.000036 seconds
+Wall time 0.000071 seconds
 Solution Path: (0, 1, 5, 3, 2, 4, 0)
 Solution Cost: 2.528452679585759
 Loaded road cost matrix:
@@ -481,8 +481,8 @@ Loaded road cost matrix:
  [0.59223037 0.96165449 0.70768983 0.7303765  0.         0.98409899]
  [0.68966397 0.53941728 0.86197912 0.06797575 0.98409899 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000033 seconds
-Wall time 0.000040 seconds
+CPU time 0.000047 seconds
+Wall time 0.000059 seconds
 Solution Path: [0, 1, 5, 3, 2, 4, 0]
 Solution Cost: 2.528452679585759
 Loaded road cost matrix:
@@ -493,8 +493,8 @@ Loaded road cost matrix:
  [0.59223037 0.96165449 0.70768983 0.7303765  0.         0.98409899]
  [0.68966397 0.53941728 0.86197912 0.06797575 0.98409899 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000263 seconds
-Wall time 0.000279 seconds
+CPU time 0.000844 seconds
+Wall time 0.000947 seconds
 Solution Path: [0, 1, 5, 3, 2, 4, 0]
 Solution Cost: 2.528452679585759
 Loaded road cost matrix:
@@ -506,8 +506,8 @@ Loaded road cost matrix:
  [0.03256218 0.47590317 0.96350714 0.67373853 0.71113634 0.        ]]
 Running A*...
 8 paths have been expanded and 15 paths remain in the frontier
-CPU time 0.003216 seconds
-Wall time 0.003348 seconds
+CPU time 0.006025 seconds
+Wall time 0.006551 seconds
 Solution Path: (0, 2, 3, 1, 4, 5, 0)
 Solution Cost: 1.9351544152417293
 Loaded road cost matrix:
@@ -518,8 +518,8 @@ Loaded road cost matrix:
  [0.99498627 0.45128552 0.71764341 0.52988933 0.         0.71113634]
  [0.03256218 0.47590317 0.96350714 0.67373853 0.71113634 0.        ]]
 Running nearest neighbor...
-CPU time 0.000025 seconds
-Wall time 0.000032 seconds
+CPU time 0.000048 seconds
+Wall time 0.000065 seconds
 Solution Path: (0, 5, 1, 3, 2, 4, 0)
 Solution Cost: 2.4270663159026924
 Loaded road cost matrix:
@@ -530,8 +530,8 @@ Loaded road cost matrix:
  [0.99498627 0.45128552 0.71764341 0.52988933 0.         0.71113634]
  [0.03256218 0.47590317 0.96350714 0.67373853 0.71113634 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000032 seconds
-Wall time 0.000040 seconds
+CPU time 0.000048 seconds
+Wall time 0.000061 seconds
 Solution Path: [0, 5, 1, 3, 2, 4, 0]
 Solution Cost: 2.4270663159026924
 Loaded road cost matrix:
@@ -542,10 +542,10 @@ Loaded road cost matrix:
  [0.99498627 0.45128552 0.71764341 0.52988933 0.         0.71113634]
  [0.03256218 0.47590317 0.96350714 0.67373853 0.71113634 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000256 seconds
-Wall time 0.000272 seconds
-Solution Path: [0, 5, 4, 1, 3, 2, 0]
-Solution Cost: 1.9351544152417293
+CPU time 0.000427 seconds
+Wall time 0.000482 seconds
+Solution Path: [0, 2, 3, 4, 1, 5, 0]
+Solution Cost: 2.1774769564758523
 Loaded road cost matrix:
 [[0.         0.10327208 0.69152171 0.98645025 0.68937703 0.22220281]
  [0.10327208 0.         0.34563156 0.1419003  0.49572155 0.93101244]
@@ -555,8 +555,8 @@ Loaded road cost matrix:
  [0.22220281 0.93101244 0.32324414 0.76886313 0.677847   0.        ]]
 Running A*...
 13 paths have been expanded and 24 paths remain in the frontier
-CPU time 0.004591 seconds
-Wall time 0.004767 seconds
+CPU time 0.009731 seconds
+Wall time 0.010577 seconds
 Solution Path: (0, 5, 2, 4, 3, 1, 0)
 Solution Cost: 1.8823937233944261
 Loaded road cost matrix:
@@ -567,8 +567,8 @@ Loaded road cost matrix:
  [0.68937703 0.49572155 0.12554917 0.96622522 0.         0.677847  ]
  [0.22220281 0.93101244 0.32324414 0.76886313 0.677847   0.        ]]
 Running nearest neighbor...
-CPU time 0.000028 seconds
-Wall time 0.000036 seconds
+CPU time 0.000084 seconds
+Wall time 0.000116 seconds
 Solution Path: (0, 1, 3, 5, 2, 4, 0)
 Solution Cost: 2.15220584840677
 Loaded road cost matrix:
@@ -579,8 +579,8 @@ Loaded road cost matrix:
  [0.68937703 0.49572155 0.12554917 0.96622522 0.         0.677847  ]
  [0.22220281 0.93101244 0.32324414 0.76886313 0.677847   0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000042 seconds
-Wall time 0.000049 seconds
+CPU time 0.000093 seconds
+Wall time 0.000123 seconds
 Solution Path: [0, 1, 3, 4, 2, 5, 0]
 Solution Cost: 1.8823937233944263
 Loaded road cost matrix:
@@ -591,10 +591,10 @@ Loaded road cost matrix:
  [0.68937703 0.49572155 0.12554917 0.96622522 0.         0.677847  ]
  [0.22220281 0.93101244 0.32324414 0.76886313 0.677847   0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000262 seconds
-Wall time 0.000278 seconds
-Solution Path: [0, 1, 3, 4, 2, 5, 0]
-Solution Cost: 1.8823937233944255
+CPU time 0.000543 seconds
+Wall time 0.000608 seconds
+Solution Path: [0, 5, 2, 4, 3, 1, 0]
+Solution Cost: 1.8823937233944261
 Loaded road cost matrix:
 [[0.         0.12925639 0.43581239 0.36484958 0.70166028 0.19136554]
  [0.12925639 0.         0.56337729 0.56093458 0.59659965 0.72319018]
@@ -604,8 +604,8 @@ Loaded road cost matrix:
  [0.19136554 0.72319018 0.73770946 0.54809258 0.56234174 0.        ]]
 Running A*...
 7 paths have been expanded and 13 paths remain in the frontier
-CPU time 0.002667 seconds
-Wall time 0.002772 seconds
+CPU time 0.005013 seconds
+Wall time 0.005453 seconds
 Solution Path: (0, 1, 2, 4, 3, 5, 0)
 Solution Cost: 1.6916940635214188
 Loaded road cost matrix:
@@ -616,8 +616,8 @@ Loaded road cost matrix:
  [0.70166028 0.59659965 0.06685949 0.19274278 0.         0.56234174]
  [0.19136554 0.72319018 0.73770946 0.54809258 0.56234174 0.        ]]
 Running nearest neighbor...
-CPU time 0.000025 seconds
-Wall time 0.000032 seconds
+CPU time 0.000050 seconds
+Wall time 0.000069 seconds
 Solution Path: (0, 1, 3, 4, 2, 5, 0)
 Solution Cost: 1.8788682418386364
 Loaded road cost matrix:
@@ -628,8 +628,8 @@ Loaded road cost matrix:
  [0.70166028 0.59659965 0.06685949 0.19274278 0.         0.56234174]
  [0.19136554 0.72319018 0.73770946 0.54809258 0.56234174 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000039 seconds
-Wall time 0.000047 seconds
+CPU time 0.000055 seconds
+Wall time 0.000068 seconds
 Solution Path: [0, 1, 2, 4, 3, 5, 0]
 Solution Cost: 1.6916940635214193
 Loaded road cost matrix:
@@ -640,10 +640,10 @@ Loaded road cost matrix:
  [0.70166028 0.59659965 0.06685949 0.19274278 0.         0.56234174]
  [0.19136554 0.72319018 0.73770946 0.54809258 0.56234174 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000292 seconds
-Wall time 0.000309 seconds
+CPU time 0.000787 seconds
+Wall time 0.000889 seconds
 Solution Path: [0, 1, 2, 4, 3, 5, 0]
-Solution Cost: 1.6916940635214188
+Solution Cost: 1.6916940635214186
 Loaded road cost matrix:
 [[0.         0.47086739 0.51429629 0.99714965 0.35759955 0.78218375]
  [0.47086739 0.         0.80390506 0.09177951 0.75121998 0.49383889]
@@ -653,8 +653,8 @@ Loaded road cost matrix:
  [0.78218375 0.49383889 0.96903354 0.09116907 0.12979249 0.        ]]
 Running A*...
 13 paths have been expanded and 24 paths remain in the frontier
-CPU time 0.004420 seconds
-Wall time 0.004589 seconds
+CPU time 0.007538 seconds
+Wall time 0.008182 seconds
 Solution Path: (0, 2, 3, 1, 5, 4, 0)
 Solution Cost: 1.5976671041457715
 Loaded road cost matrix:
@@ -665,8 +665,8 @@ Loaded road cost matrix:
  [0.35759955 0.75121998 0.43388405 0.49260945 0.         0.12979249]
  [0.78218375 0.49383889 0.96903354 0.09116907 0.12979249 0.        ]]
 Running nearest neighbor...
-CPU time 0.000027 seconds
-Wall time 0.000035 seconds
+CPU time 0.000040 seconds
+Wall time 0.000052 seconds
 Solution Path: (0, 4, 5, 3, 2, 1, 0)
 Solution Cost: 1.8636939326652378
 Loaded road cost matrix:
@@ -677,8 +677,8 @@ Loaded road cost matrix:
  [0.35759955 0.75121998 0.43388405 0.49260945 0.         0.12979249]
  [0.78218375 0.49383889 0.96903354 0.09116907 0.12979249 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000041 seconds
-Wall time 0.000049 seconds
+CPU time 0.000057 seconds
+Wall time 0.000070 seconds
 Solution Path: [0, 4, 2, 3, 5, 1, 0]
 Solution Cost: 1.857719326871168
 Loaded road cost matrix:
@@ -689,8 +689,8 @@ Loaded road cost matrix:
  [0.35759955 0.75121998 0.43388405 0.49260945 0.         0.12979249]
  [0.78218375 0.49383889 0.96903354 0.09116907 0.12979249 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000239 seconds
-Wall time 0.000255 seconds
+CPU time 0.000595 seconds
+Wall time 0.000659 seconds
 Solution Path: [0, 4, 5, 1, 3, 2, 0]
 Solution Cost: 1.5976671041457706
 Loaded road cost matrix:
@@ -702,8 +702,8 @@ Loaded road cost matrix:
  [0.54566374 0.3296043  0.71561793 0.04608005 0.60354014 0.        ]]
 Running A*...
 14 paths have been expanded and 25 paths remain in the frontier
-CPU time 0.004522 seconds
-Wall time 0.004695 seconds
+CPU time 0.006529 seconds
+Wall time 0.007089 seconds
 Solution Path: (0, 2, 3, 5, 1, 4, 0)
 Solution Cost: 1.1161428743466808
 Loaded road cost matrix:
@@ -714,8 +714,8 @@ Loaded road cost matrix:
  [0.30745259 0.12340493 0.60862543 0.24891037 0.         0.60354014]
  [0.54566374 0.3296043  0.71561793 0.04608005 0.60354014 0.        ]]
 Running nearest neighbor...
-CPU time 0.000026 seconds
-Wall time 0.000033 seconds
+CPU time 0.000031 seconds
+Wall time 0.000042 seconds
 Solution Path: (0, 3, 5, 1, 4, 2, 0)
 Solution Cost: 1.2742257044821552
 Loaded road cost matrix:
@@ -726,8 +726,8 @@ Loaded road cost matrix:
  [0.30745259 0.12340493 0.60862543 0.24891037 0.         0.60354014]
  [0.54566374 0.3296043  0.71561793 0.04608005 0.60354014 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000037 seconds
-Wall time 0.000044 seconds
+CPU time 0.000052 seconds
+Wall time 0.000064 seconds
 Solution Path: [0, 4, 1, 5, 3, 2, 0]
 Solution Cost: 1.1161428743466806
 Loaded road cost matrix:
@@ -738,8 +738,8 @@ Loaded road cost matrix:
  [0.30745259 0.12340493 0.60862543 0.24891037 0.         0.60354014]
  [0.54566374 0.3296043  0.71561793 0.04608005 0.60354014 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000296 seconds
-Wall time 0.000314 seconds
+CPU time 0.000664 seconds
+Wall time 0.000738 seconds
 Solution Path: [0, 2, 3, 5, 1, 4, 0]
 Solution Cost: 1.1161428743466801
 Loaded road cost matrix:
@@ -751,8 +751,8 @@ Loaded road cost matrix:
  [0.55255284 0.57726838 0.1423245  0.15826532 0.1270247  0.        ]]
 Running A*...
 9 paths have been expanded and 16 paths remain in the frontier
-CPU time 0.003144 seconds
-Wall time 0.003274 seconds
+CPU time 0.004912 seconds
+Wall time 0.005338 seconds
 Solution Path: (0, 2, 3, 4, 5, 1, 0)
 Solution Cost: 1.1881670378610767
 Loaded road cost matrix:
@@ -763,8 +763,8 @@ Loaded road cost matrix:
  [0.31819821 0.86688397 0.440314   0.38479127 0.         0.1270247 ]
  [0.55255284 0.57726838 0.1423245  0.15826532 0.1270247  0.        ]]
 Running nearest neighbor...
-CPU time 0.000026 seconds
-Wall time 0.000034 seconds
+CPU time 0.000064 seconds
+Wall time 0.000083 seconds
 Solution Path: (0, 2, 3, 5, 4, 1, 0)
 Solution Cost: 1.2512566696253151
 Loaded road cost matrix:
@@ -775,8 +775,8 @@ Loaded road cost matrix:
  [0.31819821 0.86688397 0.440314   0.38479127 0.         0.1270247 ]
  [0.55255284 0.57726838 0.1423245  0.15826532 0.1270247  0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000035 seconds
-Wall time 0.000042 seconds
+CPU time 0.000073 seconds
+Wall time 0.000087 seconds
 Solution Path: [0, 2, 3, 5, 4, 1, 0]
 Solution Cost: 1.2512566696253151
 Loaded road cost matrix:
@@ -787,10 +787,10 @@ Loaded road cost matrix:
  [0.31819821 0.86688397 0.440314   0.38479127 0.         0.1270247 ]
  [0.55255284 0.57726838 0.1423245  0.15826532 0.1270247  0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000313 seconds
-Wall time 0.000331 seconds
-Solution Path: [0, 1, 5, 4, 3, 2, 0]
-Solution Cost: 1.188167037861076
+CPU time 0.000659 seconds
+Wall time 0.000730 seconds
+Solution Path: [0, 2, 3, 4, 5, 1, 0]
+Solution Cost: 1.1881670378610767
 Loaded road cost matrix:
 [[0.00000000e+00 1.56980780e-01 5.79275471e-01 6.97860462e-01
   1.93413624e-02 1.21143851e-01]
@@ -806,8 +806,8 @@ Loaded road cost matrix:
   7.49610164e-04 0.00000000e+00]]
 Running A*...
 10 paths have been expanded and 19 paths remain in the frontier
-CPU time 0.003587 seconds
-Wall time 0.003733 seconds
+CPU time 0.007257 seconds
+Wall time 0.007876 seconds
 Solution Path: (0, 1, 3, 2, 4, 5, 0)
 Solution Cost: 1.0398107608044687
 Loaded road cost matrix:
@@ -824,8 +824,8 @@ Loaded road cost matrix:
  [1.21143851e-01 3.21464376e-01 5.18034790e-01 2.42844943e-01
   7.49610164e-04 0.00000000e+00]]
 Running nearest neighbor...
-CPU time 0.000027 seconds
-Wall time 0.000034 seconds
+CPU time 0.000030 seconds
+Wall time 0.000040 seconds
 Solution Path: (0, 4, 5, 3, 1, 2, 0)
 Solution Cost: 1.5806552127828764
 Loaded road cost matrix:
@@ -842,8 +842,8 @@ Loaded road cost matrix:
  [1.21143851e-01 3.21464376e-01 5.18034790e-01 2.42844943e-01
   7.49610164e-04 0.00000000e+00]]
 Running nearest neighbor 2 opt...
-CPU time 0.000043 seconds
-Wall time 0.000052 seconds
+CPU time 0.000105 seconds
+Wall time 0.000126 seconds
 Solution Path: [0, 1, 3, 2, 4, 5, 0]
 Solution Cost: 1.0398107608044687
 Loaded road cost matrix:
@@ -860,8 +860,8 @@ Loaded road cost matrix:
  [1.21143851e-01 3.21464376e-01 5.18034790e-01 2.42844943e-01
   7.49610164e-04 0.00000000e+00]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000300 seconds
-Wall time 0.000319 seconds
+CPU time 0.000510 seconds
+Wall time 0.000568 seconds
 Solution Path: [0, 1, 3, 2, 4, 5, 0]
 Solution Cost: 1.0398107608044684
 Loaded road cost matrix:
@@ -873,8 +873,8 @@ Loaded road cost matrix:
  [0.16600325 0.78529939 0.96925139 0.86221514 0.10250189 0.        ]]
 Running A*...
 9 paths have been expanded and 16 paths remain in the frontier
-CPU time 0.003030 seconds
-Wall time 0.003155 seconds
+CPU time 0.004610 seconds
+Wall time 0.005006 seconds
 Solution Path: (0, 3, 1, 2, 4, 5, 0)
 Solution Cost: 1.194238258636424
 Loaded road cost matrix:
@@ -885,8 +885,8 @@ Loaded road cost matrix:
  [0.61271976 0.90455039 0.59225838 0.69064059 0.         0.10250189]
  [0.16600325 0.78529939 0.96925139 0.86221514 0.10250189 0.        ]]
 Running nearest neighbor...
-CPU time 0.000025 seconds
-Wall time 0.000031 seconds
+CPU time 0.000036 seconds
+Wall time 0.000049 seconds
 Solution Path: (0, 3, 1, 2, 4, 5, 0)
 Solution Cost: 1.194238258636424
 Loaded road cost matrix:
@@ -897,8 +897,8 @@ Loaded road cost matrix:
  [0.61271976 0.90455039 0.59225838 0.69064059 0.         0.10250189]
  [0.16600325 0.78529939 0.96925139 0.86221514 0.10250189 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000036 seconds
-Wall time 0.000044 seconds
+CPU time 0.000064 seconds
+Wall time 0.000079 seconds
 Solution Path: [0, 3, 1, 2, 4, 5, 0]
 Solution Cost: 1.194238258636424
 Loaded road cost matrix:
@@ -909,10 +909,10 @@ Loaded road cost matrix:
  [0.61271976 0.90455039 0.59225838 0.69064059 0.         0.10250189]
  [0.16600325 0.78529939 0.96925139 0.86221514 0.10250189 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000261 seconds
-Wall time 0.000279 seconds
-Solution Path: [0, 5, 4, 2, 1, 3, 0]
-Solution Cost: 1.194238258636424
+CPU time 0.000383 seconds
+Wall time 0.000423 seconds
+Solution Path: [0, 3, 1, 2, 4, 5, 0]
+Solution Cost: 1.1942382586364235
 Loaded road cost matrix:
 [[0.         0.94266868 0.53671998 0.03429763 0.95219636 0.89116479]
  [0.94266868 0.         0.3495174  0.85241973 0.24714326 0.54455056]
@@ -922,8 +922,8 @@ Loaded road cost matrix:
  [0.89116479 0.54455056 0.03370958 0.25937853 0.39784305 0.        ]]
 Running A*...
 10 paths have been expanded and 18 paths remain in the frontier
-CPU time 0.003504 seconds
-Wall time 0.003648 seconds
+CPU time 0.005501 seconds
+Wall time 0.005974 seconds
 Solution Path: (0, 3, 4, 1, 5, 2, 0)
 Solution Cost: 1.5104565008345692
 Loaded road cost matrix:
@@ -934,8 +934,8 @@ Loaded road cost matrix:
  [0.95219636 0.24714326 0.26773535 0.11403549 0.         0.39784305]
  [0.89116479 0.54455056 0.03370958 0.25937853 0.39784305 0.        ]]
 Running nearest neighbor...
-CPU time 0.000026 seconds
-Wall time 0.000033 seconds
+CPU time 0.000035 seconds
+Wall time 0.000047 seconds
 Solution Path: (0, 3, 4, 1, 2, 5, 0)
 Solution Cost: 1.6698681546552065
 Loaded road cost matrix:
@@ -946,8 +946,8 @@ Loaded road cost matrix:
  [0.95219636 0.24714326 0.26773535 0.11403549 0.         0.39784305]
  [0.89116479 0.54455056 0.03370958 0.25937853 0.39784305 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000035 seconds
-Wall time 0.000043 seconds
+CPU time 0.000052 seconds
+Wall time 0.000066 seconds
 Solution Path: [0, 3, 4, 1, 2, 5, 0]
 Solution Cost: 1.6698681546552065
 Loaded road cost matrix:
@@ -958,10 +958,10 @@ Loaded road cost matrix:
  [0.95219636 0.24714326 0.26773535 0.11403549 0.         0.39784305]
  [0.89116479 0.54455056 0.03370958 0.25937853 0.39784305 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000252 seconds
-Wall time 0.000269 seconds
+CPU time 0.000421 seconds
+Wall time 0.000469 seconds
 Solution Path: [0, 3, 4, 1, 5, 2, 0]
-Solution Cost: 1.5104565008345692
+Solution Cost: 1.5104565008345685
 Loaded road cost matrix:
 [[0.         0.11321741 0.86888057 0.26394527 0.16105869 0.92926543
   0.1030833 ]
@@ -979,8 +979,8 @@ Loaded road cost matrix:
   0.        ]]
 Running A*...
 10 paths have been expanded and 24 paths remain in the frontier
-CPU time 0.004736 seconds
-Wall time 0.004932 seconds
+CPU time 0.006576 seconds
+Wall time 0.007137 seconds
 Solution Path: (0, 3, 2, 4, 1, 5, 6, 0)
 Solution Cost: 1.2565614164219046
 Loaded road cost matrix:
@@ -999,7 +999,7 @@ Loaded road cost matrix:
  [0.1030833  0.5892996  0.39805775 0.79438199 0.43731736 0.41187087
   0.        ]]
 Running nearest neighbor...
-CPU time 0.000039 seconds
+CPU time 0.000035 seconds
 Wall time 0.000047 seconds
 Solution Path: (0, 6, 2, 3, 4, 1, 5, 0)
 Solution Cost: 2.3359016161129187
@@ -1019,8 +1019,8 @@ Loaded road cost matrix:
  [0.1030833  0.5892996  0.39805775 0.79438199 0.43731736 0.41187087
   0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000057 seconds
-Wall time 0.000064 seconds
+CPU time 0.000076 seconds
+Wall time 0.000090 seconds
 Solution Path: [0, 6, 5, 2, 3, 4, 1, 0]
 Solution Cost: 2.1616747818402455
 Loaded road cost matrix:
@@ -1039,10 +1039,10 @@ Loaded road cost matrix:
  [0.1030833  0.5892996  0.39805775 0.79438199 0.43731736 0.41187087
   0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000506 seconds
-Wall time 0.000533 seconds
+CPU time 0.001028 seconds
+Wall time 0.001129 seconds
 Solution Path: [0, 3, 2, 4, 1, 5, 6, 0]
-Solution Cost: 1.2565614164219032
+Solution Cost: 1.2565614164219039
 Loaded road cost matrix:
 [[0.         0.43199334 0.73698061 0.21659006 0.28126187 0.77887439
   0.21530827]
@@ -1060,8 +1060,8 @@ Loaded road cost matrix:
   0.        ]]
 Running A*...
 18 paths have been expanded and 48 paths remain in the frontier
-CPU time 0.008989 seconds
-Wall time 0.009356 seconds
+CPU time 0.014243 seconds
+Wall time 0.015448 seconds
 Solution Path: (0, 3, 1, 4, 2, 5, 6, 0)
 Solution Cost: 1.5157755470091274
 Loaded road cost matrix:
@@ -1080,8 +1080,8 @@ Loaded road cost matrix:
  [0.21530827 0.96255324 0.93362754 0.87500596 0.09708044 0.03804482
   0.        ]]
 Running nearest neighbor...
-CPU time 0.000026 seconds
-Wall time 0.000034 seconds
+CPU time 0.000038 seconds
+Wall time 0.000050 seconds
 Solution Path: (0, 6, 5, 2, 4, 1, 3, 0)
 Solution Cost: 1.5157755470091276
 Loaded road cost matrix:
@@ -1100,8 +1100,8 @@ Loaded road cost matrix:
  [0.21530827 0.96255324 0.93362754 0.87500596 0.09708044 0.03804482
   0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000039 seconds
-Wall time 0.000046 seconds
+CPU time 0.000053 seconds
+Wall time 0.000067 seconds
 Solution Path: [0, 6, 5, 2, 4, 1, 3, 0]
 Solution Cost: 1.5157755470091276
 Loaded road cost matrix:
@@ -1120,8 +1120,8 @@ Loaded road cost matrix:
  [0.21530827 0.96255324 0.93362754 0.87500596 0.09708044 0.03804482
   0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000597 seconds
-Wall time 0.000627 seconds
+CPU time 0.000783 seconds
+Wall time 0.000860 seconds
 Solution Path: [0, 6, 5, 2, 4, 1, 3, 0]
 Solution Cost: 1.5157755470091272
 Loaded road cost matrix:
@@ -1141,8 +1141,8 @@ Loaded road cost matrix:
   0.        ]]
 Running A*...
 12 paths have been expanded and 26 paths remain in the frontier
-CPU time 0.004670 seconds
-Wall time 0.004866 seconds
+CPU time 0.006807 seconds
+Wall time 0.007407 seconds
 Solution Path: (0, 2, 1, 4, 3, 6, 5, 0)
 Solution Cost: 1.8334632955454255
 Loaded road cost matrix:
@@ -1161,8 +1161,8 @@ Loaded road cost matrix:
  [0.75748346 0.89802862 0.8832822  0.51197153 0.25332349 0.21824776
   0.        ]]
 Running nearest neighbor...
-CPU time 0.000027 seconds
-Wall time 0.000034 seconds
+CPU time 0.000037 seconds
+Wall time 0.000049 seconds
 Solution Path: (0, 2, 1, 4, 6, 5, 3, 0)
 Solution Cost: 2.349719215762945
 Loaded road cost matrix:
@@ -1181,8 +1181,8 @@ Loaded road cost matrix:
  [0.75748346 0.89802862 0.8832822  0.51197153 0.25332349 0.21824776
   0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000049 seconds
-Wall time 0.000057 seconds
+CPU time 0.000058 seconds
+Wall time 0.000073 seconds
 Solution Path: [0, 2, 3, 5, 6, 4, 1, 0]
 Solution Cost: 2.2389337632639386
 Loaded road cost matrix:
@@ -1201,9 +1201,9 @@ Loaded road cost matrix:
  [0.75748346 0.89802862 0.8832822  0.51197153 0.25332349 0.21824776
   0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000417 seconds
-Wall time 0.000439 seconds
-Solution Path: [0, 5, 6, 3, 4, 1, 2, 0]
+CPU time 0.000831 seconds
+Wall time 0.000912 seconds
+Solution Path: [0, 2, 1, 4, 3, 6, 5, 0]
 Solution Cost: 1.833463295545425
 Loaded road cost matrix:
 [[0.         0.11986645 0.06920313 0.51294809 0.15269088 0.10051182
@@ -1222,8 +1222,8 @@ Loaded road cost matrix:
   0.        ]]
 Running A*...
 12 paths have been expanded and 27 paths remain in the frontier
-CPU time 0.005089 seconds
-Wall time 0.005302 seconds
+CPU time 0.022410 seconds
+Wall time 0.024310 seconds
 Solution Path: (0, 5, 3, 2, 4, 1, 6, 0)
 Solution Cost: 1.3025321576402118
 Loaded road cost matrix:
@@ -1242,8 +1242,8 @@ Loaded road cost matrix:
  [0.05293631 0.31046436 0.47061212 0.50682992 0.79764788 0.58056897
   0.        ]]
 Running nearest neighbor...
-CPU time 0.000028 seconds
-Wall time 0.000035 seconds
+CPU time 0.000045 seconds
+Wall time 0.000058 seconds
 Solution Path: (0, 6, 1, 4, 2, 3, 5, 0)
 Solution Cost: 1.3025321576402118
 Loaded road cost matrix:
@@ -1262,8 +1262,8 @@ Loaded road cost matrix:
  [0.05293631 0.31046436 0.47061212 0.50682992 0.79764788 0.58056897
   0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000037 seconds
-Wall time 0.000044 seconds
+CPU time 0.000087 seconds
+Wall time 0.000110 seconds
 Solution Path: [0, 6, 1, 4, 2, 3, 5, 0]
 Solution Cost: 1.3025321576402118
 Loaded road cost matrix:
@@ -1282,10 +1282,10 @@ Loaded road cost matrix:
  [0.05293631 0.31046436 0.47061212 0.50682992 0.79764788 0.58056897
   0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000431 seconds
-Wall time 0.000454 seconds
-Solution Path: [0, 6, 1, 4, 2, 3, 5, 0]
-Solution Cost: 1.3025321576402114
+CPU time 0.000730 seconds
+Wall time 0.000805 seconds
+Solution Path: [0, 5, 3, 2, 4, 1, 6, 0]
+Solution Cost: 1.3025321576402118
 Loaded road cost matrix:
 [[0.         0.77346421 0.05688869 0.54653338 0.49309841 0.56296281
   0.20325975]
@@ -1303,8 +1303,8 @@ Loaded road cost matrix:
   0.        ]]
 Running A*...
 11 paths have been expanded and 25 paths remain in the frontier
-CPU time 0.004644 seconds
-Wall time 0.004819 seconds
+CPU time 0.008242 seconds
+Wall time 0.008956 seconds
 Solution Path: (0, 2, 3, 6, 1, 5, 4, 0)
 Solution Cost: 1.313021823108726
 Loaded road cost matrix:
@@ -1323,8 +1323,8 @@ Loaded road cost matrix:
  [0.20325975 0.12825706 0.74849714 0.11023493 0.36013581 0.70829742
   0.        ]]
 Running nearest neighbor...
-CPU time 0.000025 seconds
-Wall time 0.000032 seconds
+CPU time 0.000036 seconds
+Wall time 0.000048 seconds
 Solution Path: (0, 2, 3, 6, 1, 5, 4, 0)
 Solution Cost: 1.313021823108726
 Loaded road cost matrix:
@@ -1343,8 +1343,8 @@ Loaded road cost matrix:
  [0.20325975 0.12825706 0.74849714 0.11023493 0.36013581 0.70829742
   0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000039 seconds
-Wall time 0.000046 seconds
+CPU time 0.000059 seconds
+Wall time 0.000075 seconds
 Solution Path: [0, 2, 3, 6, 1, 5, 4, 0]
 Solution Cost: 1.313021823108726
 Loaded road cost matrix:
@@ -1363,9 +1363,9 @@ Loaded road cost matrix:
  [0.20325975 0.12825706 0.74849714 0.11023493 0.36013581 0.70829742
   0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000413 seconds
-Wall time 0.000435 seconds
-Solution Path: [0, 2, 3, 6, 1, 5, 4, 0]
+CPU time 0.000643 seconds
+Wall time 0.000711 seconds
+Solution Path: [0, 4, 5, 1, 6, 3, 2, 0]
 Solution Cost: 1.3130218231087256
 Loaded road cost matrix:
 [[0.         0.43540979 0.84691327 0.0256666  0.90166074 0.77957836
@@ -1384,8 +1384,8 @@ Loaded road cost matrix:
   0.        ]]
 Running A*...
 13 paths have been expanded and 25 paths remain in the frontier
-CPU time 0.004692 seconds
-Wall time 0.004869 seconds
+CPU time 0.006956 seconds
+Wall time 0.007553 seconds
 Solution Path: (0, 3, 5, 2, 4, 6, 1, 0)
 Solution Cost: 1.1282019661537166
 Loaded road cost matrix:
@@ -1404,8 +1404,8 @@ Loaded road cost matrix:
  [0.82396671 0.04496938 0.17467766 0.18807741 0.02027298 0.09322474
   0.        ]]
 Running nearest neighbor...
-CPU time 0.000027 seconds
-Wall time 0.000035 seconds
+CPU time 0.000064 seconds
+Wall time 0.000078 seconds
 Solution Path: (0, 3, 5, 6, 4, 2, 1, 0)
 Solution Cost: 1.6009955694893976
 Loaded road cost matrix:
@@ -1424,8 +1424,8 @@ Loaded road cost matrix:
  [0.82396671 0.04496938 0.17467766 0.18807741 0.02027298 0.09322474
   0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000049 seconds
-Wall time 0.000057 seconds
+CPU time 0.000095 seconds
+Wall time 0.000119 seconds
 Solution Path: [0, 3, 5, 2, 4, 6, 1, 0]
 Solution Cost: 1.1282019661537166
 Loaded road cost matrix:
@@ -1444,8 +1444,8 @@ Loaded road cost matrix:
  [0.82396671 0.04496938 0.17467766 0.18807741 0.02027298 0.09322474
   0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000540 seconds
-Wall time 0.000567 seconds
+CPU time 0.000766 seconds
+Wall time 0.000847 seconds
 Solution Path: [0, 3, 5, 2, 4, 6, 1, 0]
 Solution Cost: 1.1282019661537157
 Loaded road cost matrix:
@@ -1465,8 +1465,8 @@ Loaded road cost matrix:
   0.        ]]
 Running A*...
 31 paths have been expanded and 83 paths remain in the frontier
-CPU time 0.015518 seconds
-Wall time 0.016082 seconds
+CPU time 0.032517 seconds
+Wall time 0.035261 seconds
 Solution Path: (0, 3, 2, 5, 6, 1, 4, 0)
 Solution Cost: 2.41862259274524
 Loaded road cost matrix:
@@ -1485,8 +1485,8 @@ Loaded road cost matrix:
  [0.69657105 0.42382474 0.87918626 0.86189506 0.62247391 0.4651564
   0.        ]]
 Running nearest neighbor...
-CPU time 0.000026 seconds
-Wall time 0.000033 seconds
+CPU time 0.000052 seconds
+Wall time 0.000065 seconds
 Solution Path: (0, 3, 2, 5, 6, 1, 4, 0)
 Solution Cost: 2.41862259274524
 Loaded road cost matrix:
@@ -1505,8 +1505,8 @@ Loaded road cost matrix:
  [0.69657105 0.42382474 0.87918626 0.86189506 0.62247391 0.4651564
   0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000039 seconds
-Wall time 0.000046 seconds
+CPU time 0.000085 seconds
+Wall time 0.000101 seconds
 Solution Path: [0, 3, 2, 5, 6, 1, 4, 0]
 Solution Cost: 2.41862259274524
 Loaded road cost matrix:
@@ -1525,10 +1525,10 @@ Loaded road cost matrix:
  [0.69657105 0.42382474 0.87918626 0.86189506 0.62247391 0.4651564
   0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000387 seconds
-Wall time 0.000407 seconds
+CPU time 0.000697 seconds
+Wall time 0.000775 seconds
 Solution Path: [0, 4, 1, 6, 5, 2, 3, 0]
-Solution Cost: 2.41862259274524
+Solution Cost: 2.4186225927452405
 Loaded road cost matrix:
 [[0.         0.03875121 0.67909691 0.17984734 0.58012019 0.57366744
   0.08687263]
@@ -1546,8 +1546,8 @@ Loaded road cost matrix:
   0.        ]]
 Running A*...
 13 paths have been expanded and 34 paths remain in the frontier
-CPU time 0.006565 seconds
-Wall time 0.006809 seconds
+CPU time 0.009702 seconds
+Wall time 0.010526 seconds
 Solution Path: (0, 1, 6, 2, 5, 4, 3, 0)
 Solution Cost: 0.9805945810767346
 Loaded road cost matrix:
@@ -1566,8 +1566,8 @@ Loaded road cost matrix:
  [0.08687263 0.05383928 0.1027403  0.65281698 0.41155036 0.58778628
   0.        ]]
 Running nearest neighbor...
-CPU time 0.000027 seconds
-Wall time 0.000034 seconds
+CPU time 0.000045 seconds
+Wall time 0.000060 seconds
 Solution Path: (0, 1, 6, 2, 5, 4, 3, 0)
 Solution Cost: 0.9805945810767346
 Loaded road cost matrix:
@@ -1586,8 +1586,8 @@ Loaded road cost matrix:
  [0.08687263 0.05383928 0.1027403  0.65281698 0.41155036 0.58778628
   0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000039 seconds
-Wall time 0.000046 seconds
+CPU time 0.000062 seconds
+Wall time 0.000077 seconds
 Solution Path: [0, 1, 6, 2, 5, 4, 3, 0]
 Solution Cost: 0.9805945810767346
 Loaded road cost matrix:
@@ -1606,10 +1606,10 @@ Loaded road cost matrix:
  [0.08687263 0.05383928 0.1027403  0.65281698 0.41155036 0.58778628
   0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000407 seconds
-Wall time 0.000429 seconds
-Solution Path: [0, 3, 4, 5, 2, 6, 1, 0]
-Solution Cost: 0.9805945810767345
+CPU time 0.000818 seconds
+Wall time 0.000897 seconds
+Solution Path: [0, 6, 1, 2, 5, 4, 3, 0]
+Solution Cost: 1.0405325216019783
 Loaded road cost matrix:
 [[0.         0.07138517 0.02330989 0.08967727 0.67184237 0.00903914
   0.90095463]
@@ -1627,8 +1627,8 @@ Loaded road cost matrix:
   0.        ]]
 Running A*...
 19 paths have been expanded and 45 paths remain in the frontier
-CPU time 0.008317 seconds
-Wall time 0.008622 seconds
+CPU time 0.015600 seconds
+Wall time 0.016918 seconds
 Solution Path: (0, 2, 3, 6, 4, 1, 5, 0)
 Solution Cost: 1.489459729679411
 Loaded road cost matrix:
@@ -1647,8 +1647,8 @@ Loaded road cost matrix:
  [0.90095463 0.98121104 0.96249414 0.13773402 0.63725402 0.3090341
   0.        ]]
 Running nearest neighbor...
-CPU time 0.000027 seconds
-Wall time 0.000034 seconds
+CPU time 0.000040 seconds
+Wall time 0.000053 seconds
 Solution Path: (0, 5, 1, 4, 3, 6, 2, 0)
 Solution Cost: 1.8281145343907632
 Loaded road cost matrix:
@@ -1667,8 +1667,8 @@ Loaded road cost matrix:
  [0.90095463 0.98121104 0.96249414 0.13773402 0.63725402 0.3090341
   0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000047 seconds
-Wall time 0.000054 seconds
+CPU time 0.000110 seconds
+Wall time 0.000134 seconds
 Solution Path: [0, 5, 6, 3, 4, 1, 2, 0]
 Solution Cost: 1.8108983574525201
 Loaded road cost matrix:
@@ -1687,10 +1687,10 @@ Loaded road cost matrix:
  [0.90095463 0.98121104 0.96249414 0.13773402 0.63725402 0.3090341
   0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000455 seconds
-Wall time 0.000477 seconds
+CPU time 0.000932 seconds
+Wall time 0.001036 seconds
 Solution Path: [0, 2, 3, 6, 4, 1, 5, 0]
-Solution Cost: 1.489459729679411
+Solution Cost: 1.4894597296794114
 Loaded road cost matrix:
 [[0.         0.00927005 0.91538882 0.0262089  0.47835902 0.80430724
   0.20962604]
@@ -1708,8 +1708,8 @@ Loaded road cost matrix:
   0.        ]]
 Running A*...
 15 paths have been expanded and 35 paths remain in the frontier
-CPU time 0.006662 seconds
-Wall time 0.006917 seconds
+CPU time 0.012038 seconds
+Wall time 0.013070 seconds
 Solution Path: (0, 1, 6, 4, 5, 2, 3, 0)
 Solution Cost: 1.7070160804664742
 Loaded road cost matrix:
@@ -1728,8 +1728,8 @@ Loaded road cost matrix:
  [0.20962604 0.26076124 0.92788689 0.79800142 0.24943585 0.76913767
   0.        ]]
 Running nearest neighbor...
-CPU time 0.000025 seconds
-Wall time 0.000032 seconds
+CPU time 0.000038 seconds
+Wall time 0.000051 seconds
 Solution Path: (0, 1, 2, 5, 4, 6, 3, 0)
 Solution Cost: 1.9087993118521194
 Loaded road cost matrix:
@@ -1748,8 +1748,8 @@ Loaded road cost matrix:
  [0.20962604 0.26076124 0.92788689 0.79800142 0.24943585 0.76913767
   0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000060 seconds
-Wall time 0.000069 seconds
+CPU time 0.000061 seconds
+Wall time 0.000076 seconds
 Solution Path: [0, 6, 4, 5, 2, 1, 3, 0]
 Solution Cost: 1.904137998183934
 Loaded road cost matrix:
@@ -1768,10 +1768,10 @@ Loaded road cost matrix:
  [0.20962604 0.26076124 0.92788689 0.79800142 0.24943585 0.76913767
   0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000512 seconds
-Wall time 0.000538 seconds
+CPU time 0.000697 seconds
+Wall time 0.000763 seconds
 Solution Path: [0, 3, 2, 5, 4, 6, 1, 0]
-Solution Cost: 1.7070160804664738
+Solution Cost: 1.7070160804664742
 Loaded road cost matrix:
 [[0.         0.61980055 0.79096916 0.27539206 0.34755103 0.049371
   0.82531554 0.52671455]
@@ -1791,8 +1791,8 @@ Loaded road cost matrix:
   0.34047451 0.        ]]
 Running A*...
 40 paths have been expanded and 114 paths remain in the frontier
-CPU time 0.046513 seconds
-Wall time 0.048261 seconds
+CPU time 0.035658 seconds
+Wall time 0.038648 seconds
 Solution Path: (0, 4, 1, 3, 7, 6, 2, 5, 0)
 Solution Cost: 1.8305706520252591
 Loaded road cost matrix:
@@ -1813,8 +1813,8 @@ Loaded road cost matrix:
  [0.52671455 0.57420825 0.61335329 0.05864868 0.55578472 0.11881754
   0.34047451 0.        ]]
 Running nearest neighbor...
-CPU time 0.000029 seconds
-Wall time 0.000036 seconds
+CPU time 0.000037 seconds
+Wall time 0.000050 seconds
 Solution Path: (0, 5, 7, 3, 6, 2, 4, 1, 0)
 Solution Cost: 1.9130685279446171
 Loaded road cost matrix:
@@ -1835,8 +1835,8 @@ Loaded road cost matrix:
  [0.52671455 0.57420825 0.61335329 0.05864868 0.55578472 0.11881754
   0.34047451 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000056 seconds
-Wall time 0.000065 seconds
+CPU time 0.000117 seconds
+Wall time 0.000145 seconds
 Solution Path: [0, 5, 7, 3, 6, 2, 4, 1, 0]
 Solution Cost: 1.9130685279446171
 Loaded road cost matrix:
@@ -1857,8 +1857,8 @@ Loaded road cost matrix:
  [0.52671455 0.57420825 0.61335329 0.05864868 0.55578472 0.11881754
   0.34047451 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000721 seconds
-Wall time 0.000753 seconds
+CPU time 0.001473 seconds
+Wall time 0.001619 seconds
 Solution Path: [0, 5, 2, 6, 7, 3, 1, 4, 0]
 Solution Cost: 1.8305706520252594
 Loaded road cost matrix:
@@ -1880,8 +1880,8 @@ Loaded road cost matrix:
   0.73545429 0.        ]]
 Running A*...
 80 paths have been expanded and 225 paths remain in the frontier
-CPU time 0.041478 seconds
-Wall time 0.043022 seconds
+CPU time 0.091284 seconds
+Wall time 0.098914 seconds
 Solution Path: (0, 5, 2, 1, 7, 4, 3, 6, 0)
 Solution Cost: 2.007264220753333
 Loaded road cost matrix:
@@ -1902,8 +1902,8 @@ Loaded road cost matrix:
  [0.87146448 0.21115197 0.85230057 0.50621836 0.21080287 0.69163651
   0.73545429 0.        ]]
 Running nearest neighbor...
-CPU time 0.000029 seconds
-Wall time 0.000036 seconds
+CPU time 0.000059 seconds
+Wall time 0.000077 seconds
 Solution Path: (0, 1, 2, 5, 4, 3, 7, 6, 0)
 Solution Cost: 2.1437778787089097
 Loaded road cost matrix:
@@ -1924,8 +1924,8 @@ Loaded road cost matrix:
  [0.87146448 0.21115197 0.85230057 0.50621836 0.21080287 0.69163651
   0.73545429 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000047 seconds
-Wall time 0.000057 seconds
+CPU time 0.000080 seconds
+Wall time 0.000097 seconds
 Solution Path: [0, 1, 2, 5, 4, 3, 7, 6, 0]
 Solution Cost: 2.1437778787089097
 Loaded road cost matrix:
@@ -1946,10 +1946,10 @@ Loaded road cost matrix:
  [0.87146448 0.21115197 0.85230057 0.50621836 0.21080287 0.69163651
   0.73545429 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000607 seconds
-Wall time 0.000635 seconds
-Solution Path: [0, 6, 3, 4, 7, 1, 2, 5, 0]
-Solution Cost: 2.007264220753333
+CPU time 0.001011 seconds
+Wall time 0.001104 seconds
+Solution Path: [0, 5, 2, 1, 7, 4, 3, 6, 0]
+Solution Cost: 2.007264220753332
 Loaded road cost matrix:
 [[0.         0.30143883 0.21873086 0.84365921 0.32641991 0.71629705
   0.39721432 0.75919729]
@@ -1969,8 +1969,8 @@ Loaded road cost matrix:
   0.17263557 0.        ]]
 Running A*...
 34 paths have been expanded and 96 paths remain in the frontier
-CPU time 0.017189 seconds
-Wall time 0.017833 seconds
+CPU time 0.032859 seconds
+Wall time -2.449897 seconds
 Solution Path: (0, 2, 7, 6, 4, 5, 3, 1, 0)
 Solution Cost: 1.4393074478123336
 Loaded road cost matrix:
@@ -1991,8 +1991,8 @@ Loaded road cost matrix:
  [0.75919729 0.80242761 0.17776014 0.39431396 0.96129628 0.71209098
   0.17263557 0.        ]]
 Running nearest neighbor...
-CPU time 0.000044 seconds
-Wall time 0.000052 seconds
+CPU time 0.000040 seconds
+Wall time 0.000054 seconds
 Solution Path: (0, 2, 3, 5, 4, 6, 1, 7, 0)
 Solution Cost: 2.3716677088102034
 Loaded road cost matrix:
@@ -2013,8 +2013,8 @@ Loaded road cost matrix:
  [0.75919729 0.80242761 0.17776014 0.39431396 0.96129628 0.71209098
   0.17263557 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000059 seconds
-Wall time 0.000068 seconds
+CPU time 0.000091 seconds
+Wall time 0.000108 seconds
 Solution Path: [0, 1, 6, 7, 2, 3, 5, 4, 0]
 Solution Cost: 1.50818497243587
 Loaded road cost matrix:
@@ -2035,9 +2035,9 @@ Loaded road cost matrix:
  [0.75919729 0.80242761 0.17776014 0.39431396 0.96129628 0.71209098
   0.17263557 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000744 seconds
-Wall time 0.000778 seconds
-Solution Path: [0, 2, 7, 6, 4, 5, 3, 1, 0]
+CPU time 0.001440 seconds
+Wall time 0.001578 seconds
+Solution Path: [0, 1, 3, 5, 4, 6, 7, 2, 0]
 Solution Cost: 1.4393074478123329
 Loaded road cost matrix:
 [[0.         0.10125987 0.39244699 0.7227616  0.76463184 0.28704143
@@ -2058,8 +2058,8 @@ Loaded road cost matrix:
   0.61412729 0.        ]]
 Running A*...
 11 paths have been expanded and 35 paths remain in the frontier
-CPU time 0.006388 seconds
-Wall time 0.006641 seconds
+CPU time 0.011240 seconds
+Wall time 0.012213 seconds
 Solution Path: (0, 1, 7, 5, 6, 4, 3, 2, 0)
 Solution Cost: 1.4970714153730529
 Loaded road cost matrix:
@@ -2080,8 +2080,8 @@ Loaded road cost matrix:
  [0.57272742 0.12090543 0.44857921 0.59448921 0.47031383 0.02396179
   0.61412729 0.        ]]
 Running nearest neighbor...
-CPU time 0.000029 seconds
-Wall time 0.000037 seconds
+CPU time 0.000050 seconds
+Wall time 0.000063 seconds
 Solution Path: (0, 1, 7, 5, 6, 3, 4, 2, 0)
 Solution Cost: 1.7266622714942557
 Loaded road cost matrix:
@@ -2102,8 +2102,8 @@ Loaded road cost matrix:
  [0.57272742 0.12090543 0.44857921 0.59448921 0.47031383 0.02396179
   0.61412729 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000045 seconds
-Wall time 0.000053 seconds
+CPU time 0.000072 seconds
+Wall time 0.000088 seconds
 Solution Path: [0, 1, 7, 5, 6, 3, 4, 2, 0]
 Solution Cost: 1.7266622714942557
 Loaded road cost matrix:
@@ -2124,10 +2124,10 @@ Loaded road cost matrix:
  [0.57272742 0.12090543 0.44857921 0.59448921 0.47031383 0.02396179
   0.61412729 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000813 seconds
-Wall time 0.000851 seconds
+CPU time 0.002061 seconds
+Wall time 0.002261 seconds
 Solution Path: [0, 2, 3, 4, 6, 5, 7, 1, 0]
-Solution Cost: 1.4970714153730518
+Solution Cost: 1.4970714153730527
 Loaded road cost matrix:
 [[0.         0.16862063 0.54938185 0.08643628 0.45056101 0.9680431
   0.10531097 0.05234201]
@@ -2147,8 +2147,8 @@ Loaded road cost matrix:
   0.0655778  0.        ]]
 Running A*...
 32 paths have been expanded and 101 paths remain in the frontier
-CPU time 0.020016 seconds
-Wall time 0.020780 seconds
+CPU time 0.032622 seconds
+Wall time 0.035378 seconds
 Solution Path: (0, 1, 2, 3, 4, 5, 7, 6, 0)
 Solution Cost: 0.9594453331740527
 Loaded road cost matrix:
@@ -2169,8 +2169,8 @@ Loaded road cost matrix:
  [0.05234201 0.18028993 0.9419587  0.13914608 0.16940304 0.22319566
   0.0655778  0.        ]]
 Running nearest neighbor...
-CPU time 0.000029 seconds
-Wall time 0.000036 seconds
+CPU time 0.000043 seconds
+Wall time 0.000055 seconds
 Solution Path: (0, 7, 6, 1, 2, 4, 3, 5, 0)
 Solution Cost: 2.2473291908414543
 Loaded road cost matrix:
@@ -2191,8 +2191,8 @@ Loaded road cost matrix:
  [0.05234201 0.18028993 0.9419587  0.13914608 0.16940304 0.22319566
   0.0655778  0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000098 seconds
-Wall time 0.000109 seconds
+CPU time 0.000093 seconds
+Wall time 0.000111 seconds
 Solution Path: [0, 3, 5, 4, 2, 1, 6, 7, 0]
 Solution Cost: 1.373717039634841
 Loaded road cost matrix:
@@ -2213,10 +2213,10 @@ Loaded road cost matrix:
  [0.05234201 0.18028993 0.9419587  0.13914608 0.16940304 0.22319566
   0.0655778  0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000541 seconds
-Wall time 0.000568 seconds
-Solution Path: [0, 6, 7, 5, 4, 3, 2, 1, 0]
-Solution Cost: 0.9594453331740523
+CPU time 0.001062 seconds
+Wall time 0.001164 seconds
+Solution Path: [0, 1, 2, 3, 4, 5, 7, 6, 0]
+Solution Cost: 0.9594453331740518
 Loaded road cost matrix:
 [[0.         0.58420126 0.91416818 0.85813352 0.32131034 0.75901386
   0.18996923 0.00334078]
@@ -2236,8 +2236,8 @@ Loaded road cost matrix:
   0.43406835 0.        ]]
 Running A*...
 16 paths have been expanded and 48 paths remain in the frontier
-CPU time 0.016451 seconds
-Wall time 0.017080 seconds
+CPU time 0.015715 seconds
+Wall time 0.017043 seconds
 Solution Path: (0, 7, 2, 5, 1, 3, 4, 6, 0)
 Solution Cost: 1.9503189621507924
 Loaded road cost matrix:
@@ -2258,8 +2258,8 @@ Loaded road cost matrix:
  [0.00334078 0.64901058 0.07714421 0.38831672 0.98350495 0.52402774
   0.43406835 0.        ]]
 Running nearest neighbor...
-CPU time 0.000029 seconds
-Wall time 0.000036 seconds
+CPU time 0.000044 seconds
+Wall time 0.000057 seconds
 Solution Path: (0, 7, 2, 4, 3, 1, 5, 6, 0)
 Solution Cost: 2.168137210687904
 Loaded road cost matrix:
@@ -2280,8 +2280,8 @@ Loaded road cost matrix:
  [0.00334078 0.64901058 0.07714421 0.38831672 0.98350495 0.52402774
   0.43406835 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000056 seconds
-Wall time 0.000064 seconds
+CPU time 0.000115 seconds
+Wall time 0.000134 seconds
 Solution Path: [0, 7, 2, 5, 1, 3, 4, 6, 0]
 Solution Cost: 1.9503189621507921
 Loaded road cost matrix:
@@ -2302,8 +2302,8 @@ Loaded road cost matrix:
  [0.00334078 0.64901058 0.07714421 0.38831672 0.98350495 0.52402774
   0.43406835 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000968 seconds
-Wall time 0.001014 seconds
+CPU time 0.001542 seconds
+Wall time 0.001686 seconds
 Solution Path: [0, 6, 4, 3, 1, 5, 2, 7, 0]
 Solution Cost: 1.9503189621507917
 Loaded road cost matrix:
@@ -2325,8 +2325,8 @@ Loaded road cost matrix:
   0.34939986 0.        ]]
 Running A*...
 58 paths have been expanded and 173 paths remain in the frontier
-CPU time 0.033278 seconds
-Wall time 0.034553 seconds
+CPU time 0.053390 seconds
+Wall time 0.057867 seconds
 Solution Path: (0, 1, 7, 6, 2, 3, 5, 4, 0)
 Solution Cost: 2.2215771007092435
 Loaded road cost matrix:
@@ -2347,8 +2347,8 @@ Loaded road cost matrix:
  [0.55437282 0.2981544  0.16861183 0.27600277 0.1636811  0.42695701
   0.34939986 0.        ]]
 Running nearest neighbor...
-CPU time 0.000030 seconds
-Wall time 0.000037 seconds
+CPU time 0.000041 seconds
+Wall time 0.000055 seconds
 Solution Path: (0, 2, 6, 7, 4, 5, 3, 1, 0)
 Solution Cost: 2.8650762976489443
 Loaded road cost matrix:
@@ -2369,8 +2369,8 @@ Loaded road cost matrix:
  [0.55437282 0.2981544  0.16861183 0.27600277 0.1636811  0.42695701
   0.34939986 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000077 seconds
-Wall time 0.000085 seconds
+CPU time 0.000142 seconds
+Wall time 0.000166 seconds
 Solution Path: [0, 1, 7, 6, 2, 3, 5, 4, 0]
 Solution Cost: 2.2215771007092435
 Loaded road cost matrix:
@@ -2391,8 +2391,8 @@ Loaded road cost matrix:
  [0.55437282 0.2981544  0.16861183 0.27600277 0.1636811  0.42695701
   0.34939986 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000825 seconds
-Wall time 0.000862 seconds
+CPU time 0.001083 seconds
+Wall time 0.001182 seconds
 Solution Path: [0, 4, 5, 3, 2, 6, 7, 1, 0]
 Solution Cost: 2.221577100709243
 Loaded road cost matrix:
@@ -2414,8 +2414,8 @@ Loaded road cost matrix:
   0.78973713 0.        ]]
 Running A*...
 30 paths have been expanded and 96 paths remain in the frontier
-CPU time 0.017175 seconds
-Wall time 0.017831 seconds
+CPU time 0.030695 seconds
+Wall time 0.033277 seconds
 Solution Path: (0, 3, 6, 2, 5, 1, 7, 4, 0)
 Solution Cost: 1.119015789159709
 Loaded road cost matrix:
@@ -2436,8 +2436,8 @@ Loaded road cost matrix:
  [0.13710627 0.25671571 0.92946831 0.47075476 0.02211297 0.7998313
   0.78973713 0.        ]]
 Running nearest neighbor...
-CPU time 0.000028 seconds
-Wall time 0.000036 seconds
+CPU time 0.000081 seconds
+Wall time 0.000101 seconds
 Solution Path: (0, 4, 7, 1, 5, 2, 3, 6, 0)
 Solution Cost: 1.3616131609502673
 Loaded road cost matrix:
@@ -2458,8 +2458,8 @@ Loaded road cost matrix:
  [0.13710627 0.25671571 0.92946831 0.47075476 0.02211297 0.7998313
   0.78973713 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000060 seconds
-Wall time 0.000102 seconds
+CPU time 0.000144 seconds
+Wall time 0.000175 seconds
 Solution Path: [0, 4, 6, 3, 2, 5, 1, 7, 0]
 Solution Cost: 1.2326640442654744
 Loaded road cost matrix:
@@ -2480,10 +2480,10 @@ Loaded road cost matrix:
  [0.13710627 0.25671571 0.92946831 0.47075476 0.02211297 0.7998313
   0.78973713 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000647 seconds
-Wall time 0.000677 seconds
-Solution Path: [0, 4, 6, 3, 2, 5, 1, 7, 0]
-Solution Cost: 1.2326640442654737
+CPU time 0.001276 seconds
+Wall time 0.001401 seconds
+Solution Path: [0, 4, 7, 1, 5, 2, 6, 3, 0]
+Solution Cost: 1.1190157891597088
 Loaded road cost matrix:
 [[0.         0.66654535 0.10483989 0.4728915  0.65254177 0.19136309
   0.7063413  0.30099832]
@@ -2503,8 +2503,8 @@ Loaded road cost matrix:
   0.97375868 0.        ]]
 Running A*...
 57 paths have been expanded and 174 paths remain in the frontier
-CPU time 0.031384 seconds
-Wall time 0.032578 seconds
+CPU time 0.081700 seconds
+Wall time 0.088547 seconds
 Solution Path: (0, 2, 6, 4, 5, 1, 7, 3, 0)
 Solution Cost: 2.609239560696877
 Loaded road cost matrix:
@@ -2525,8 +2525,8 @@ Loaded road cost matrix:
  [0.30099832 0.10328313 0.27235615 0.39174401 0.59470078 0.6701442
   0.97375868 0.        ]]
 Running nearest neighbor...
-CPU time 0.000029 seconds
-Wall time 0.000036 seconds
+CPU time 0.000041 seconds
+Wall time 0.000055 seconds
 Solution Path: (0, 2, 6, 5, 1, 7, 3, 4, 0)
 Solution Cost: 3.164016676157183
 Loaded road cost matrix:
@@ -2547,8 +2547,8 @@ Loaded road cost matrix:
  [0.30099832 0.10328313 0.27235615 0.39174401 0.59470078 0.6701442
   0.97375868 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000068 seconds
-Wall time 0.000077 seconds
+CPU time 0.000159 seconds
+Wall time 0.000214 seconds
 Solution Path: [0, 2, 6, 4, 5, 1, 7, 3, 0]
 Solution Cost: 2.609239560696877
 Loaded road cost matrix:
@@ -2569,8 +2569,8 @@ Loaded road cost matrix:
  [0.30099832 0.10328313 0.27235615 0.39174401 0.59470078 0.6701442
   0.97375868 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000816 seconds
-Wall time 0.000853 seconds
+CPU time 0.001086 seconds
+Wall time 0.001187 seconds
 Solution Path: [0, 2, 6, 4, 5, 1, 7, 3, 0]
 Solution Cost: 2.609239560696877
 Loaded road cost matrix:
@@ -2592,8 +2592,8 @@ Loaded road cost matrix:
   0.38058873 0.        ]]
 Running A*...
 25 paths have been expanded and 76 paths remain in the frontier
-CPU time 0.014168 seconds
-Wall time 0.014710 seconds
+CPU time 0.020429 seconds
+Wall time 0.022155 seconds
 Solution Path: (0, 5, 6, 7, 4, 1, 3, 2, 0)
 Solution Cost: 2.2208300316969884
 Loaded road cost matrix:
@@ -2614,8 +2614,8 @@ Loaded road cost matrix:
  [0.90278261 0.58150021 0.2915903  0.74311811 0.21503974 0.63332715
   0.38058873 0.        ]]
 Running nearest neighbor...
-CPU time 0.000029 seconds
-Wall time 0.000037 seconds
+CPU time 0.000041 seconds
+Wall time 0.000054 seconds
 Solution Path: (0, 5, 4, 7, 2, 3, 1, 6, 0)
 Solution Cost: 2.719615606182715
 Loaded road cost matrix:
@@ -2636,8 +2636,8 @@ Loaded road cost matrix:
  [0.90278261 0.58150021 0.2915903  0.74311811 0.21503974 0.63332715
   0.38058873 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000071 seconds
-Wall time 0.000080 seconds
+CPU time 0.000108 seconds
+Wall time 0.000127 seconds
 Solution Path: [0, 3, 1, 4, 5, 6, 7, 2, 0]
 Solution Cost: 2.3590886539304905
 Loaded road cost matrix:
@@ -2658,8 +2658,8 @@ Loaded road cost matrix:
  [0.90278261 0.58150021 0.2915903  0.74311811 0.21503974 0.63332715
   0.38058873 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000879 seconds
-Wall time 0.000918 seconds
+CPU time 0.001771 seconds
+Wall time 0.001943 seconds
 Solution Path: [0, 2, 3, 1, 4, 7, 6, 5, 0]
 Solution Cost: 2.2208300316969876
 Loaded road cost matrix:
@@ -2683,8 +2683,8 @@ Loaded road cost matrix:
   0.30567065 0.82791733 0.        ]]
 Running A*...
 127 paths have been expanded and 436 paths remain in the frontier
-CPU time 0.089052 seconds
-Wall time 0.092420 seconds
+CPU time 0.190807 seconds
+Wall time 0.206729 seconds
 Solution Path: (0, 1, 6, 4, 8, 2, 7, 3, 5, 0)
 Solution Cost: 2.29943708417046
 Loaded road cost matrix:
@@ -2707,8 +2707,8 @@ Loaded road cost matrix:
  [0.60854346 0.81661571 0.34863869 0.6461499  0.26213339 0.41189319
   0.30567065 0.82791733 0.        ]]
 Running nearest neighbor...
-CPU time 0.000030 seconds
-Wall time 0.000036 seconds
+CPU time 0.000057 seconds
+Wall time 0.000073 seconds
 Solution Path: (0, 6, 1, 2, 7, 3, 5, 8, 4, 0)
 Solution Cost: 2.812780957360854
 Loaded road cost matrix:
@@ -2731,8 +2731,8 @@ Loaded road cost matrix:
  [0.60854346 0.81661571 0.34863869 0.6461499  0.26213339 0.41189319
   0.30567065 0.82791733 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000083 seconds
-Wall time 0.000093 seconds
+CPU time 0.000120 seconds
+Wall time 0.000143 seconds
 Solution Path: [0, 1, 6, 4, 8, 2, 7, 3, 5, 0]
 Solution Cost: 2.2994370841704606
 Loaded road cost matrix:
@@ -2755,10 +2755,10 @@ Loaded road cost matrix:
  [0.60854346 0.81661571 0.34863869 0.6461499  0.26213339 0.41189319
   0.30567065 0.82791733 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.001054 seconds
-Wall time 0.001103 seconds
+CPU time 0.001456 seconds
+Wall time 0.001587 seconds
 Solution Path: [0, 5, 3, 7, 2, 8, 4, 6, 1, 0]
-Solution Cost: 2.2994370841704597
+Solution Cost: 2.2994370841704592
 Loaded road cost matrix:
 [[0.         0.4252702  0.00799948 0.81229505 0.46505926 0.35757994
   0.35402293 0.82362381 0.95984065]
@@ -2780,8 +2780,8 @@ Loaded road cost matrix:
   0.91615626 0.87382162 0.        ]]
 Running A*...
 47 paths have been expanded and 175 paths remain in the frontier
-CPU time 0.032450 seconds
-Wall time 0.033685 seconds
+CPU time 0.051882 seconds
+Wall time 0.056229 seconds
 Solution Path: (0, 2, 5, 8, 3, 7, 1, 4, 6, 0)
 Solution Cost: 2.830931341083735
 Loaded road cost matrix:
@@ -2804,8 +2804,8 @@ Loaded road cost matrix:
  [0.95984065 0.89876746 0.35526556 0.41246523 0.91986384 0.22441722
   0.91615626 0.87382162 0.        ]]
 Running nearest neighbor...
-CPU time 0.000031 seconds
-Wall time 0.000038 seconds
+CPU time 0.000044 seconds
+Wall time 0.000057 seconds
 Solution Path: (0, 2, 3, 7, 1, 4, 6, 5, 8, 0)
 Solution Cost: 3.3090731794557096
 Loaded road cost matrix:
@@ -2828,8 +2828,8 @@ Loaded road cost matrix:
  [0.95984065 0.89876746 0.35526556 0.41246523 0.91986384 0.22441722
   0.91615626 0.87382162 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000088 seconds
-Wall time 0.000097 seconds
+CPU time 0.000181 seconds
+Wall time 0.000206 seconds
 Solution Path: [0, 2, 5, 8, 3, 7, 1, 4, 6, 0]
 Solution Cost: 2.8309313410837356
 Loaded road cost matrix:
@@ -2852,10 +2852,10 @@ Loaded road cost matrix:
  [0.95984065 0.89876746 0.35526556 0.41246523 0.91986384 0.22441722
   0.91615626 0.87382162 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.001146 seconds
-Wall time 0.001193 seconds
+CPU time 0.002168 seconds
+Wall time 0.002369 seconds
 Solution Path: [0, 2, 5, 8, 3, 7, 1, 4, 6, 0]
-Solution Cost: 2.830931341083733
+Solution Cost: 2.8309313410837347
 Loaded road cost matrix:
 [[0.         0.31968541 0.11906478 0.5590225  0.05971254 0.01734295
   0.50018572 0.7202052  0.38368891]
@@ -2877,8 +2877,8 @@ Loaded road cost matrix:
   0.51473659 0.98214893 0.        ]]
 Running A*...
 146 paths have been expanded and 532 paths remain in the frontier
-CPU time 0.107628 seconds
-Wall time 0.111533 seconds
+CPU time 0.179342 seconds
+Wall time 0.194317 seconds
 Solution Path: (0, 1, 8, 5, 4, 6, 7, 3, 2, 0)
 Solution Cost: 2.549831224551486
 Loaded road cost matrix:
@@ -2901,8 +2901,8 @@ Loaded road cost matrix:
  [0.38368891 0.36952931 0.76816113 0.73752178 0.78959234 0.12763217
   0.51473659 0.98214893 0.        ]]
 Running nearest neighbor...
-CPU time 0.000032 seconds
-Wall time 0.000039 seconds
+CPU time 0.000048 seconds
+Wall time 0.000061 seconds
 Solution Path: (0, 5, 4, 6, 2, 3, 7, 1, 8, 0)
 Solution Cost: 2.98304808188058
 Loaded road cost matrix:
@@ -2925,8 +2925,8 @@ Loaded road cost matrix:
  [0.38368891 0.36952931 0.76816113 0.73752178 0.78959234 0.12763217
   0.51473659 0.98214893 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000094 seconds
-Wall time 0.000116 seconds
+CPU time 0.000132 seconds
+Wall time 0.000152 seconds
 Solution Path: [0, 5, 8, 1, 7, 6, 4, 3, 2, 0]
 Solution Cost: 2.5663660364645264
 Loaded road cost matrix:
@@ -2949,10 +2949,10 @@ Loaded road cost matrix:
  [0.38368891 0.36952931 0.76816113 0.73752178 0.78959234 0.12763217
   0.51473659 0.98214893 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000941 seconds
-Wall time 0.000981 seconds
-Solution Path: [0, 2, 3, 7, 6, 4, 5, 8, 1, 0]
-Solution Cost: 2.549831224551486
+CPU time 0.001063 seconds
+Wall time 0.001160 seconds
+Solution Path: [0, 5, 8, 1, 7, 6, 4, 3, 2, 0]
+Solution Cost: 2.566366036464525
 Loaded road cost matrix:
 [[0.         0.56480071 0.92423274 0.91730102 0.06218399 0.00444402
   0.33619153 0.07659111 0.67418771]
@@ -2974,8 +2974,8 @@ Loaded road cost matrix:
   0.13929025 0.94359574 0.        ]]
 Running A*...
 22 paths have been expanded and 84 paths remain in the frontier
-CPU time 0.015605 seconds
-Wall time 0.016183 seconds
+CPU time 0.029246 seconds
+Wall time 0.031708 seconds
 Solution Path: (0, 5, 4, 3, 6, 8, 2, 1, 7, 0)
 Solution Cost: 1.4668461480709398
 Loaded road cost matrix:
@@ -2998,8 +2998,8 @@ Loaded road cost matrix:
  [0.67418771 0.70382358 0.00909456 0.51302174 0.59976285 0.16113868
   0.13929025 0.94359574 0.        ]]
 Running nearest neighbor...
-CPU time 0.000032 seconds
-Wall time 0.000040 seconds
+CPU time 0.000042 seconds
+Wall time 0.000054 seconds
 Solution Path: (0, 5, 8, 2, 1, 7, 4, 3, 6, 0)
 Solution Cost: 1.865537147089508
 Loaded road cost matrix:
@@ -3022,8 +3022,8 @@ Loaded road cost matrix:
  [0.67418771 0.70382358 0.00909456 0.51302174 0.59976285 0.16113868
   0.13929025 0.94359574 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000077 seconds
-Wall time 0.000085 seconds
+CPU time 0.000142 seconds
+Wall time 0.000167 seconds
 Solution Path: [0, 7, 1, 2, 8, 6, 3, 4, 5, 0]
 Solution Cost: 1.4668461480709398
 Loaded road cost matrix:
@@ -3046,10 +3046,10 @@ Loaded road cost matrix:
  [0.67418771 0.70382358 0.00909456 0.51302174 0.59976285 0.16113868
   0.13929025 0.94359574 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000946 seconds
-Wall time 0.000986 seconds
-Solution Path: [0, 7, 1, 2, 8, 6, 3, 4, 5, 0]
-Solution Cost: 1.4668461480709398
+CPU time 0.002644 seconds
+Wall time 0.002878 seconds
+Solution Path: [0, 5, 4, 3, 6, 8, 2, 1, 7, 0]
+Solution Cost: 1.4668461480709394
 Loaded road cost matrix:
 [[0.         0.47902279 0.73592473 0.70436728 0.86026686 0.40510498
   0.68048728 0.95255815 0.54628059]
@@ -3071,8 +3071,8 @@ Loaded road cost matrix:
   0.83207085 0.23261775 0.        ]]
 Running A*...
 18 paths have been expanded and 66 paths remain in the frontier
-CPU time 0.011591 seconds
-Wall time 0.012021 seconds
+CPU time 0.023920 seconds
+Wall time 0.025945 seconds
 Solution Path: (0, 1, 3, 4, 7, 8, 2, 6, 5, 0)
 Solution Cost: 1.597243928669584
 Loaded road cost matrix:
@@ -3095,8 +3095,8 @@ Loaded road cost matrix:
  [0.54628059 0.75030629 0.01719435 0.99341256 0.26674153 0.73391145
   0.83207085 0.23261775 0.        ]]
 Running nearest neighbor...
-CPU time 0.000031 seconds
-Wall time 0.000039 seconds
+CPU time 0.000060 seconds
+Wall time 0.000078 seconds
 Solution Path: (0, 5, 2, 8, 7, 4, 3, 1, 6, 0)
 Solution Cost: 1.9660225844503632
 Loaded road cost matrix:
@@ -3119,8 +3119,8 @@ Loaded road cost matrix:
  [0.54628059 0.75030629 0.01719435 0.99341256 0.26674153 0.73391145
   0.83207085 0.23261775 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000073 seconds
-Wall time 0.000082 seconds
+CPU time 0.000102 seconds
+Wall time 0.000120 seconds
 Solution Path: [0, 1, 3, 4, 7, 6, 5, 2, 8, 0]
 Solution Cost: 1.6042774971847626
 Loaded road cost matrix:
@@ -3143,10 +3143,10 @@ Loaded road cost matrix:
  [0.54628059 0.75030629 0.01719435 0.99341256 0.26674153 0.73391145
   0.83207085 0.23261775 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.001076 seconds
-Wall time 0.001121 seconds
-Solution Path: [0, 1, 3, 4, 7, 8, 2, 6, 5, 0]
-Solution Cost: 1.5972439286695836
+CPU time 0.001527 seconds
+Wall time 0.001667 seconds
+Solution Path: [0, 1, 3, 4, 7, 6, 5, 2, 8, 0]
+Solution Cost: 1.6042774971847618
 Loaded road cost matrix:
 [[0.         0.66964124 0.8780908  0.72373417 0.72743335 0.94024175
   0.28475424 0.61502645 0.44646248]
@@ -3168,8 +3168,8 @@ Loaded road cost matrix:
   0.51936715 0.74319556 0.        ]]
 Running A*...
 77 paths have been expanded and 291 paths remain in the frontier
-CPU time 0.053860 seconds
-Wall time 0.055822 seconds
+CPU time 0.095619 seconds
+Wall time 0.103612 seconds
 Solution Path: (0, 8, 4, 1, 2, 7, 5, 3, 6, 0)
 Solution Cost: 2.606773558356278
 Loaded road cost matrix:
@@ -3192,8 +3192,8 @@ Loaded road cost matrix:
  [0.44646248 0.86247122 0.71881109 0.93453291 0.71304642 0.92091945
   0.51936715 0.74319556 0.        ]]
 Running nearest neighbor...
-CPU time 0.000033 seconds
-Wall time 0.000040 seconds
+CPU time 0.000064 seconds
+Wall time 0.000081 seconds
 Solution Path: (0, 6, 7, 2, 1, 4, 5, 3, 8, 0)
 Solution Cost: 2.782326720150426
 Loaded road cost matrix:
@@ -3216,8 +3216,8 @@ Loaded road cost matrix:
  [0.44646248 0.86247122 0.71881109 0.93453291 0.71304642 0.92091945
   0.51936715 0.74319556 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000074 seconds
-Wall time 0.000084 seconds
+CPU time 0.000292 seconds
+Wall time 0.000351 seconds
 Solution Path: [0, 6, 3, 5, 7, 2, 1, 4, 8, 0]
 Solution Cost: 2.606773558356278
 Loaded road cost matrix:
@@ -3240,10 +3240,10 @@ Loaded road cost matrix:
  [0.44646248 0.86247122 0.71881109 0.93453291 0.71304642 0.92091945
   0.51936715 0.74319556 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.001086 seconds
-Wall time 0.001131 seconds
+CPU time 0.002448 seconds
+Wall time 0.002671 seconds
 Solution Path: [0, 8, 4, 1, 2, 7, 5, 3, 6, 0]
-Solution Cost: 2.6067735583562763
+Solution Cost: 2.606773558356276
 Loaded road cost matrix:
 [[0.         0.76432368 0.86711861 0.88506281 0.4094677  0.49179142
   0.53834145 0.68331436 0.44923903]
@@ -3265,8 +3265,8 @@ Loaded road cost matrix:
   0.92433425 0.54458991 0.        ]]
 Running A*...
 20 paths have been expanded and 80 paths remain in the frontier
-CPU time 0.013898 seconds
-Wall time 0.014423 seconds
+CPU time 0.024293 seconds
+Wall time 0.026336 seconds
 Solution Path: (0, 4, 6, 3, 5, 2, 7, 1, 8, 0)
 Solution Cost: 1.8254433611427434
 Loaded road cost matrix:
@@ -3289,8 +3289,8 @@ Loaded road cost matrix:
  [0.44923903 0.23510066 0.5867085  0.81204546 0.64203188 0.34782987
   0.92433425 0.54458991 0.        ]]
 Running nearest neighbor...
-CPU time 0.000032 seconds
-Wall time 0.000038 seconds
+CPU time 0.000048 seconds
+Wall time 0.000064 seconds
 Solution Path: (0, 4, 6, 3, 5, 2, 1, 7, 8, 0)
 Solution Cost: 2.109684116799424
 Loaded road cost matrix:
@@ -3313,8 +3313,8 @@ Loaded road cost matrix:
  [0.44923903 0.23510066 0.5867085  0.81204546 0.64203188 0.34782987
   0.92433425 0.54458991 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000049 seconds
-Wall time 0.000057 seconds
+CPU time 0.000076 seconds
+Wall time 0.000092 seconds
 Solution Path: [0, 4, 6, 3, 5, 2, 1, 7, 8, 0]
 Solution Cost: 2.109684116799424
 Loaded road cost matrix:
@@ -3337,10 +3337,10 @@ Loaded road cost matrix:
  [0.44923903 0.23510066 0.5867085  0.81204546 0.64203188 0.34782987
   0.92433425 0.54458991 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000848 seconds
-Wall time 0.000886 seconds
-Solution Path: [0, 8, 1, 7, 2, 5, 3, 6, 4, 0]
-Solution Cost: 1.8254433611427432
+CPU time 0.002541 seconds
+Wall time 0.002778 seconds
+Solution Path: [0, 4, 5, 6, 3, 2, 7, 1, 8, 0]
+Solution Cost: 1.9300159620340298
 Loaded road cost matrix:
 [[0.         0.05491409 0.26639386 0.1810054  0.59871172 0.17044036
   0.43143506 0.5066074  0.86112099]
@@ -3362,8 +3362,8 @@ Loaded road cost matrix:
   0.97906813 0.60586567 0.        ]]
 Running A*...
 60 paths have been expanded and 230 paths remain in the frontier
-CPU time 0.041640 seconds
-Wall time 0.043194 seconds
+CPU time 0.084676 seconds
+Wall time 0.091767 seconds
 Solution Path: (0, 1, 6, 3, 5, 8, 7, 4, 2, 0)
 Solution Cost: 2.0958012954012686
 Loaded road cost matrix:
@@ -3386,8 +3386,8 @@ Loaded road cost matrix:
  [0.86112099 0.31328716 0.70534554 0.56457574 0.5907233  0.03898337
   0.97906813 0.60586567 0.        ]]
 Running nearest neighbor...
-CPU time 0.000034 seconds
-Wall time 0.000042 seconds
+CPU time 0.000046 seconds
+Wall time 0.000061 seconds
 Solution Path: (0, 1, 6, 3, 5, 8, 4, 2, 7, 0)
 Solution Cost: 2.8138039140848004
 Loaded road cost matrix:
@@ -3410,8 +3410,8 @@ Loaded road cost matrix:
  [0.86112099 0.31328716 0.70534554 0.56457574 0.5907233  0.03898337
   0.97906813 0.60586567 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000096 seconds
-Wall time 0.000106 seconds
+CPU time 0.000277 seconds
+Wall time 0.000318 seconds
 Solution Path: [0, 3, 6, 1, 8, 5, 7, 4, 2, 0]
 Solution Cost: 2.2969183703883664
 Loaded road cost matrix:
@@ -3434,8 +3434,8 @@ Loaded road cost matrix:
  [0.86112099 0.31328716 0.70534554 0.56457574 0.5907233  0.03898337
   0.97906813 0.60586567 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.001077 seconds
-Wall time 0.001124 seconds
+CPU time 0.001652 seconds
+Wall time 0.001803 seconds
 Solution Path: [0, 1, 6, 3, 5, 8, 7, 4, 2, 0]
 Solution Cost: 2.095801295401267
 Loaded road cost matrix:
@@ -3459,8 +3459,8 @@ Loaded road cost matrix:
   0.17129725 0.57518554 0.        ]]
 Running A*...
 47 paths have been expanded and 160 paths remain in the frontier
-CPU time 0.028858 seconds
-Wall time 0.029940 seconds
+CPU time 0.051660 seconds
+Wall time 0.055990 seconds
 Solution Path: (0, 3, 7, 5, 1, 4, 6, 8, 2, 0)
 Solution Cost: 1.6315681328246123
 Loaded road cost matrix:
@@ -3483,8 +3483,8 @@ Loaded road cost matrix:
  [0.38734702 0.37526998 0.23915557 0.59085413 0.86223196 0.61794616
   0.17129725 0.57518554 0.        ]]
 Running nearest neighbor...
-CPU time 0.000028 seconds
-Wall time 0.000035 seconds
+CPU time 0.000072 seconds
+Wall time 0.000097 seconds
 Solution Path: (0, 7, 3, 5, 1, 4, 6, 2, 8, 0)
 Solution Cost: 1.746235968506758
 Loaded road cost matrix:
@@ -3507,8 +3507,8 @@ Loaded road cost matrix:
  [0.38734702 0.37526998 0.23915557 0.59085413 0.86223196 0.61794616
   0.17129725 0.57518554 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000080 seconds
-Wall time 0.000090 seconds
+CPU time 0.000075 seconds
+Wall time 0.000092 seconds
 Solution Path: [0, 7, 3, 5, 1, 4, 6, 2, 8, 0]
 Solution Cost: 1.746235968506758
 Loaded road cost matrix:
@@ -3531,10 +3531,10 @@ Loaded road cost matrix:
  [0.38734702 0.37526998 0.23915557 0.59085413 0.86223196 0.61794616
   0.17129725 0.57518554 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.001309 seconds
-Wall time 0.001369 seconds
-Solution Path: [0, 3, 7, 5, 1, 4, 6, 8, 2, 0]
-Solution Cost: 1.631568132824611
+CPU time 0.002027 seconds
+Wall time 0.002214 seconds
+Solution Path: [0, 2, 8, 6, 4, 1, 5, 3, 7, 0]
+Solution Cost: 1.6837255050321676
 Loaded road cost matrix:
 [[0.         0.40429491 0.5582108  0.51977041 0.10037752 0.73165591
   0.63700976 0.24478908 0.96142919]
@@ -3556,8 +3556,8 @@ Loaded road cost matrix:
   0.1639401  0.0652466  0.        ]]
 Running A*...
 40 paths have been expanded and 144 paths remain in the frontier
-CPU time 0.025594 seconds
-Wall time 0.026556 seconds
+CPU time 0.049222 seconds
+Wall time 0.053341 seconds
 Solution Path: (0, 2, 3, 6, 7, 5, 8, 1, 4, 0)
 Solution Cost: 1.2311246941160428
 Loaded road cost matrix:
@@ -3580,8 +3580,8 @@ Loaded road cost matrix:
  [0.96142919 0.21796261 0.51204885 0.54480846 0.60725665 0.07519043
   0.1639401  0.0652466  0.        ]]
 Running nearest neighbor...
-CPU time 0.000031 seconds
-Wall time 0.000038 seconds
+CPU time 0.000056 seconds
+Wall time 0.000073 seconds
 Solution Path: (0, 4, 1, 6, 3, 2, 8, 7, 5, 0)
 Solution Cost: 1.8172838621354717
 Loaded road cost matrix:
@@ -3604,8 +3604,8 @@ Loaded road cost matrix:
  [0.96142919 0.21796261 0.51204885 0.54480846 0.60725665 0.07519043
   0.1639401  0.0652466  0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000067 seconds
-Wall time 0.000076 seconds
+CPU time 0.000110 seconds
+Wall time 0.000131 seconds
 Solution Path: [0, 4, 1, 6, 5, 7, 8, 2, 3, 0]
 Solution Cost: 1.7209093986142618
 Loaded road cost matrix:
@@ -3628,10 +3628,10 @@ Loaded road cost matrix:
  [0.96142919 0.21796261 0.51204885 0.54480846 0.60725665 0.07519043
   0.1639401  0.0652466  0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.000990 seconds
-Wall time 0.001032 seconds
+CPU time 0.001596 seconds
+Wall time 0.001750 seconds
 Solution Path: [0, 2, 3, 6, 7, 5, 8, 1, 4, 0]
-Solution Cost: 1.2311246941160423
+Solution Cost: 1.2311246941160419
 Loaded road cost matrix:
 [[0.         0.65497346 0.84360305 0.25023114 0.50908538 0.86450118
   0.28636595 0.60424054 0.35980162 0.22636623]
@@ -3655,8 +3655,8 @@ Loaded road cost matrix:
   0.630555   0.34703207 0.70006456 0.        ]]
 Running A*...
 286 paths have been expanded and 1178 paths remain in the frontier
-CPU time 0.304633 seconds
-Wall time 0.316071 seconds
+CPU time 0.532647 seconds
+Wall time 0.577067 seconds
 Solution Path: (0, 3, 7, 6, 5, 9, 2, 1, 4, 8, 0)
 Solution Cost: 2.602488580178617
 Loaded road cost matrix:
@@ -3681,8 +3681,8 @@ Loaded road cost matrix:
  [0.22636623 0.40757029 0.65033172 0.54574681 0.09864404 0.29763991
   0.630555   0.34703207 0.70006456 0.        ]]
 Running nearest neighbor...
-CPU time 0.000034 seconds
-Wall time 0.000041 seconds
+CPU time 0.000080 seconds
+Wall time 0.000106 seconds
 Solution Path: (0, 9, 4, 1, 2, 7, 6, 5, 8, 3, 0)
 Solution Cost: 3.31928314053049
 Loaded road cost matrix:
@@ -3707,8 +3707,8 @@ Loaded road cost matrix:
  [0.22636623 0.40757029 0.65033172 0.54574681 0.09864404 0.29763991
   0.630555   0.34703207 0.70006456 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000099 seconds
-Wall time 0.000109 seconds
+CPU time 0.000139 seconds
+Wall time 0.000161 seconds
 Solution Path: [0, 8, 4, 1, 2, 9, 5, 6, 7, 3, 0]
 Solution Cost: 2.6024885801786164
 Loaded road cost matrix:
@@ -3733,10 +3733,10 @@ Loaded road cost matrix:
  [0.22636623 0.40757029 0.65033172 0.54574681 0.09864404 0.29763991
   0.630555   0.34703207 0.70006456 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.001614 seconds
-Wall time 0.001680 seconds
+CPU time 0.002370 seconds
+Wall time 0.002579 seconds
 Solution Path: [0, 3, 7, 6, 5, 9, 2, 1, 4, 8, 0]
-Solution Cost: 2.6024885801786164
+Solution Cost: 2.6024885801786155
 Loaded road cost matrix:
 [[0.         0.37211655 0.82861528 0.28527412 0.67758905 0.21115212
   0.01203776 0.93219891 0.52714383 0.76881031]
@@ -3760,8 +3760,8 @@ Loaded road cost matrix:
   0.02447854 0.94638078 0.22845133 0.        ]]
 Running A*...
 152 paths have been expanded and 655 paths remain in the frontier
-CPU time 0.140218 seconds
-Wall time 0.145490 seconds
+CPU time 0.230777 seconds
+Wall time 0.250041 seconds
 Solution Path: (0, 1, 8, 7, 4, 2, 5, 3, 9, 6, 0)
 Solution Cost: 1.705466524080041
 Loaded road cost matrix:
@@ -3786,8 +3786,8 @@ Loaded road cost matrix:
  [0.76881031 0.68255761 0.46693358 0.10055374 0.35882497 0.83520257
   0.02447854 0.94638078 0.22845133 0.        ]]
 Running nearest neighbor...
-CPU time 0.000034 seconds
-Wall time 0.000041 seconds
+CPU time 0.000072 seconds
+Wall time 0.000094 seconds
 Solution Path: (0, 6, 5, 3, 9, 8, 7, 4, 1, 2, 0)
 Solution Cost: 2.7774001975812084
 Loaded road cost matrix:
@@ -3812,8 +3812,8 @@ Loaded road cost matrix:
  [0.76881031 0.68255761 0.46693358 0.10055374 0.35882497 0.83520257
   0.02447854 0.94638078 0.22845133 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000099 seconds
-Wall time 0.000109 seconds
+CPU time 0.000295 seconds
+Wall time 0.000343 seconds
 Solution Path: [0, 1, 8, 7, 4, 9, 2, 6, 5, 3, 0]
 Solution Cost: 2.350511944434306
 Loaded road cost matrix:
@@ -3838,8 +3838,8 @@ Loaded road cost matrix:
  [0.76881031 0.68255761 0.46693358 0.10055374 0.35882497 0.83520257
   0.02447854 0.94638078 0.22845133 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.001297 seconds
-Wall time 0.001352 seconds
+CPU time 0.004307 seconds
+Wall time 0.004697 seconds
 Solution Path: [0, 1, 8, 7, 4, 2, 5, 3, 9, 6, 0]
 Solution Cost: 1.7054665240800406
 Loaded road cost matrix:
@@ -3865,8 +3865,8 @@ Loaded road cost matrix:
   0.07247859 0.24744707 0.97404112 0.        ]]
 Running A*...
 15 paths have been expanded and 67 paths remain in the frontier
-CPU time 0.012014 seconds
-Wall time 0.012474 seconds
+CPU time 0.019146 seconds
+Wall time 0.020762 seconds
 Solution Path: (0, 4, 3, 1, 7, 5, 8, 2, 9, 6, 0)
 Solution Cost: 0.8982409106571694
 Loaded road cost matrix:
@@ -3891,8 +3891,8 @@ Loaded road cost matrix:
  [0.74908343 0.56143732 0.05463386 0.23854038 0.99178625 0.90309976
   0.07247859 0.24744707 0.97404112 0.        ]]
 Running nearest neighbor...
-CPU time 0.000036 seconds
-Wall time 0.000045 seconds
+CPU time 0.000045 seconds
+Wall time 0.000058 seconds
 Solution Path: (0, 6, 9, 2, 8, 5, 7, 1, 3, 4, 0)
 Solution Cost: 0.8982409106571694
 Loaded road cost matrix:
@@ -3917,8 +3917,8 @@ Loaded road cost matrix:
  [0.74908343 0.56143732 0.05463386 0.23854038 0.99178625 0.90309976
   0.07247859 0.24744707 0.97404112 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000064 seconds
-Wall time 0.000073 seconds
+CPU time 0.000085 seconds
+Wall time 0.000101 seconds
 Solution Path: [0, 6, 9, 2, 8, 5, 7, 1, 3, 4, 0]
 Solution Cost: 0.8982409106571694
 Loaded road cost matrix:
@@ -3943,10 +3943,10 @@ Loaded road cost matrix:
  [0.74908343 0.56143732 0.05463386 0.23854038 0.99178625 0.90309976
   0.07247859 0.24744707 0.97404112 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.001754 seconds
-Wall time 0.001827 seconds
+CPU time 0.002054 seconds
+Wall time 0.002237 seconds
 Solution Path: [0, 4, 3, 1, 7, 5, 8, 2, 9, 6, 0]
-Solution Cost: 0.8982409106571686
+Solution Cost: 0.8982409106571693
 Loaded road cost matrix:
 [[0.         0.14730867 0.77936028 0.44790795 0.39996524 0.73278304
   0.9321532  0.26483182 0.23134818 0.20465636]
@@ -3970,8 +3970,8 @@ Loaded road cost matrix:
   0.49491897 0.30728307 0.65505432 0.        ]]
 Running A*...
 145 paths have been expanded and 597 paths remain in the frontier
-CPU time 0.131316 seconds
-Wall time 0.136257 seconds
+CPU time 0.214282 seconds
+Wall time 0.232180 seconds
 Solution Path: (0, 4, 9, 5, 6, 1, 3, 2, 7, 8, 0)
 Solution Cost: 1.8617680847271898
 Loaded road cost matrix:
@@ -3996,8 +3996,8 @@ Loaded road cost matrix:
  [0.20465636 0.60137371 0.90388723 0.22892073 0.26002441 0.00871034
   0.49491897 0.30728307 0.65505432 0.        ]]
 Running nearest neighbor...
-CPU time 0.000034 seconds
-Wall time 0.000042 seconds
+CPU time 0.000087 seconds
+Wall time 0.000111 seconds
 Solution Path: (0, 1, 6, 2, 7, 8, 4, 9, 5, 3, 0)
 Solution Cost: 2.401116883466372
 Loaded road cost matrix:
@@ -4022,8 +4022,8 @@ Loaded road cost matrix:
  [0.20465636 0.60137371 0.90388723 0.22892073 0.26002441 0.00871034
   0.49491897 0.30728307 0.65505432 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000103 seconds
-Wall time 0.000113 seconds
+CPU time 0.000171 seconds
+Wall time 0.000209 seconds
 Solution Path: [0, 8, 7, 2, 3, 1, 6, 5, 9, 4, 0]
 Solution Cost: 1.8617680847271898
 Loaded road cost matrix:
@@ -4048,10 +4048,10 @@ Loaded road cost matrix:
  [0.20465636 0.60137371 0.90388723 0.22892073 0.26002441 0.00871034
   0.49491897 0.30728307 0.65505432 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.001201 seconds
-Wall time 0.001254 seconds
+CPU time 0.001709 seconds
+Wall time 0.001866 seconds
 Solution Path: [0, 4, 9, 5, 6, 1, 3, 2, 7, 8, 0]
-Solution Cost: 1.861768084727188
+Solution Cost: 1.8617680847271885
 Loaded road cost matrix:
 [[0.         0.73462902 0.4867741  0.39428332 0.1878352  0.12339776
   0.13578703 0.80372661 0.58914948 0.21084448]
@@ -4075,8 +4075,8 @@ Loaded road cost matrix:
   0.2823527  0.75122893 0.34030099 0.        ]]
 Running A*...
 289 paths have been expanded and 1159 paths remain in the frontier
-CPU time 0.289910 seconds
-Wall time 0.300770 seconds
+CPU time 0.648231 seconds
+Wall time 0.702284 seconds
 Solution Path: (0, 3, 6, 1, 4, 2, 7, 8, 9, 5, 0)
 Solution Cost: 2.0750008600412837
 Loaded road cost matrix:
@@ -4101,8 +4101,8 @@ Loaded road cost matrix:
  [0.21084448 0.93272896 0.20065815 0.99061962 0.44599882 0.32208401
   0.2823527  0.75122893 0.34030099 0.        ]]
 Running nearest neighbor...
-CPU time 0.000031 seconds
-Wall time 0.000037 seconds
+CPU time 0.000308 seconds
+Wall time 0.000432 seconds
 Solution Path: (0, 5, 2, 4, 1, 6, 3, 8, 9, 7, 0)
 Solution Cost: 3.1021178973776076
 Loaded road cost matrix:
@@ -4127,8 +4127,8 @@ Loaded road cost matrix:
  [0.21084448 0.93272896 0.20065815 0.99061962 0.44599882 0.32208401
   0.2823527  0.75122893 0.34030099 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000106 seconds
-Wall time 0.000117 seconds
+CPU time 0.000149 seconds
+Wall time 0.000171 seconds
 Solution Path: [0, 3, 6, 1, 4, 2, 7, 8, 9, 5, 0]
 Solution Cost: 2.0750008600412837
 Loaded road cost matrix:
@@ -4153,10 +4153,10 @@ Loaded road cost matrix:
  [0.21084448 0.93272896 0.20065815 0.99061962 0.44599882 0.32208401
   0.2823527  0.75122893 0.34030099 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.001331 seconds
-Wall time 0.001386 seconds
+CPU time 0.003606 seconds
+Wall time 0.003953 seconds
 Solution Path: [0, 3, 6, 1, 4, 2, 7, 8, 9, 5, 0]
-Solution Cost: 2.0750008600412837
+Solution Cost: 2.0750008600412833
 Loaded road cost matrix:
 [[0.         0.82721283 0.23319848 0.55634364 0.01690722 0.46914807
   0.5706869  0.83886016 0.05852557 0.43818974]
@@ -4180,8 +4180,8 @@ Loaded road cost matrix:
   0.04424307 0.08787075 0.18934225 0.        ]]
 Running A*...
 65 paths have been expanded and 258 paths remain in the frontier
-CPU time 0.047951 seconds
-Wall time 0.049760 seconds
+CPU time 0.128997 seconds
+Wall time 0.139782 seconds
 Solution Path: (0, 4, 3, 5, 2, 7, 9, 6, 1, 8, 0)
 Solution Cost: 1.0516241686244174
 Loaded road cost matrix:
@@ -4206,8 +4206,8 @@ Loaded road cost matrix:
  [0.43818974 0.34210827 0.05115746 0.26343028 0.35069912 0.59826403
   0.04424307 0.08787075 0.18934225 0.        ]]
 Running nearest neighbor...
-CPU time 0.000032 seconds
-Wall time 0.000039 seconds
+CPU time 0.000071 seconds
+Wall time 0.000090 seconds
 Solution Path: (0, 4, 3, 5, 2, 7, 9, 6, 1, 8, 0)
 Solution Cost: 1.0516241686244174
 Loaded road cost matrix:
@@ -4232,8 +4232,8 @@ Loaded road cost matrix:
  [0.43818974 0.34210827 0.05115746 0.26343028 0.35069912 0.59826403
   0.04424307 0.08787075 0.18934225 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000064 seconds
-Wall time 0.000074 seconds
+CPU time 0.000097 seconds
+Wall time 0.000117 seconds
 Solution Path: [0, 4, 3, 5, 2, 7, 9, 6, 1, 8, 0]
 Solution Cost: 1.0516241686244174
 Loaded road cost matrix:
@@ -4258,10 +4258,10 @@ Loaded road cost matrix:
  [0.43818974 0.34210827 0.05115746 0.26343028 0.35069912 0.59826403
   0.04424307 0.08787075 0.18934225 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.001812 seconds
-Wall time 0.001886 seconds
+CPU time 0.003945 seconds
+Wall time 0.004307 seconds
 Solution Path: [0, 4, 3, 5, 2, 7, 9, 6, 1, 8, 0]
-Solution Cost: 1.0516241686244157
+Solution Cost: 1.0516241686244174
 Loaded road cost matrix:
 [[0.         0.91608177 0.78468333 0.79391131 0.67385607 0.19276321
   0.98669782 0.85602789 0.12775643 0.21471443]
@@ -4285,8 +4285,8 @@ Loaded road cost matrix:
   0.3702582  0.95685759 0.35372178 0.        ]]
 Running A*...
 75 paths have been expanded and 326 paths remain in the frontier
-CPU time 0.060795 seconds
-Wall time 0.063081 seconds
+CPU time 0.115019 seconds
+Wall time 0.124635 seconds
 Solution Path: (0, 5, 8, 4, 1, 6, 7, 2, 3, 9, 0)
 Solution Cost: 1.9015919681483184
 Loaded road cost matrix:
@@ -4311,8 +4311,8 @@ Loaded road cost matrix:
  [0.21471443 0.74663695 0.55490348 0.11302528 0.72566737 0.73252404
   0.3702582  0.95685759 0.35372178 0.        ]]
 Running nearest neighbor...
-CPU time 0.000033 seconds
-Wall time 0.000040 seconds
+CPU time 0.000050 seconds
+Wall time 0.000064 seconds
 Solution Path: (0, 8, 4, 1, 6, 7, 2, 3, 9, 5, 0)
 Solution Cost: 2.093012169776691
 Loaded road cost matrix:
@@ -4337,8 +4337,8 @@ Loaded road cost matrix:
  [0.21471443 0.74663695 0.55490348 0.11302528 0.72566737 0.73252404
   0.3702582  0.95685759 0.35372178 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000064 seconds
-Wall time 0.000073 seconds
+CPU time 0.000094 seconds
+Wall time 0.000113 seconds
 Solution Path: [0, 9, 3, 2, 7, 6, 1, 4, 8, 5, 0]
 Solution Cost: 1.9015919681483187
 Loaded road cost matrix:
@@ -4363,10 +4363,10 @@ Loaded road cost matrix:
  [0.21471443 0.74663695 0.55490348 0.11302528 0.72566737 0.73252404
   0.3702582  0.95685759 0.35372178 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.001639 seconds
-Wall time 0.001723 seconds
+CPU time 0.002522 seconds
+Wall time 0.002751 seconds
 Solution Path: [0, 5, 8, 4, 1, 6, 7, 2, 3, 9, 0]
-Solution Cost: 1.9015919681483169
+Solution Cost: 1.9015919681483182
 Loaded road cost matrix:
 [[0.         0.3216688  0.45466259 0.55175166 0.23719843 0.25739956
   0.74094142 0.03183702 0.37009506 0.19193566]
@@ -4390,8 +4390,8 @@ Loaded road cost matrix:
   0.88762438 0.68981165 0.52758707 0.        ]]
 Running A*...
 232 paths have been expanded and 992 paths remain in the frontier
-CPU time 0.235867 seconds
-Wall time 0.244707 seconds
+CPU time 0.433108 seconds
+Wall time 0.469245 seconds
 Solution Path: (0, 9, 8, 3, 5, 2, 1, 6, 7, 4, 0)
 Solution Cost: 2.5475022239206417
 Loaded road cost matrix:
@@ -4416,8 +4416,8 @@ Loaded road cost matrix:
  [0.19193566 0.71320142 0.84141541 0.79333187 0.71318133 0.79395156
   0.88762438 0.68981165 0.52758707 0.        ]]
 Running nearest neighbor...
-CPU time 0.000033 seconds
-Wall time 0.000041 seconds
+CPU time 0.000053 seconds
+Wall time 0.000069 seconds
 Solution Path: (0, 7, 1, 6, 2, 8, 3, 5, 4, 9, 0)
 Solution Cost: 2.934675260853873
 Loaded road cost matrix:
@@ -4442,8 +4442,8 @@ Loaded road cost matrix:
  [0.19193566 0.71320142 0.84141541 0.79333187 0.71318133 0.79395156
   0.88762438 0.68981165 0.52758707 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000067 seconds
-Wall time 0.000075 seconds
+CPU time 0.000104 seconds
+Wall time 0.000125 seconds
 Solution Path: [0, 5, 3, 8, 2, 6, 1, 7, 4, 9, 0]
 Solution Cost: 2.704101830758396
 Loaded road cost matrix:
@@ -4468,10 +4468,10 @@ Loaded road cost matrix:
  [0.19193566 0.71320142 0.84141541 0.79333187 0.71318133 0.79395156
   0.88762438 0.68981165 0.52758707 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.001278 seconds
-Wall time 0.001332 seconds
-Solution Path: [0, 9, 8, 3, 5, 2, 1, 6, 7, 4, 0]
-Solution Cost: 2.5475022239206417
+CPU time 0.001919 seconds
+Wall time 0.002090 seconds
+Solution Path: [0, 5, 3, 8, 2, 1, 6, 7, 4, 9, 0]
+Solution Cost: 2.5901943608269624
 Loaded road cost matrix:
 [[0.         0.7635074  0.9115221  0.67533215 0.03554941 0.07072954
   0.54036488 0.63599739 0.91343887 0.26989539]
@@ -4495,8 +4495,8 @@ Loaded road cost matrix:
   0.67642227 0.59264571 0.35311861 0.        ]]
 Running A*...
 99 paths have been expanded and 432 paths remain in the frontier
-CPU time 0.088021 seconds
-Wall time 0.091194 seconds
+CPU time 0.153648 seconds
+Wall time 0.166489 seconds
 Solution Path: (0, 5, 6, 7, 1, 3, 4, 2, 8, 9, 0)
 Solution Cost: 2.2103962543041997
 Loaded road cost matrix:
@@ -4521,8 +4521,8 @@ Loaded road cost matrix:
  [0.26989539 0.81752782 0.43406516 0.55387251 0.31352405 0.47544029
   0.67642227 0.59264571 0.35311861 0.        ]]
 Running nearest neighbor...
-CPU time 0.000033 seconds
-Wall time 0.000039 seconds
+CPU time 0.000051 seconds
+Wall time 0.000067 seconds
 Solution Path: (0, 4, 2, 7, 6, 5, 8, 9, 3, 1, 0)
 Solution Cost: 2.892216781251866
 Loaded road cost matrix:
@@ -4547,8 +4547,8 @@ Loaded road cost matrix:
  [0.26989539 0.81752782 0.43406516 0.55387251 0.31352405 0.47544029
   0.67642227 0.59264571 0.35311861 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000091 seconds
-Wall time 0.000100 seconds
+CPU time 0.000149 seconds
+Wall time 0.000172 seconds
 Solution Path: [0, 9, 8, 2, 4, 3, 1, 7, 6, 5, 0]
 Solution Cost: 2.2103962543042
 Loaded road cost matrix:
@@ -4573,10 +4573,10 @@ Loaded road cost matrix:
  [0.26989539 0.81752782 0.43406516 0.55387251 0.31352405 0.47544029
   0.67642227 0.59264571 0.35311861 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.001535 seconds
-Wall time 0.001602 seconds
-Solution Path: [0, 9, 8, 2, 4, 3, 1, 7, 6, 5, 0]
-Solution Cost: 2.2103962543041997
+CPU time 0.002915 seconds
+Wall time 0.003191 seconds
+Solution Path: [0, 5, 6, 7, 1, 3, 4, 2, 8, 9, 0]
+Solution Cost: 2.210396254304199
 Loaded road cost matrix:
 [[0.         0.12874331 0.75997487 0.83472291 0.17278578 0.20057059
   0.77584463 0.73042791 0.04683015 0.14242384]
@@ -4600,8 +4600,8 @@ Loaded road cost matrix:
   0.23226046 0.67654117 0.55230839 0.        ]]
 Running A*...
 45 paths have been expanded and 210 paths remain in the frontier
-CPU time 0.037420 seconds
-Wall time 0.038774 seconds
+CPU time 0.068279 seconds
+Wall time 0.073991 seconds
 Solution Path: (0, 4, 2, 9, 3, 7, 5, 6, 1, 8, 0)
 Solution Cost: 1.9913309317709875
 Loaded road cost matrix:
@@ -4626,8 +4626,8 @@ Loaded road cost matrix:
  [0.14242384 0.33873403 0.06121081 0.31442503 0.91748828 0.98910937
   0.23226046 0.67654117 0.55230839 0.        ]]
 Running nearest neighbor...
-CPU time 0.000032 seconds
-Wall time 0.000039 seconds
+CPU time 0.000044 seconds
+Wall time 0.000058 seconds
 Solution Path: (0, 8, 1, 7, 3, 9, 2, 4, 5, 6, 0)
 Solution Cost: 3.0491432870129738
 Loaded road cost matrix:
@@ -4652,8 +4652,8 @@ Loaded road cost matrix:
  [0.14242384 0.33873403 0.06121081 0.31442503 0.91748828 0.98910937
   0.23226046 0.67654117 0.55230839 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000146 seconds
-Wall time 0.000158 seconds
+CPU time 0.000415 seconds
+Wall time 0.000472 seconds
 Solution Path: [0, 4, 2, 9, 3, 7, 6, 5, 8, 1, 0]
 Solution Cost: 2.216432102393635
 Loaded road cost matrix:
@@ -4678,10 +4678,10 @@ Loaded road cost matrix:
  [0.14242384 0.33873403 0.06121081 0.31442503 0.91748828 0.98910937
   0.23226046 0.67654117 0.55230839 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.001586 seconds
-Wall time 0.001650 seconds
+CPU time 0.003366 seconds
+Wall time 0.003677 seconds
 Solution Path: [0, 4, 2, 9, 3, 7, 5, 6, 1, 8, 0]
-Solution Cost: 1.9913309317709869
+Solution Cost: 1.991330931770987
 Loaded road cost matrix:
 [[0.         0.1243321  0.55741007 0.43702355 0.04557948 0.5680742
   0.36613753 0.98421919 0.75661849 0.27442542 0.88429447 0.25924633
@@ -4730,8 +4730,8 @@ Loaded road cost matrix:
   0.47106569 0.22158994 0.        ]]
 Running A*...
 2683 paths have been expanded and 18130 paths remain in the frontier
-CPU time 29.072695 seconds
-Wall time 28.967248 seconds
+CPU time 52.875990 seconds
+Wall time 52.316662 seconds
 Solution Path: (0, 1, 7, 12, 2, 8, 10, 3, 11, 5, 9, 13, 14, 6, 4, 0)
 Solution Cost: 1.4944651100248527
 Loaded road cost matrix:
@@ -4781,8 +4781,8 @@ Loaded road cost matrix:
   0.10627251 0.61151688 0.92938688 0.85077069 0.55383148 0.99264523
   0.47106569 0.22158994 0.        ]]
 Running nearest neighbor...
-CPU time 0.000045 seconds
-Wall time 0.000051 seconds
+CPU time 0.000148 seconds
+Wall time 0.000171 seconds
 Solution Path: (0, 4, 12, 7, 1, 5, 9, 10, 8, 2, 13, 14, 6, 11, 3, 0)
 Solution Cost: 1.8825260511844135
 Loaded road cost matrix:
@@ -4832,8 +4832,8 @@ Loaded road cost matrix:
   0.10627251 0.61151688 0.92938688 0.85077069 0.55383148 0.99264523
   0.47106569 0.22158994 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000339 seconds
-Wall time 0.000354 seconds
+CPU time 0.000490 seconds
+Wall time 0.000540 seconds
 Solution Path: [0, 4, 6, 14, 13, 2, 8, 10, 9, 5, 3, 11, 12, 7, 1, 0]
 Solution Cost: 1.5011559629590723
 Loaded road cost matrix:
@@ -4883,10 +4883,10 @@ Loaded road cost matrix:
   0.10627251 0.61151688 0.92938688 0.85077069 0.55383148 0.99264523
   0.47106569 0.22158994 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.005331 seconds
-Wall time 0.005486 seconds
-Solution Path: [0, 1, 7, 12, 2, 8, 10, 3, 11, 5, 9, 13, 14, 6, 4, 0]
-Solution Cost: 1.494465110024854
+CPU time 0.008015 seconds
+Wall time 0.008697 seconds
+Solution Path: [0, 4, 6, 14, 13, 2, 8, 10, 9, 5, 3, 11, 12, 7, 1, 0]
+Solution Cost: 1.5011559629590705
 Loaded road cost matrix:
 [[0.         0.87125206 0.29774206 0.95359599 0.07977701 0.18119867
   0.59686547 0.33465473 0.05836657 0.98122071 0.39175672 0.34329236
@@ -4935,8 +4935,8 @@ Loaded road cost matrix:
   0.10204941 0.46882665 0.        ]]
 Running A*...
 855 paths have been expanded and 6365 paths remain in the frontier
-CPU time 3.906614 seconds
-Wall time 4.015696 seconds
+CPU time 6.977426 seconds
+Wall time 7.559092 seconds
 Solution Path: (0, 4, 1, 5, 2, 8, 3, 10, 12, 14, 11, 6, 9, 7, 13, 0)
 Solution Cost: 2.729468680417916
 Loaded road cost matrix:
@@ -4986,8 +4986,8 @@ Loaded road cost matrix:
   0.59520748 0.64177111 0.45603646 0.52497448 0.43415433 0.50730048
   0.10204941 0.46882665 0.        ]]
 Running nearest neighbor...
-CPU time 0.000046 seconds
-Wall time 0.000053 seconds
+CPU time 0.000063 seconds
+Wall time 0.000078 seconds
 Solution Path: (0, 13, 7, 9, 1, 5, 2, 12, 14, 3, 8, 4, 6, 11, 10, 0)
 Solution Cost: 3.945061770965415
 Loaded road cost matrix:
@@ -5037,8 +5037,8 @@ Loaded road cost matrix:
   0.59520748 0.64177111 0.45603646 0.52497448 0.43415433 0.50730048
   0.10204941 0.46882665 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000291 seconds
-Wall time 0.000306 seconds
+CPU time 0.000503 seconds
+Wall time 0.000557 seconds
 Solution Path: [0, 13, 7, 9, 6, 11, 2, 5, 1, 4, 8, 3, 10, 12, 14, 0]
 Solution Cost: 2.863729410143784
 Loaded road cost matrix:
@@ -5088,10 +5088,10 @@ Loaded road cost matrix:
   0.59520748 0.64177111 0.45603646 0.52497448 0.43415433 0.50730048
   0.10204941 0.46882665 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.005327 seconds
-Wall time 0.005483 seconds
-Solution Path: [0, 14, 12, 10, 3, 8, 2, 5, 1, 9, 6, 11, 13, 7, 4, 0]
-Solution Cost: 2.8440877374860785
+CPU time 0.006433 seconds
+Wall time 0.007002 seconds
+Solution Path: [0, 14, 12, 10, 3, 8, 4, 1, 5, 2, 11, 6, 9, 7, 13, 0]
+Solution Cost: 2.8637294101437827
 Loaded road cost matrix:
 [[0.         0.97175755 0.07812324 0.47445295 0.93377266 0.96649564
   0.06317896 0.17089308 0.41757513 0.39043609 0.76896109 0.64455584
@@ -5140,8 +5140,8 @@ Loaded road cost matrix:
   0.73316868 0.33086479 0.        ]]
 Running A*...
 6821 paths have been expanded and 44723 paths remain in the frontier
-CPU time 213.951649 seconds
-Wall time 214.853901 seconds
+CPU time 394.186741 seconds
+Wall time 394.744348 seconds
 Solution Path: (0, 2, 11, 5, 4, 10, 3, 13, 6, 8, 14, 9, 1, 7, 12, 0)
 Solution Cost: 1.5349680396509047
 Loaded road cost matrix:
@@ -5191,8 +5191,8 @@ Loaded road cost matrix:
   0.77585593 0.49680729 0.24966449 0.00508427 0.28341536 0.3940675
   0.73316868 0.33086479 0.        ]]
 Running nearest neighbor...
-CPU time 0.000046 seconds
-Wall time 0.000054 seconds
+CPU time 0.000074 seconds
+Wall time 0.000092 seconds
 Solution Path: (0, 12, 7, 6, 8, 2, 11, 5, 3, 13, 14, 9, 1, 4, 10, 0)
 Solution Cost: 2.4830009417602215
 Loaded road cost matrix:
@@ -5242,8 +5242,8 @@ Loaded road cost matrix:
   0.77585593 0.49680729 0.24966449 0.00508427 0.28341536 0.3940675
   0.73316868 0.33086479 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000184 seconds
-Wall time 0.000196 seconds
+CPU time 0.000283 seconds
+Wall time 0.000315 seconds
 Solution Path: [0, 2, 11, 5, 4, 1, 9, 14, 8, 6, 13, 3, 10, 12, 7, 0]
 Solution Cost: 1.5424474212970107
 Loaded road cost matrix:
@@ -5293,10 +5293,10 @@ Loaded road cost matrix:
   0.77585593 0.49680729 0.24966449 0.00508427 0.28341536 0.3940675
   0.73316868 0.33086479 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.005373 seconds
-Wall time 0.005580 seconds
-Solution Path: [0, 12, 7, 1, 9, 14, 8, 6, 13, 3, 10, 4, 5, 11, 2, 0]
-Solution Cost: 1.5349680396509058
+CPU time 0.006839 seconds
+Wall time 0.007423 seconds
+Solution Path: [0, 7, 12, 10, 3, 13, 5, 11, 4, 1, 9, 14, 2, 8, 6, 0]
+Solution Cost: 1.5355737512795569
 Loaded road cost matrix:
 [[0.         0.53176141 0.01009254 0.80271697 0.90686384 0.84327144
   0.68453938 0.82676641 0.75785123 0.0699689  0.92669924 0.2619598
@@ -5345,8 +5345,8 @@ Loaded road cost matrix:
   0.22484635 0.80337817 0.        ]]
 Running A*...
 271 paths have been expanded and 2049 paths remain in the frontier
-CPU time 0.620769 seconds
-Wall time 0.643832 seconds
+CPU time 1.168156 seconds
+Wall time 1.265535 seconds
 Solution Path: (0, 2, 12, 7, 11, 4, 14, 10, 6, 5, 1, 8, 13, 3, 9, 0)
 Solution Cost: 1.031025156438768
 Loaded road cost matrix:
@@ -5396,8 +5396,8 @@ Loaded road cost matrix:
   0.76684861 0.2452735  0.50396862 0.31758688 0.03533993 0.6650715
   0.22484635 0.80337817 0.        ]]
 Running nearest neighbor...
-CPU time 0.000046 seconds
-Wall time 0.000053 seconds
+CPU time 0.000066 seconds
+Wall time 0.000081 seconds
 Solution Path: (0, 2, 12, 7, 11, 4, 13, 8, 3, 9, 10, 5, 6, 1, 14, 0)
 Solution Cost: 2.4647016296557283
 Loaded road cost matrix:
@@ -5447,8 +5447,8 @@ Loaded road cost matrix:
   0.76684861 0.2452735  0.50396862 0.31758688 0.03533993 0.6650715
   0.22484635 0.80337817 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000298 seconds
-Wall time 0.000313 seconds
+CPU time 0.000398 seconds
+Wall time 0.000439 seconds
 Solution Path: [0, 9, 3, 8, 13, 4, 14, 10, 5, 6, 1, 2, 11, 7, 12, 0]
 Solution Cost: 1.1839741435904472
 Loaded road cost matrix:
@@ -5498,10 +5498,10 @@ Loaded road cost matrix:
   0.76684861 0.2452735  0.50396862 0.31758688 0.03533993 0.6650715
   0.22484635 0.80337817 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.005638 seconds
-Wall time 0.005835 seconds
+CPU time 0.009435 seconds
+Wall time 0.010256 seconds
 Solution Path: [0, 9, 3, 8, 13, 1, 5, 6, 10, 14, 4, 11, 7, 12, 2, 0]
-Solution Cost: 1.0636035944953466
+Solution Cost: 1.0636035944953468
 Loaded road cost matrix:
 [[0.         0.30814439 0.8267637  0.7368248  0.99784666 0.81497454
   0.75722685 0.84782943 0.09298779 0.26142424 0.55308599 0.04484095
@@ -5550,8 +5550,8 @@ Loaded road cost matrix:
   0.59777963 0.94621432 0.        ]]
 Running A*...
 1145 paths have been expanded and 8040 paths remain in the frontier
-CPU time 6.126355 seconds
-Wall time 6.332881 seconds
+CPU time 10.647560 seconds
+Wall time 9.053248 seconds
 Solution Path: (0, 8, 7, 12, 13, 4, 6, 5, 9, 1, 2, 3, 14, 10, 11, 0)
 Solution Cost: 1.9985334982339475
 Loaded road cost matrix:
@@ -5601,8 +5601,8 @@ Loaded road cost matrix:
   0.93740985 0.59611977 0.86224403 0.68824104 0.17737082 0.5355194
   0.59777963 0.94621432 0.        ]]
 Running nearest neighbor...
-CPU time 0.000049 seconds
-Wall time 0.000057 seconds
+CPU time 0.000063 seconds
+Wall time 0.000078 seconds
 Solution Path: (0, 11, 12, 7, 8, 6, 5, 10, 14, 3, 2, 1, 9, 4, 13, 0)
 Solution Cost: 2.8598168142449083
 Loaded road cost matrix:
@@ -5652,8 +5652,8 @@ Loaded road cost matrix:
   0.93740985 0.59611977 0.86224403 0.68824104 0.17737082 0.5355194
   0.59777963 0.94621432 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000229 seconds
-Wall time 0.000245 seconds
+CPU time 0.000652 seconds
+Wall time 0.000744 seconds
 Solution Path: [0, 9, 5, 10, 14, 3, 2, 1, 13, 4, 6, 8, 7, 12, 11, 0]
 Solution Cost: 2.033514302697074
 Loaded road cost matrix:
@@ -5703,10 +5703,10 @@ Loaded road cost matrix:
   0.93740985 0.59611977 0.86224403 0.68824104 0.17737082 0.5355194
   0.59777963 0.94621432 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.005048 seconds
-Wall time 0.005267 seconds
-Solution Path: [0, 11, 10, 14, 3, 2, 1, 9, 5, 6, 4, 13, 12, 7, 8, 0]
-Solution Cost: 1.9985334982339473
+CPU time 0.007124 seconds
+Wall time 0.007742 seconds
+Solution Path: [0, 11, 10, 5, 9, 8, 7, 12, 13, 4, 6, 1, 2, 3, 14, 0]
+Solution Cost: 2.0130947577229916
 Loaded road cost matrix:
 [[0.         0.48922901 0.06695568 0.7657618  0.06468451 0.7477724
   0.69469723 0.26691478 0.49230868 0.72525317 0.26373816 0.37346574
@@ -5755,8 +5755,8 @@ Loaded road cost matrix:
   0.44117836 0.77034051 0.        ]]
 Running A*...
 755 paths have been expanded and 5377 paths remain in the frontier
-CPU time 3.047626 seconds
-Wall time 3.175975 seconds
+CPU time 5.305379 seconds
+Wall time 5.747647 seconds
 Solution Path: (0, 2, 8, 11, 5, 10, 14, 7, 4, 6, 9, 3, 1, 12, 13, 0)
 Solution Cost: 2.2380850970873363
 Loaded road cost matrix:
@@ -5806,8 +5806,8 @@ Loaded road cost matrix:
   0.56918949 0.02482445 0.45461072 0.3621424  0.28752471 0.44744588
   0.44117836 0.77034051 0.        ]]
 Running nearest neighbor...
-CPU time 0.000047 seconds
-Wall time 0.000054 seconds
+CPU time 0.000069 seconds
+Wall time 0.000084 seconds
 Solution Path: (0, 4, 7, 14, 10, 9, 6, 8, 11, 5, 12, 1, 3, 2, 13, 0)
 Solution Cost: 2.870611290848457
 Loaded road cost matrix:
@@ -5857,8 +5857,8 @@ Loaded road cost matrix:
   0.56918949 0.02482445 0.45461072 0.3621424  0.28752471 0.44744588
   0.44117836 0.77034051 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000159 seconds
-Wall time 0.000173 seconds
+CPU time 0.000228 seconds
+Wall time 0.000256 seconds
 Solution Path: [0, 4, 7, 14, 10, 9, 6, 3, 1, 12, 5, 11, 8, 2, 13, 0]
 Solution Cost: 2.6632374556692295
 Loaded road cost matrix:
@@ -5908,10 +5908,10 @@ Loaded road cost matrix:
   0.56918949 0.02482445 0.45461072 0.3621424  0.28752471 0.44744588
   0.44117836 0.77034051 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.005607 seconds
-Wall time 0.005850 seconds
-Solution Path: [0, 13, 12, 1, 3, 9, 6, 4, 7, 14, 10, 5, 11, 8, 2, 0]
-Solution Cost: 2.2380850970873363
+CPU time 0.006813 seconds
+Wall time 0.007390 seconds
+Solution Path: [0, 2, 8, 11, 5, 10, 14, 7, 4, 6, 9, 3, 1, 12, 13, 0]
+Solution Cost: 2.2380850970873345
 Loaded road cost matrix:
 [[0.         0.14189336 0.89697012 0.24101182 0.18302935 0.46422361
   0.90818056 0.79679034 0.12779682 0.06958312 0.35216802 0.59497743
@@ -5960,8 +5960,8 @@ Loaded road cost matrix:
   0.14850689 0.23335758 0.        ]]
 Running A*...
 1649 paths have been expanded and 11455 paths remain in the frontier
-CPU time 11.876699 seconds
-Wall time 12.331760 seconds
+CPU time 20.394026 seconds
+Wall time 19.614456 seconds
 Solution Path: (0, 1, 12, 6, 8, 3, 11, 14, 4, 13, 2, 5, 7, 10, 9, 0)
 Solution Cost: 1.3913130368135587
 Loaded road cost matrix:
@@ -6011,8 +6011,8 @@ Loaded road cost matrix:
   0.79731597 0.73761337 0.3884268  0.65296704 0.55021212 0.14555513
   0.14850689 0.23335758 0.        ]]
 Running nearest neighbor...
-CPU time 0.000044 seconds
-Wall time 0.000051 seconds
+CPU time 0.000073 seconds
+Wall time 0.000088 seconds
 Solution Path: (0, 9, 12, 6, 7, 5, 13, 4, 14, 11, 8, 3, 2, 1, 10, 0)
 Solution Cost: 2.8767907968788773
 Loaded road cost matrix:
@@ -6062,8 +6062,8 @@ Loaded road cost matrix:
   0.79731597 0.73761337 0.3884268  0.65296704 0.55021212 0.14555513
   0.14850689 0.23335758 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000130 seconds
-Wall time 0.000141 seconds
+CPU time 0.000205 seconds
+Wall time 0.000230 seconds
 Solution Path: [0, 1, 11, 8, 3, 2, 14, 4, 13, 5, 7, 6, 12, 9, 10, 0]
 Solution Cost: 1.9062956951833463
 Loaded road cost matrix:
@@ -6113,10 +6113,10 @@ Loaded road cost matrix:
   0.79731597 0.73761337 0.3884268  0.65296704 0.55021212 0.14555513
   0.14850689 0.23335758 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.004366 seconds
-Wall time 0.004524 seconds
-Solution Path: [0, 9, 10, 7, 5, 13, 2, 4, 14, 11, 3, 8, 6, 12, 1, 0]
-Solution Cost: 1.4008837365510782
+CPU time 0.007594 seconds
+Wall time 0.008245 seconds
+Solution Path: [0, 8, 3, 11, 14, 4, 2, 13, 5, 9, 10, 7, 6, 12, 1, 0]
+Solution Cost: 1.4353293722020277
 Loaded road cost matrix:
 [[0.         0.22451051 0.91124945 0.68261392 0.10238657 0.26852211
   0.15421179 0.61371537 0.5255768  0.96303319 0.85317939 0.10776646
@@ -6165,8 +6165,8 @@ Loaded road cost matrix:
   0.04580861 0.23655872 0.        ]]
 Running A*...
 1211 paths have been expanded and 8706 paths remain in the frontier
-CPU time 7.119910 seconds
-Wall time 6.206429 seconds
+CPU time 12.415607 seconds
+Wall time 13.450649 seconds
 Solution Path: (0, 11, 3, 2, 7, 1, 5, 9, 8, 6, 14, 12, 10, 4, 13, 0)
 Solution Cost: 1.961293756657378
 Loaded road cost matrix:
@@ -6216,8 +6216,8 @@ Loaded road cost matrix:
   0.08565631 0.16490393 0.55028182 0.95557728 0.77879549 0.53768132
   0.04580861 0.23655872 0.        ]]
 Running nearest neighbor...
-CPU time 0.000045 seconds
-Wall time 0.000052 seconds
+CPU time 0.000073 seconds
+Wall time 0.000091 seconds
 Solution Path: (0, 14, 12, 10, 4, 13, 9, 1, 5, 7, 2, 3, 6, 8, 11, 0)
 Solution Cost: 2.401174521793663
 Loaded road cost matrix:
@@ -6267,8 +6267,8 @@ Loaded road cost matrix:
   0.08565631 0.16490393 0.55028182 0.95557728 0.77879549 0.53768132
   0.04580861 0.23655872 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000140 seconds
-Wall time 0.000151 seconds
+CPU time 0.000207 seconds
+Wall time 0.000233 seconds
 Solution Path: [0, 13, 4, 10, 12, 14, 7, 2, 3, 6, 8, 5, 9, 1, 11, 0]
 Solution Cost: 2.124322478447346
 Loaded road cost matrix:
@@ -6318,10 +6318,10 @@ Loaded road cost matrix:
   0.08565631 0.16490393 0.55028182 0.95557728 0.77879549 0.53768132
   0.04580861 0.23655872 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.005112 seconds
-Wall time 0.005309 seconds
-Solution Path: [0, 11, 3, 2, 7, 6, 14, 12, 8, 9, 5, 1, 10, 4, 13, 0]
-Solution Cost: 2.0149885066046576
+CPU time 0.007041 seconds
+Wall time 0.007649 seconds
+Solution Path: [0, 11, 4, 10, 12, 14, 7, 2, 3, 6, 8, 9, 1, 5, 13, 0]
+Solution Cost: 2.0816280066771937
 Loaded road cost matrix:
 [[0.         0.94748142 0.44248592 0.20824482 0.33134126 0.19318624
   0.84376438 0.67469691 0.02321886 0.13226321 0.57521153 0.75804197
@@ -6370,8 +6370,8 @@ Loaded road cost matrix:
   0.24604152 0.0385414  0.        ]]
 Running A*...
 364 paths have been expanded and 2724 paths remain in the frontier
-CPU time 0.963678 seconds
-Wall time 0.999323 seconds
+CPU time 1.715156 seconds
+Wall time -0.625340 seconds
 Solution Path: (0, 14, 3, 2, 9, 13, 6, 5, 10, 4, 1, 12, 7, 11, 8, 0)
 Solution Cost: 1.8139735520830378
 Loaded road cost matrix:
@@ -6421,8 +6421,8 @@ Loaded road cost matrix:
   0.90946525 0.41116078 0.97531972 0.29520616 0.36673798 0.72911322
   0.24604152 0.0385414  0.        ]]
 Running nearest neighbor...
-CPU time 0.000046 seconds
-Wall time 0.000053 seconds
+CPU time 0.000102 seconds
+Wall time 0.000120 seconds
 Solution Path: (0, 8, 7, 11, 3, 2, 9, 13, 6, 5, 14, 12, 1, 4, 10, 0)
 Solution Cost: 2.217794123670832
 Loaded road cost matrix:
@@ -6472,8 +6472,8 @@ Loaded road cost matrix:
   0.90946525 0.41116078 0.97531972 0.29520616 0.36673798 0.72911322
   0.24604152 0.0385414  0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000202 seconds
-Wall time 0.000216 seconds
+CPU time 0.000467 seconds
+Wall time 0.000520 seconds
 Solution Path: [0, 8, 7, 11, 10, 4, 1, 12, 14, 3, 2, 9, 13, 6, 5, 0]
 Solution Cost: 1.838047043870442
 Loaded road cost matrix:
@@ -6523,10 +6523,10 @@ Loaded road cost matrix:
   0.90946525 0.41116078 0.97531972 0.29520616 0.36673798 0.72911322
   0.24604152 0.0385414  0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.004938 seconds
-Wall time 0.005128 seconds
+CPU time 0.007465 seconds
+Wall time 0.008104 seconds
 Solution Path: [0, 8, 11, 7, 12, 1, 4, 10, 5, 6, 13, 9, 2, 3, 14, 0]
-Solution Cost: 1.8139735520830373
+Solution Cost: 1.813973552083038
 Loaded road cost matrix:
 [[0.         0.64921138 0.58350872 0.35597835 0.44447627 0.04979704
   0.27805814 0.0999354  0.46867309 0.82265418 0.24527793 0.21185229
@@ -6575,8 +6575,8 @@ Loaded road cost matrix:
   0.21476907 0.44690514 0.        ]]
 Running A*...
 1254 paths have been expanded and 9155 paths remain in the frontier
-CPU time 7.817959 seconds
-Wall time 8.109272 seconds
+CPU time 13.537649 seconds
+Wall time 14.666098 seconds
 Solution Path: (0, 11, 3, 13, 5, 9, 8, 12, 6, 4, 1, 2, 7, 10, 14, 0)
 Solution Cost: 1.5931384077659598
 Loaded road cost matrix:
@@ -6626,8 +6626,8 @@ Loaded road cost matrix:
   0.70674856 0.88330603 0.92933035 0.8014277  0.00916075 0.30075312
   0.21476907 0.44690514 0.        ]]
 Running nearest neighbor...
-CPU time 0.000047 seconds
-Wall time 0.000054 seconds
+CPU time 0.000092 seconds
+Wall time 0.000111 seconds
 Solution Path: (0, 5, 12, 8, 6, 10, 7, 2, 1, 4, 9, 3, 11, 14, 13, 0)
 Solution Cost: 2.6053969853231296
 Loaded road cost matrix:
@@ -6677,8 +6677,8 @@ Loaded road cost matrix:
   0.70674856 0.88330603 0.92933035 0.8014277  0.00916075 0.30075312
   0.21476907 0.44690514 0.        ]]
 Running nearest neighbor 2 opt...
-CPU time 0.000290 seconds
-Wall time 0.000307 seconds
+CPU time 0.000463 seconds
+Wall time 0.000513 seconds
 Solution Path: [0, 7, 2, 1, 4, 6, 12, 8, 9, 5, 13, 3, 11, 14, 10, 0]
 Solution Cost: 1.9045515810745353
 Loaded road cost matrix:
@@ -6728,10 +6728,10 @@ Loaded road cost matrix:
   0.70674856 0.88330603 0.92933035 0.8014277  0.00916075 0.30075312
   0.21476907 0.44690514 0.        ]]
 Generate best hyperparameters and graph? This will read in from matrices subfolder and ignore the provided file (y/n):Running repeated random nearest neighbor...
-CPU time 0.004184 seconds
-Wall time 0.004345 seconds
+CPU time 0.006395 seconds
+Wall time 0.006946 seconds
 Solution Path: [0, 11, 3, 13, 5, 9, 8, 12, 6, 4, 1, 2, 7, 10, 14, 0]
-Solution Cost: 1.5931384077659594
+Solution Cost: 1.593138407765959
 NN_CPU points collected: 7
 NN_2Opt_CPU points collected: 7
 RRNN_CPU data points collected: 7
