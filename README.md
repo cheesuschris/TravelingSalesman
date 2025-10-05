@@ -3,16 +3,16 @@
 ### aima_my_tsp.py
 
 aima_my_tsp.py is a driver function.
-Running: python -m drivers.aima_my_tsp <algorithm> <adj_mat>  
+Running: cd into project root, then python -m drivers.aima_my_tsp <algorithm> <adj_mat>  
 Algorithms available: NN, NN2Opt, RRNN, A*, HC, SA, GA  
 Matrices available: Look insied matrices subfolder  
-After running, for RRNN, it will prompt you whether or not you want to generate the comparisons of hyperparameters and their effects on the algorithm (RRNN uses all city sizes). For HC, SA, and GA, it will prompt you whether or not you want to generate the comparisons of num_repeats, max_iterations, and num_generations hyperparameters and their effects on the algorithms (this uses matrices of city size 15). Outputs will appear in RRNN_hyperparameter_analysis.png, HCRepeats.png, SAIterations.png, and GAGenerations.png.
+After running, for RRNN, it will prompt you whether or not you want to generate the comparisons of hyperparameters and their effects on the algorithm (RRNN uses all city sizes). For HC, SA, and GA, it will prompt you whether or not you want to generate the comparisons of num_repeats, max_iterations, and num_generations hyperparameters and their effects on the algorithms (this uses matrices of city size 15). Outputs will appear in graphs subfolder, named RRNN_hyperparameter_analysis.png, HCRepeats.png, SAIterations.png, and GAGenerations.png.
 If you want to see this, press 'y' exactly. If not, press anything else.
 
 ### .sh scripts
 
 The .sh scripts are also driver functions.
-Running: bash drivers.compare<comparison>.sh
+Running: cd into project root, then bash drivers/compare<comparison>.sh
 .sh scripts visualize:
 - comparing A* to HC, SA, and GA algorithms with ./compareAStarWithHCSAGA.sh -- outputted in HCSAGA\_algorithms\_comparison\_to\_A*.png
 - comparing A* with NN algorithms with ./compareAStarWithNN.sh -- outputed in HCNN\_algorithms'\_comparison\_to\_A*.png
