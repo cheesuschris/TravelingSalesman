@@ -12,7 +12,7 @@ If you want to see this, press 'y' exactly. If not, press anything else.
 ### .sh scripts
 
 The .sh scripts are also driver functions.
-Running: cd into project root, then bash drivers/compare<comparison>.sh
+Running: cd into project root, then bash drivers/compare<comparison>.sh  
 .sh scripts visualize:
 - comparing A* to HC, SA, and GA algorithms with ./compareAStarWithHCSAGA.sh -- outputted in HCSAGA\_algorithms\_comparison\_to\_A*.png
 - comparing A* with NN algorithms with ./compareAStarWithNN.sh -- outputed in HCNN\_algorithms'\_comparison\_to\_A*.png
