@@ -3,9 +3,9 @@
 ### aima_my_tsp.py
 
 aima_my_tsp.py is a driver function.
-Running: python -m drivers.aima_my_tsp <algorithm> <adj_mat>
-Algorithms available: NN, NN2Opt, RRNN, A*, HC, SA, GA
-Matrices available: Look insied matrices subfolder
+Running: python -m drivers.aima_my_tsp <algorithm> <adj_mat>  
+Algorithms available: NN, NN2Opt, RRNN, A*, HC, SA, GA  
+Matrices available: Look insied matrices subfolder  
 After running, for RRNN, it will prompt you whether or not you want to generate the comparisons of hyperparameters and their effects on the algorithm (RRNN uses all city sizes). For HC, SA, and GA, it will prompt you whether or not you want to generate the comparisons of num_repeats, max_iterations, and num_generations hyperparameters and their effects on the algorithms (this uses matrices of city size 15). Outputs will appear in RRNN_hyperparameter_analysis.png, HCRepeats.png, SAIterations.png, and GAGenerations.png.
 If you want to see this, press 'y' exactly. If not, press anything else.
 
