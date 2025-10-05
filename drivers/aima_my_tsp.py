@@ -259,7 +259,7 @@ if __name__ == "__main__":
         astar_cost = a_star.path_cost
         print('Solution Cost: ' + str(astar_cost))
     elif search_algorithm == "HC":
-        generate_graph = input("Display HC Progress across Generations (will override your provided matrix. Uses matrices of size 15 cities & 500 num_repeats)?")
+        generate_graph = input("Display HC Progress across repeats (will override your provided matrix. Uses matrices of size 15 cities & 500 num_repeats)?")
         if generate_graph == "y":
             files = []
             file_prefix = Path("matrices")
@@ -299,7 +299,7 @@ if __name__ == "__main__":
             hill_climbing_cost = hill_climbing.path_cost
             print('Solution Cost: ' + str(hill_climbing_cost))
     elif search_algorithm == "SA":
-        generate_graph = input("Display SA Progress across Generations (will override your provided matrix. Uses matrices of size 15 cities & 3000 max_iterations)?")
+        generate_graph = input("Display SA Progress across iterations (will override your provided matrix. Uses matrices of size 15 cities & 3000 max_iterations)?")
         if generate_graph == "y":
             files = []
             file_prefix = Path("matrices")
@@ -341,7 +341,7 @@ if __name__ == "__main__":
             simulated_annealing_cost = simulated_annealing.path_cost
             print('Solution Cost: ' + str(simulated_annealing_cost))
     elif search_algorithm == "GA":
-        generate_graph = input("Display GA Progress across Generations (will override your provided matrix. Uses matrices of size 15 cities & 500 num_generations)?")
+        generate_graph = input("Display GA Progress across generations (will override your provided matrix. Uses matrices of size 15 cities & 500 num_generations)?")
         if generate_graph == "y":
             files = []
             file_prefix = Path("matrices")
